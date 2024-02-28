@@ -51,7 +51,7 @@ readonly G_CROSS_COMPILER_32BIT_PREFIX="arm-linux-gnueabihf-"
 readonly G_CROSS_COMPILER_JOPTION="-j 4"
 
 #### user rootfs packages ####
-readonly G_USER_PACKAGES="git aptitude python3-pip python3-opencv python3-numpy python3-scipy python3-matplotlib python3-pandas python3-pyserial python3-smbus2 python3-gpiod python3-dbus python-NetworkManager python3-PyAccessPoint python3-natsort python3-Cython python3-spidev"
+readonly G_USER_PACKAGES="git aptitude python3-pip python3-opencv python3-numpy python3-scipy python3-matplotlib python3-pandas python3-natsort python3-Cython python3-pyserial python3-smbus2 python3-libgpiod python3-spidev"
 
 export LC_ALL=C
 

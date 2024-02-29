@@ -1,0 +1,2 @@
+/etc/OpenCL/vendors/Vivante.icd
+/etc/ld.so.conf.d/00-vivante-aarch64-linux-gnu.conf

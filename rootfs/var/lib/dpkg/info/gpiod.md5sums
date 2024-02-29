@@ -1,0 +1,14 @@
+abbfff9e3af98675ae0c6e23590fabdf  usr/bin/gpiodetect
+7d40636e5fed9806d5f21212d4d1798b  usr/bin/gpiofind
+144023be3ba86417d42c5d747be6ba15  usr/bin/gpioget
+b360834a627fd3297a3d713932ffc63f  usr/bin/gpioinfo
+f49cf634558be84201d91d444d4e3d9a  usr/bin/gpiomon
+08692ee10f8035f32916d458afe4d629  usr/bin/gpioset
+d0cd2ee79c93a2022b6e81109697ccfc  usr/share/doc/gpiod/changelog.Debian.gz
+abcf7fc096c9e2afeccd13aa6e3e0806  usr/share/doc/gpiod/copyright
+c7f8e557a812834ee5d3ab9d617d5e8a  usr/share/man/man1/gpiodetect.1.gz
+a00d4c4b8cfebfd98d4713ab22f1da8d  usr/share/man/man1/gpiofind.1.gz
+d330742f5877c554d8e7530d7eea7bb9  usr/share/man/man1/gpioget.1.gz
+a46996b8516391347d2c781d5f7f332c  usr/share/man/man1/gpioinfo.1.gz
+7de424f48003ab289e9d53d4367e1ea1  usr/share/man/man1/gpiomon.1.gz
+187a7463d9c73afb1c12f3fad2860000  usr/share/man/man1/gpioset.1.gz

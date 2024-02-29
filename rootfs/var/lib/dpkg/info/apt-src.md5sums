@@ -1,0 +1,9 @@
+3f65deba1fa8ce5fb8d015289cd09731  usr/bin/apt-src
+6cd7c57998e45dc2045ecf39c42dbd58  usr/share/doc/apt-src/TODO
+f46c95ef9cc1d42a7d21b64244f28047  usr/share/doc/apt-src/changelog.gz
+3db6647908bbe6e218565b36c9be9f2d  usr/share/doc/apt-src/copyright
+0b45954948874be5b87e09219c15f296  usr/share/doc/apt-src/examples/config
+dfd14ac85e6c87e2589f7a515d91a694  usr/share/man/es/man1/apt-src.1p.gz
+fc46a8b3dceee4ec5dfab54559bc84d1  usr/share/man/fr/man1/apt-src.1p.gz
+fe3853fb7c1d96509d7e6f0d95726016  usr/share/man/man1/apt-src.1p.gz
+300edc7c0b8bd22518a73b4b62da5aec  usr/share/perl5/AptSrc.pm

@@ -1,0 +1,8 @@
+28a371f895059c7203d76ac66103c653  lib/systemd/system/local-apt-repository.path
+8880413c2ab338c1285725badafde4ae  lib/systemd/system/local-apt-repository.service
+2e4da84ccfd560b6af898a5d03ba5040  usr/lib/local-apt-repository/local-apt-repository.list
+97a20cfed9e4207adb5cdaa479662c04  usr/lib/local-apt-repository/rebuild
+bf1337cf53c1f6cf81dff3515628221c  usr/share/doc/local-apt-repository/README
+09b108af8258af9902cb771f523877cd  usr/share/doc/local-apt-repository/changelog.gz
+6f267da29dab431a0736c94d0ce3cb52  usr/share/doc/local-apt-repository/copyright
+eea482e6ba792665b0a13e6ab97bc422  usr/share/lintian/overrides/local-apt-repository

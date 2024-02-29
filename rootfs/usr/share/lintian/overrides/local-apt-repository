@@ -1,0 +1,4 @@
+# Well, clearly the purpose of this package is to create a repository the user
+# can use without further configuration. So this lintian error needs to be
+# overriden.
+package-installs-apt-sources

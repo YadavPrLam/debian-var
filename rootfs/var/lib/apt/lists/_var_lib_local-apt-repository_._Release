@@ -1,0 +1,19 @@
+Date: Mon, 15 May 2023 21:04:44 +0000
+Description: Local repository created by local-apt-repository
+Origin: local-apt-repository
+MD5Sum:
+ d679df5345ee0fa1c49db3d61011ef3e           159780 Packages
+ 40f0cd4de38a94a4834c9be4e0d3e49e              129 Release
+ d41d8cd98f00b204e9800998ecf8427e                0 Sources
+SHA1:
+ 3da011da1a7b1fd6e70dd8def50d5b496b94810c           159780 Packages
+ e01002d9a50c15c25b88acc568f652bfc74117e4              129 Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 Sources
+SHA256:
+ c53cb4f6ca2fe4bf3f41cfdf503e45ae908824e4dc21e6c8fe9691ec09228638           159780 Packages
+ 15448532067be57efdd47e544d514bff3ecb5eabc76c9ffdb5639c227714b910              129 Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 Sources
+SHA512:
+ 097226780fbc128caaed967876e6e8b7f30aef49478c5e5293e31c5f1f189aaecedf56a77bce3f42434f4becd0c2c2f0429a7cdb364e288be48c0e8a445cc055           159780 Packages
+ 19a55aa049ed4012e58c194e750444d34ef714a030e921de297be8e509f751caa29b1b738be151a04217c91d4bff76d30582d5fd825a14e7882e75c87d258877              129 Release
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 Sources

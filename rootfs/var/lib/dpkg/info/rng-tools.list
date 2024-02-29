@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/rng-tools
+/usr/share/doc/rng-tools/NEWS.Debian.gz
+/usr/share/doc/rng-tools/changelog.gz
+/usr/share/doc/rng-tools/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/rng-tools

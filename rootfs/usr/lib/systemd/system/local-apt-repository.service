@@ -1,0 +1,6 @@
+[Unit]
+Description=Local apt repository recreation
+
+[Service]
+Type=oneshot
+ExecStart=/usr/lib/local-apt-repository/rebuild

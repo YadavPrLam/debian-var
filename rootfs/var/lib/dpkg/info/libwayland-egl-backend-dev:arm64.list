@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/include
+/usr/include/wayland-egl-backend.h
+/usr/lib
+/usr/lib/aarch64-linux-gnu
+/usr/lib/aarch64-linux-gnu/pkgconfig
+/usr/lib/aarch64-linux-gnu/pkgconfig/wayland-egl-backend.pc
+/usr/share
+/usr/share/doc
+/usr/share/doc/libwayland-egl-backend-dev
+/usr/share/doc/libwayland-egl-backend-dev/changelog.Debian.gz
+/usr/share/doc/libwayland-egl-backend-dev/copyright

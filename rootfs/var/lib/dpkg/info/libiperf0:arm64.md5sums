@@ -1,0 +1,6 @@
+8c5a91ff5e69a54beda783b30492ef6f  usr/lib/aarch64-linux-gnu/libiperf.so.0.0.0
+a882701174a15825be9ad65e710bdf75  usr/share/doc/libiperf0/README.md.gz
+bb11c7b90a4e976fb25a41e31cd455e5  usr/share/doc/libiperf0/changelog.Debian.gz
+8a254c9f2f64f37e9d483ff3f436cf7e  usr/share/doc/libiperf0/changelog.gz
+d04c8d131ba7a0597c3d1dd441b3ed82  usr/share/doc/libiperf0/copyright
+70e4ce64691726f1e5b610d53d6edbe3  usr/share/lintian/overrides/libiperf0

@@ -1,0 +1,6 @@
+# This enables the local repositories provided by local-apt-repository
+#
+# We do not use cryptographic signatures, as they are read from local system
+# anyways.
+deb [trusted=yes] file:///var/lib/local-apt-repository/ ./
+deb-src [trusted=yes] file:///var/lib/local-apt-repository/ ./

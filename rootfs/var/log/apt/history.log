@@ -1,0 +1,280 @@
+
+Start-Date: 2023-05-15  19:38:52
+Commandline: /usr/bin/apt install -y local-apt-repository
+Install: local-apt-repository:arm64 (0.6+nmu1)
+End-Date: 2023-05-15  19:39:03
+
+Start-Date: 2023-05-15  19:45:27
+Commandline: /usr/bin/apt install -y libc6-dev
+Install: manpages-dev:arm64 (5.10-1, automatic), ucf:arm64 (3.0043, automatic), libexpat1:arm64 (2.2.10-2, automatic), libdeflate0:arm64 (1.7-1, automatic), libtiff5:arm64 (4.2.0-1, automatic), libfreetype6:arm64 (2.10.4+dfsg-1, automatic), libxau6:arm64 (1:1.0.9-1, automatic), libxcb1:arm64 (1.14-3, automatic), libxpm4:arm64 (1:3.5.12-1, automatic), libfontconfig1:arm64 (2.13.1-4.2, automatic), libpng16-16:arm64 (1.6.37-3, automatic), fontconfig-config:arm64 (2.13.1-4.2, automatic), libx11-data:arm64 (2:1.7.2-1, automatic), libnsl-dev:arm64 (1.3.0-2, automatic), manpages:arm64 (5.10-1, automatic), libjpeg62-turbo:arm64 (1:2.0.6-4, automatic), libwebp6:arm64 (0.6.1-2.1, automatic), libcrypt-dev:arm64 (1:4.4.18-4, automatic), libjbig0:arm64 (2.1-3.1+b2, automatic), libc-dev-bin:arm64 (2.31-13+deb11u2, automatic), libbrotli1:arm64 (1.0.9-2+b2, automatic), libc-devtools:arm64 (2.31-13+deb11u2, automatic), libc6-dev:arm64 (2.31-13+deb11u2), fonts-dejavu-core:arm64 (2.37-2, automatic), libgd3:arm64 (2.3.0-2, automatic), libx11-6:arm64 (2:1.7.2-1, automatic), libtirpc-dev:arm64 (1.3.1-1, automatic), libxdmcp6:arm64 (1:1.1.2-3, automatic), linux-libc-dev:arm64 (5.10.70-1, automatic)
+End-Date: 2023-05-15  19:45:43
+
+Start-Date: 2023-05-15  19:47:04
+Commandline: /usr/bin/apt install -y locales
+Install: locales:arm64 (2.31-13+deb11u2), libc-l10n:arm64 (2.31-13+deb11u2, automatic)
+End-Date: 2023-05-15  19:47:28
+
+Start-Date: 2023-05-15  19:47:58
+Commandline: /usr/bin/apt install -y ntp
+Install: libevent-pthreads-2.1-7:arm64 (2.1.12-stable-1, automatic), libperl5.32:arm64 (5.32.1-4+deb11u2, automatic), libgdbm-compat4:arm64 (1.19-2, automatic), perl:arm64 (5.32.1-4+deb11u2, automatic), ntp:arm64 (1:4.2.8p15+dfsg-1), libopts25:arm64 (1:5.18.16-4, automatic), sntp:arm64 (1:4.2.8p15+dfsg-1, automatic), libevent-core-2.1-7:arm64 (2.1.12-stable-1, automatic), perl-modules-5.32:arm64 (5.32.1-4+deb11u2, automatic), libgdbm6:arm64 (1.19-2, automatic)
+Remove: systemd-timesyncd:arm64 (247.3-6)
+End-Date: 2023-05-15  19:48:06
+
+Start-Date: 2023-05-15  19:48:41
+Commandline: /usr/bin/apt install -y openssh-sftp-server
+Install: libwrap0:arm64 (7.6.q-31, automatic), openssh-client:arm64 (1:8.4p1-5, automatic), libpam-systemd:arm64 (247.3-6, automatic), libxmuu1:arm64 (2:1.1.2-2+b3, automatic), libfido2-1:arm64 (1.6.0-2, automatic), openssh-server:arm64 (1:8.4p1-5, automatic), libdbus-1-3:arm64 (1.12.20-2, automatic), runit-helper:arm64 (2.10.3, automatic), xauth:arm64 (1:1.1-1, automatic), libcbor0:arm64 (0.5.0+dfsg-2, automatic), openssh-sftp-server:arm64 (1:8.4p1-5), libxext6:arm64 (2:1.3.3-1.1, automatic), ncurses-term:arm64 (6.2+20201114-2, automatic), dbus:arm64 (1.12.20-2, automatic)
+End-Date: 2023-05-15  19:48:56
+
+Start-Date: 2023-05-15  19:49:39
+Commandline: /usr/bin/apt install -y nfs-common
+Install: libldap-common:arm64 (2.4.57+dfsg-3, automatic), python3-minimal:arm64 (3.9.2-3, automatic), libmpdec3:arm64 (2.5.1-1, automatic), libsasl2-modules:arm64 (2.1.27+dfsg-2.1, automatic), libsasl2-2:arm64 (2.1.27+dfsg-2.1, automatic), nfs-common:arm64 (1:1.3.4-6), python3:arm64 (3.9.2-3, automatic), libsasl2-modules-db:arm64 (2.1.27+dfsg-2.1, automatic), libldap-2.4-2:arm64 (2.4.57+dfsg-3, automatic), libpython3.9-stdlib:arm64 (3.9.2-1, automatic), media-types:arm64 (4.0.0, automatic), keyutils:arm64 (1.6.1-2, automatic), rpcbind:arm64 (1.2.5-9, automatic), libsqlite3-0:arm64 (3.34.1-3, automatic), libevent-2.1-7:arm64 (2.1.12-stable-1, automatic), libpython3-stdlib:arm64 (3.9.2-3, automatic), libpython3.9-minimal:arm64 (3.9.2-1, automatic), python3.9:arm64 (3.9.2-1, automatic), libnfsidmap2:arm64 (0.25-6, automatic), python3.9-minimal:arm64 (3.9.2-1, automatic)
+End-Date: 2023-05-15  19:50:04
+
+Start-Date: 2023-05-15  19:50:20
+Commandline: /usr/bin/apt install -y dosfstools
+Install: dosfstools:arm64 (4.2-1)
+End-Date: 2023-05-15  19:50:20
+
+Start-Date: 2023-05-15  19:50:36
+Commandline: /usr/bin/apt install -y net-tools
+Install: net-tools:arm64 (1.60+git20181103.0eebece-1)
+End-Date: 2023-05-15  19:50:37
+
+Start-Date: 2023-05-15  19:52:07
+Commandline: /usr/bin/apt install -y network-manager
+Install: libnetfilter-conntrack3:arm64 (1.0.8-3, automatic), libssh2-1:arm64 (1.9.0-2, automatic), libpolkit-agent-1-0:arm64 (0.105-31, automatic), libmm-glib0:arm64 (1.14.12-0.2, automatic), libnghttp2-14:arm64 (1.43.0-1, automatic), libcurl3-gnutls:arm64 (7.74.0-1.3+b1, automatic), iptables:arm64 (1.8.7-1, automatic), libnl-3-200:arm64 (3.4.0-1+b1, automatic), libnl-genl-3-200:arm64 (3.4.0-1+b1, automatic), libqmi-proxy:arm64 (1.26.10-0.1, automatic), wpasupplicant:arm64 (2:2.9.0-21, automatic), modemmanager:arm64 (1.14.12-0.2, automatic), libmbim-glib4:arm64 (1.24.6-0.1, automatic), usb-modeswitch-data:arm64 (20191128-3, automatic), ppp:arm64 (2.4.9-1+1, automatic), libnl-route-3-200:arm64 (3.4.0-1+b1, automatic), librtmp1:arm64 (2.4+20151223.gitfa8646d.1-2+b2, automatic), wireless-regdb:arm64 (2020.04.29-2, automatic), libxml2:arm64 (2.9.10+dfsg-6.7, automatic), libglib2.0-data:arm64 (2.66.8-1, automatic), shared-mime-info:arm64 (2.0-1, automatic), publicsuffix:arm64 (20210108.1309-1, automatic), libgudev-1.0-0:arm64 (234-1, automatic), xdg-user-dirs:arm64 (0.17-2, automatic), dnsmasq-base:arm64 (2.85-1, automatic), libpcap0.8:arm64 (1.10.0-2, automatic), libndp0:arm64 (1.6-1+b1, automatic), libpcsclite1:arm64 (1.9.1-1, automatic), libusb-1.0-0:arm64 (2:1.0.24-3, automatic), libjim0.79:arm64 (0.79+dfsg0-2, automatic), libteamdctl0:arm64 (1.31-1, automatic), usb-modeswitch:arm64 (2.6.1-1, automatic), libmbim-proxy:arm64 (1.24.6-0.1, automatic), network-manager:arm64 (1.30.0-2), libnfnetlink0:arm64 (1.0.1-3+b1, automatic), libpolkit-gobject-1-0:arm64 (0.105-31, automatic), libip6tc2:arm64 (1.8.7-1, automatic), libqmi-glib5:arm64 (1.26.10-0.1, automatic), libbluetooth3:arm64 (5.55-3.1, automatic), libglib2.0-0:arm64 (2.66.8-1, automatic), libnm0:arm64 (1.30.0-2, automatic), libicu67:arm64 (67.1-7, automatic), policykit-1:arm64 (0.105-31, automatic), libpsl5:arm64 (0.21.0-1.2, automatic), dns-root-data:arm64 (2021011101, automatic)
+End-Date: 2023-05-15  19:52:34
+
+Start-Date: 2023-05-15  19:52:38
+Commandline: /usr/bin/apt install -y imx-firmware-sdma
+Install: imx-firmware-sdma:arm64 (8.8-var02)
+End-Date: 2023-05-15  19:52:39
+
+Start-Date: 2023-05-15  19:52:43
+Commandline: /usr/bin/apt install -y imx-firmware-vpu
+Install: imx-firmware-vpu:arm64 (8.8-var02)
+End-Date: 2023-05-15  19:52:44
+
+Start-Date: 2023-05-15  19:52:48
+Commandline: /usr/bin/apt install -y imx-firmware-epdc
+Install: imx-firmware-epdc:arm64 (8.8-var02)
+End-Date: 2023-05-15  19:52:49
+
+Start-Date: 2023-05-15  19:54:41
+Commandline: /usr/bin/apt install -y alsa-utils
+Install: libgomp1:arm64 (10.2.1-6, automatic), alsa-ucm-conf:arm64 (1.2.4-2, automatic), libasound2:arm64 (1.2.4-1.1, automatic), libfftw3-single3:arm64 (3.3.8-2, automatic), libatopology2:arm64 (1.2.4-1.1, automatic), alsa-utils:arm64 (1.2.4-1), libasound2-data:arm64 (1.2.4-1.1, automatic), alsa-topology-conf:arm64 (1.2.4-1, automatic), libsamplerate0:arm64 (0.2.1+ds0-1, automatic)
+End-Date: 2023-05-15  19:54:44
+
+Start-Date: 2023-05-15  19:55:02
+Commandline: /usr/bin/apt install -y i2c-tools
+Install: i2c-tools:arm64 (4.2-1+b1), libi2c0:arm64 (4.2-1+b1, automatic), read-edid:arm64 (3.0.2-1.1, automatic)
+End-Date: 2023-05-15  19:55:03
+
+Start-Date: 2023-05-15  19:55:10
+Commandline: /usr/bin/apt install -y usbutils
+Install: usbutils:arm64 (1:013-3)
+End-Date: 2023-05-15  19:55:10
+
+Start-Date: 2023-05-15  19:55:22
+Commandline: /usr/bin/apt install -y gpiod
+Install: gpiod:arm64 (1.6.2-1), libgpiod2:arm64 (1.6.2-1, automatic)
+End-Date: 2023-05-15  19:55:23
+
+Start-Date: 2023-05-15  19:55:30
+Commandline: /usr/bin/apt install -y python3-libgpiod
+Install: python3-libgpiod:arm64 (1.6.2-1)
+End-Date: 2023-05-15  19:55:31
+
+Start-Date: 2023-05-15  19:56:17
+Commandline: /usr/bin/apt install -y iperf3
+Install: libiperf0:arm64 (3.9-1, automatic), libsctp1:arm64 (1.0.18+dfsg-1, automatic), iperf3:arm64 (3.9-1)
+End-Date: 2023-05-15  19:56:18
+
+Start-Date: 2023-05-15  19:56:59
+Commandline: /usr/bin/apt install -y rng-tools
+Install: rng-tools-debian:arm64 (2.3, automatic), mksh:arm64 (59c-9+b2, automatic), ed:arm64 (1.17-1, automatic), rng-tools:arm64 (5migrate1)
+End-Date: 2023-05-15  19:57:02
+
+Start-Date: 2023-05-15  19:57:20
+Commandline: /usr/bin/apt install -y mtd-utils
+Install: liblzo2-2:arm64 (2.10-2, automatic), mtd-utils:arm64 (1:2.1.2-2), libiniparser1:arm64 (4.1-4, automatic)
+End-Date: 2023-05-15  19:57:21
+
+Start-Date: 2023-05-15  19:58:00
+Commandline: /usr/bin/apt install -y bluetooth
+Install: bluetooth:arm64 (5.55-3.1), bluez:arm64 (5.55-3.1, automatic), libdw1:arm64 (0.183-1, automatic)
+End-Date: 2023-05-15  19:58:04
+
+Start-Date: 2023-05-15  19:59:30
+Commandline: /usr/bin/apt install -y bluez-obexd
+Install: dbus-user-session:arm64 (1.12.20-2, automatic), bluez-obexd:arm64 (5.55-3.1), libical3:arm64 (3.0.9-2, automatic)
+End-Date: 2023-05-15  19:59:32
+
+Start-Date: 2023-05-15  19:59:49
+Commandline: /usr/bin/apt install -y bluez-tools
+Install: bluez-tools:arm64 (2.0~20170911.0.7cb788c-4)
+End-Date: 2023-05-15  19:59:50
+
+Start-Date: 2023-05-15  20:28:04
+Commandline: /usr/bin/apt install -y pulseaudio
+Install: fontconfig:arm64 (2.13.1-4.2, automatic), libvulkan1:arm64 (1.2.162.0-1, automatic), libxcb-present0:arm64 (1.14-3, automatic), libpulse0:arm64 (14.2-2, automatic), libwebpmux3:arm64 (0.6.1-2.1, automatic), console-setup:arm64 (1.205, automatic), libvpx6:arm64 (1.9.0-1, automatic), libcodec2-0.9:arm64 (0.9.2-4, automatic), libxxf86vm1:arm64 (1:1.1.4-1+b2, automatic), libdrm-dev:arm64 (2.4.102-1, automatic), libltdl7:arm64 (2.4.6-15, automatic), libgdk-pixbuf2.0-bin:arm64 (2.42.2+dfsg-1, automatic), libglx-mesa0:arm64 (20.3.5-1, automatic), libtwolame0:arm64 (0.4.0-2, automatic), libzvbi-common:arm64 (0.2.35-18, automatic), va-driver-all:arm64 (2.10.0-1, automatic), libjack-jackd2-0:arm64 (1.9.17~dfsg-1, automatic), libdatrie1:arm64 (0.2.13-1, automatic), libthai0:arm64 (0.1.28-3, automatic), xkb-data:arm64 (2.29-2, automatic), libxrender1:arm64 (1:0.9.10-1, automatic), libglvnd0:arm64 (1.3.2-1, automatic), libsensors-config:arm64 (1:3.6.0-7, automatic), libx11-xcb1:arm64 (2:1.7.2-1, automatic), libxshmfence1:arm64 (1.3-1, automatic), libpango-1.0-0:arm64 (1.46.2-3, automatic), kbd:arm64 (2.3.0-3, automatic), libwavpack1:arm64 (5.4.0-1, automatic), libpulsedsp:arm64 (14.2-2, automatic), libwayland-cursor0:arm64 (1.18.0-2~exp1.1, automatic), libx264-160:arm64 (2:0.160.3011+gitcde9a93-2.1, automatic), libshine3:arm64 (3.1.1-2, automatic), libaom0:arm64 (1.0.0.errata1-3, automatic), libdrm-freedreno1:arm64 (2.4.102-1, automatic), pulseaudio:arm64 (14.2-2), libxcb-dri2-0:arm64 (1.14-3, automatic), libx265-192:arm64 (3.4-2, automatic), libxcb-dri3-0:arm64 (1.14-3, automatic), libcairo2:arm64 (1.16.0-4-var, automatic), pulseaudio-utils:arm64 (14.2-2, automatic), x11-common:arm64 (1:7.7+22, automatic), libwayland-server0:arm64 (1.18.0-2~exp1.1, automatic), libglx0:arm64 (1.3.2-1, automatic), libdav1d4:arm64 (0.7.1-3, automatic), libfribidi0:arm64 (1.0.8-2, automatic), libdrm-nouveau2:arm64 (2.4.102-1, automatic), libsigsegv2:arm64 (2.13-1, automatic), libpixman-1-0:arm64 (0.40.0-1, automatic), libva-x11-2:arm64 (2.10.0-1, automatic), libgsm1:arm64 (1.0.18-2, automatic), libllvm11:arm64 (1:11.0.1-2, automatic), librsvg2-common:arm64 (2.50.3+dfsg-1, automatic), libnuma1:arm64 (2.0.12-1+b1, automatic), libasound2-plugins:arm64 (1.2.2-2, automatic), libxdamage1:arm64 (1:1.1.5-2, automatic), libgdk-pixbuf-2.0-0:arm64 (2.42.2+dfsg-1, automatic), libmpfr6:arm64 (4.1.0-3, automatic), libcairo-gobject2:arm64 (1.16.0-4-var, automatic), libflac8:arm64 (1.3.3-2, automatic), libgraphite2-3:arm64 (1.3.14-1, automatic), libvdpau1:arm64 (1.4-3, automatic), console-setup-linux:arm64 (1.205, automatic), libz3-4:arm64 (4.8.10-1, automatic), mesa-va-drivers:arm64 (20.3.5-1, automatic), libgl1-mesa-dri:arm64 (20.3.5-1, automatic), gawk:arm64 (1:5.1.0-1, automatic), libmp3lame0:arm64 (3.100-3, automatic), libsoxr0:arm64 (0.1.3-4, automatic), libdrm-common:arm64 (2.4.102-1, automatic), libffi-dev:arm64 (3.3-6, automatic), libsnappy1v5:arm64 (1.1.8-1, automatic), libopus0:arm64 (1.3.1-0.1, automatic), libpangocairo-1.0-0:arm64 (1.46.2-3, automatic), libxtst6:arm64 (2:1.2.3-1, automatic), vdpau-driver-all:arm64 (1.4-3, automatic), libavcodec58:arm64 (7:4.3.2-0+deb11u2, automatic), libxcb-render0:arm64 (1.14-3, automatic), libwebrtc-audio-processing1:arm64 (0.3-1+b1, automatic), libice6:arm64 (2:1.0.10-1, automatic), mesa-vulkan-drivers:arm64 (20.3.5-1, automatic), libvorbisenc2:arm64 (1.3.7-1, automatic), libasyncns0:arm64 (0.8-6+b2, automatic), libvdpau-va-gl1:arm64 (0.4.2-1+b1, automatic), libpangoft2-1.0-0:arm64 (1.46.2-3, automatic), libtheora0:arm64 (1.1.1+dfsg.1-15, automatic), libxvidcore4:arm64 (2:1.3.7-1, automatic), libtdb1:arm64 (1.4.3-1+b1, automatic), libsndfile1:arm64 (1.0.31-2, automatic), libavutil56:arm64 (7:4.3.2-0+deb11u2, automatic), libspeex1:arm64 (1.2~rc1.2-1.1, automatic), libthai-data:arm64 (0.1.28-3, automatic), librsvg2-2:arm64 (2.50.3+dfsg-1, automatic), ocl-icd-libopencl1:arm64 (2.2.14-2, automatic), libxcb-glx0:arm64 (1.14-3, automatic), libogg0:arm64 (1.3.4-0.1, automatic), libopenjp2-7:arm64 (2.4.0-3, automatic), libwayland-egl1:arm64 (1.18.0-2~exp1.1, automatic), libglapi-mesa:arm64 (20.3.5-1, automatic), libvorbis0a:arm64 (1.3.7-1, automatic), imx-gpu-viv-core:arm64 (6.4.0.p2.4-var, automatic), rtkit:arm64 (0.13-4, automatic), libdrm-amdgpu1:arm64 (2.4.102-1, automatic), libdrm-radeon1:arm64 (2.4.102-1, automatic), libdrm2:arm64 (2.4.102-1, automatic), libsensors5:arm64 (1:3.6.0-7, automatic), libxcb-randr0:arm64 (1.14-3, automatic), libswresample3:arm64 (7:4.3.2-0+deb11u2, automatic), keyboard-configuration:arm64 (1.205, automatic), libharfbuzz0b:arm64 (2.7.4-1, automatic), libwayland-bin:arm64 (1.18.0-2~exp1.1, automatic), libwayland-dev:arm64 (1.18.0-2~exp1.1, automatic), libzvbi0:arm64 (0.2.35-18, automatic), libva-drm2:arm64 (2.10.0-1, automatic), libxcb-shm0:arm64 (1.14-3, automatic), libgl1:arm64 (1.3.2-1, automatic), libavresample4:arm64 (7:4.3.2-0+deb11u2, automatic), libdrm-tegra0:arm64 (2.4.102-1, automatic), libwayland-client0:arm64 (1.18.0-2~exp1.1, automatic), mesa-vdpau-drivers:arm64 (20.3.5-1, automatic), libdrm-etnaviv1:arm64 (2.4.102-1, automatic), libxcb-sync1:arm64 (1.14-3, automatic), libspeexdsp1:arm64 (1.2~rc1.2-1.1, automatic), libsm6:arm64 (2:1.2.3-1, automatic), libva2:arm64 (2.10.0-1, automatic), libxfixes3:arm64 (1:5.0.3-2, automatic), libxi6:arm64 (2:1.7.10-1, automatic), liborc-0.4-0:arm64 (1:0.4.32-1, automatic), libxcb-xfixes0:arm64 (1.14-3, automatic), libgdk-pixbuf2.0-common:arm64 (2.42.2+dfsg-1, automatic)
+End-Date: 2023-05-15  20:29:11
+
+Start-Date: 2023-05-15  20:29:28
+Commandline: /usr/bin/apt install -y pulseaudio-module-bluetooth
+Install: libsbc1:arm64 (1.5-3, automatic), pulseaudio-module-bluetooth:arm64 (14.2-2)
+End-Date: 2023-05-15  20:29:29
+
+Start-Date: 2023-05-15  20:29:40
+Commandline: /usr/bin/apt install -y hostapd
+Install: hostapd:arm64 (2:2.9.0-21)
+End-Date: 2023-05-15  20:29:42
+
+Start-Date: 2023-05-15  20:29:59
+Commandline: /usr/bin/apt install -y udhcpd
+Install: busybox:arm64 (1:1.30.1-6+b3, automatic), udhcpd:arm64 (1:1.30.1-6+b3)
+End-Date: 2023-05-15  20:30:00
+
+Start-Date: 2023-05-15  20:30:08
+Commandline: /usr/bin/apt install -y can-utils
+Install: can-utils:arm64 (2020.11.0-1)
+End-Date: 2023-05-15  20:30:08
+
+Start-Date: 2023-05-15  20:30:18
+Commandline: /usr/bin/apt install -y pmount
+Install: pmount:arm64 (0.9.23-6)
+End-Date: 2023-05-15  20:30:19
+
+Start-Date: 2023-05-15  20:30:32
+Commandline: /usr/bin/apt install -y pm-utils
+Install: hdparm:arm64 (9.60+ds-1, automatic), powermgmt-base:arm64 (1.36, automatic), pm-utils:arm64 (1.4.1-19), ethtool:arm64 (1:5.9-1, automatic)
+End-Date: 2023-05-15  20:30:34
+
+Start-Date: 2023-05-15  20:32:41
+Commandline: /usr/bin/apt install -y debhelper
+Install: debhelper:arm64 (13.3.4), libcurl4:arm64 (7.74.0-1.3+b1, automatic), libalgorithm-merge-perl:arm64 (0.08-3, automatic), g++-10:arm64 (10.2.1-6, automatic), gcc-10:arm64 (10.2.1-6, automatic), build-essential:arm64 (12.9, automatic), libctf-nobfd0:arm64 (2.35.2-2, automatic), libtsan0:arm64 (10.2.1-6, automatic), cpp:arm64 (4:10.2.1-1, automatic), dwz:arm64 (0.13+20210201-1, automatic), g++:arm64 (4:10.2.1-1, automatic), gcc:arm64 (4:10.2.1-1, automatic), gpg:arm64 (2.2.27-2, automatic), libmagic-mgc:arm64 (1:5.39-3, automatic), libalgorithm-diff-perl:arm64 (1.201-1, automatic), libbinutils:arm64 (2.35.2-2, automatic), libfakeroot:arm64 (1.25.3-1.1, automatic), automake:arm64 (1:1.16.3-2, automatic), patch:arm64 (2.7.6-7, automatic), libarchive-zip-perl:arm64 (1.68-1, automatic), libmagic1:arm64 (1:5.39-3, automatic), file:arm64 (1:5.39-3, automatic), bzip2:arm64 (1.0.8-4, automatic), libpipeline1:arm64 (1.5.3-1, automatic), libsub-override-perl:arm64 (0.09-2, automatic), po-debconf:arm64 (1.0.21+nmu1, automatic), gnupg:arm64 (2.2.27-2, automatic), libcc1-0:arm64 (10.2.1-6, automatic), gpg-wks-server:arm64 (2.2.27-2, automatic), libdebhelper-perl:arm64 (13.3.4, automatic), libmpc3:arm64 (1.2.0-1, automatic), xz-utils:arm64 (5.2.5-2, automatic), gpg-agent:arm64 (2.2.27-2, automatic), gettext-base:arm64 (0.21-4, automatic), libassuan0:arm64 (2.5.3-7.1, automatic), libnpth0:arm64 (1.6-3, automatic), libltdl-dev:arm64 (2.4.6-15, automatic), libfile-fcntllock-perl:arm64 (0.22-3+b7, automatic), autoconf:arm64 (2.69-14, automatic), dpkg-dev:arm64 (1.20.9, automatic), libasan6:arm64 (10.2.1-6, automatic), libuchardet0:arm64 (0.0.7-1, automatic), autopoint:arm64 (0.21-4, automatic), man-db:arm64 (2.9.4-2, automatic), make:arm64 (4.3-4.1, automatic), libctf0:arm64 (2.35.2-2, automatic), pinentry-curses:arm64 (1.1.0-4, automatic), autotools-dev:arm64 (20180224.1+nmu1, automatic), gpgsm:arm64 (2.2.27-2, automatic), binutils-aarch64-linux-gnu:arm64 (2.35.2-2, automatic), gettext:arm64 (0.21-4, automatic), libsys-hostname-long-perl:arm64 (1.5-2, automatic), libtool:arm64 (2.4.6-15, automatic), cpp-10:arm64 (10.2.1-6, automatic), binutils-common:arm64 (2.35.2-2, automatic), libitm1:arm64 (10.2.1-6, automatic), libdpkg-perl:arm64 (1.20.9, automatic), dh-autoreconf:arm64 (20, automatic), libmail-sendmail-perl:arm64 (0.80-1.1, automatic), dh-strip-nondeterminism:arm64 (1.12.0-1, automatic), libisl23:arm64 (0.23-1, automatic), dirmngr:arm64 (2.2.27-2, automatic), libksba8:arm64 (1.5.0-3, automatic), m4:arm64 (1.4.18-5, automatic), gnupg-utils:arm64 (2.2.27-2, automatic), intltool-debian:arm64 (0.35.0+20060710.5, automatic), libfile-stripnondeterminism-perl:arm64 (1.12.0-1, automatic), curl:arm64 (7.74.0-1.3+b1, automatic), libubsan1:arm64 (10.2.1-6, automatic), liblsan0:arm64 (10.2.1-6, automatic), libalgorithm-diff-xs-perl:arm64 (0.04-6+b1, automatic), gnupg-l10n:arm64 (2.2.27-2, automatic), gpg-wks-client:arm64 (2.2.27-2, automatic), groff-base:arm64 (1.22.4-6, automatic), libgcc-10-dev:arm64 (10.2.1-6, automatic), libstdc++-10-dev:arm64 (10.2.1-6, automatic), gpgconf:arm64 (2.2.27-2, automatic), libarchive-cpio-perl:arm64 (0.10-1.1, automatic), binutils:arm64 (2.35.2-2, automatic), fakeroot:arm64 (1.25.3-1.1, automatic), bsdextrautils:arm64 (2.36.1-8, automatic), libatomic1:arm64 (10.2.1-6, automatic)
+End-Date: 2023-05-15  20:34:49
+
+Start-Date: 2023-05-15  20:35:08
+Commandline: /usr/bin/apt install -y dh-python
+Install: dh-python:arm64 (4.20201102+nmu1), python3-lib2to3:arm64 (3.9.2-1, automatic), python3-distutils:arm64 (3.9.2-1, automatic)
+End-Date: 2023-05-15  20:35:13
+
+Start-Date: 2023-05-15  20:36:02
+Commandline: /usr/bin/apt install -y apt-src
+Install: apt-src:arm64 (0.25.3), sudo:arm64 (1.9.5p2-3, automatic), libapt-pkg-perl:arm64 (0.1.39, automatic)
+End-Date: 2023-05-15  20:36:05
+
+Start-Date: 2023-05-15  20:36:31
+Commandline: /usr/bin/apt install -y libdrm-vivante1
+Requested-By: user (1000)
+Install: libdrm-vivante1:arm64 (2.4.102-1)
+End-Date: 2023-05-15  20:36:31
+
+Start-Date: 2023-05-15  20:36:36
+Commandline: /usr/bin/apt install -y libgbm1
+Requested-By: user (1000)
+Install: libgbm1:arm64 (20.3.5-1)
+End-Date: 2023-05-15  20:36:36
+
+Start-Date: 2023-05-15  20:36:44
+Commandline: /usr/bin/apt install -y imx-gpu-viv-wl
+Requested-By: user (1000)
+Install: imx-gpu-viv-wl:arm64 (6.4.0.p2.4-var)
+End-Date: 2023-05-15  20:36:45
+
+Start-Date: 2023-05-15  20:36:49
+Commandline: /usr/bin/apt install -y imx-gpu-g2d
+Requested-By: user (1000)
+Install: imx-gpu-g2d:arm64 (6.4.0.p2.0-var)
+End-Date: 2023-05-15  20:36:50
+
+Start-Date: 2023-05-15  20:37:53
+Commandline: /usr/bin/apt install -y weston
+Requested-By: user (1000)
+Install: libwacom2:arm64 (1.8-2, automatic), libwacom-common:arm64 (1.8-2, automatic), libxcb-composite0:arm64 (1.14-3, automatic), libxcursor1:arm64 (1:1.2.0-2, automatic), libinput10:arm64 (1.16.4-3, automatic), libmtdev1:arm64 (1.1.6-1, automatic), libgles2-mesa:arm64 (20.3.5-1, automatic), libegl1-mesa:arm64 (20.3.5-1, automatic), libgles2:arm64 (1.3.2-1, automatic), weston:arm64 (8.0.0-1), libxkbcommon0:arm64 (1.0.3-2, automatic), libweston-8-0:arm64 (8.0.0-1, automatic), libegl-mesa0:arm64 (20.3.5-1, automatic), libegl1:arm64 (1.3.2-1, automatic), libwacom-bin:arm64 (1.8-2, automatic), libinput-bin:arm64 (1.16.4-3, automatic), libevdev2:arm64 (1.11.0+dfsg-1, automatic)
+End-Date: 2023-05-15  20:38:00
+
+Start-Date: 2023-05-15  20:44:41
+Commandline: /usr/bin/apt install -y libdevil-dev
+Requested-By: user (1000)
+Install: liballegro4.4:arm64 (2:4.4.3.1-2, automatic), libjpeg-dev:arm64 (1:2.0.6-4, automatic), libjpeg62-turbo-dev:arm64 (1:2.0.6-4, automatic), libcaca0:arm64 (0.99.beta19-2.2, automatic), libdevil-dev:arm64 (1.7.8-10+b2), libtiffxx5:arm64 (4.2.0-1, automatic), zlib1g-dev:arm64 (1:1.2.11.dfsg-2, automatic), libmng1:arm64 (1.0.10+dfsg-3.1+b5, automatic), libjbig-dev:arm64 (2.1-3.1+b2, automatic), libxxf86dga1:arm64 (2:1.1.4-1+b3, automatic), liblcms2-dev:arm64 (2.12~rc1-2, automatic), liblzma-dev:arm64 (5.2.5-2, automatic), libdevil1c2:arm64 (1.7.8-10+b2, automatic), libdeflate-dev:arm64 (1.7-1, automatic), libglu1-mesa:arm64 (9.0.1-1, automatic), libsdl1.2debian:arm64 (1.2.15+dfsg2-6, automatic), libtiff-dev:arm64 (4.2.0-1, automatic), liblcms2-2:arm64 (2.12~rc1-2, automatic)
+End-Date: 2023-05-15  20:44:47
+
+Start-Date: 2023-05-15  20:45:33
+Commandline: /usr/bin/apt install -y libwayland-egl-backend-dev
+Requested-By: user (1000)
+Install: libwayland-egl-backend-dev:arm64 (1.18.0-2~exp1.1)
+End-Date: 2023-05-15  20:45:34
+
+Start-Date: 2023-05-15  20:45:53
+Commandline: /usr/bin/apt install -y glslang-tools
+Requested-By: user (1000)
+Install: glslang-tools:arm64 (11.1.0-4), spirv-tools:arm64 (2020.6-2, automatic)
+End-Date: 2023-05-15  20:45:55
+
+Start-Date: 2023-05-15  20:46:17
+Commandline: /usr/bin/apt install -y libassimp-dev
+Requested-By: user (1000)
+Install: libassimp-dev:arm64 (5.0.1~ds0-2), libminizip1:arm64 (1.1-8+b1, automatic), libassimp5:arm64 (5.0.1~ds0-2, automatic)
+End-Date: 2023-05-15  20:46:18
+
+Start-Date: 2023-05-15  20:46:23
+Commandline: /usr/bin/apt install -y imx-gpu-sdk-console
+Requested-By: user (1000)
+Install: imx-gpu-sdk-console:arm64 (6.4.0.p2.0-var)
+End-Date: 2023-05-15  20:46:24
+
+Start-Date: 2023-05-15  20:46:29
+Commandline: /usr/bin/apt install -y imx-gpu-sdk-gles2
+Requested-By: user (1000)
+Install: imx-gpu-sdk-gles2:arm64 (6.4.0.p2.0-var)
+End-Date: 2023-05-15  20:46:34
+
+Start-Date: 2023-05-15  20:46:41
+Commandline: /usr/bin/apt install -y imx-gpu-sdk-gles3
+Requested-By: user (1000)
+Install: imx-gpu-sdk-gles3:arm64 (6.4.0.p2.0-var)
+End-Date: 2023-05-15  20:46:51
+
+Start-Date: 2023-05-15  20:46:56
+Commandline: /usr/bin/apt install -y imx-gpu-sdk-opencl
+Requested-By: user (1000)
+Install: imx-gpu-sdk-opencl:arm64 (6.4.0.p2.0-var)
+End-Date: 2023-05-15  20:46:56
+
+Start-Date: 2023-05-15  20:47:01
+Commandline: /usr/bin/apt install -y imx-gpu-sdk-window
+Requested-By: user (1000)
+Install: imx-gpu-sdk-window:arm64 (6.4.0.p2.0-var)
+End-Date: 2023-05-15  20:47:02
+
+Start-Date: 2023-05-15  20:49:37
+Commandline: /usr/bin/apt install -y gstreamer1.0-plugins-bad
+Requested-By: user (1000)
+Install: libopenal-data:arm64 (1:1.19.1-2, automatic), libserd-0-0:arm64 (0.30.10-2, automatic), libsoup2.4-1:arm64 (2.72.0-2, automatic), libproxy1v5:arm64 (0.4.17-1, automatic), libfluidsynth2:arm64 (2.1.7-1.1, automatic), libvo-aacenc0:arm64 (0.1.3-2, automatic), libmpg123-0:arm64 (1.26.4-1, automatic), libzbar0:arm64 (0.23.90-1, automatic), libmpeg2encpp-2.1-0:arm64 (1:2.1.0+debian-6, automatic), libass9:arm64 (1:0.15.0-2, automatic), libvorbisfile3:arm64 (1.3.7-1, automatic), libspandsp2:arm64 (0.0.6+dfsg-2, automatic), libbs2b0:arm64 (3.1.0+dfsg-2.2+b1, automatic), libfftw3-double3:arm64 (3.3.8-2, automatic), libgme0:arm64 (0.6.3-2, automatic), libraw1394-11:arm64 (2.1.2-2, automatic), libgupnp-1.2-0:arm64 (1.2.4-1, automatic), libmplex2-2.1-0:arm64 (1:2.1.0+debian-6, automatic), libmpcdec6:arm64 (2:0.1~r495-2, automatic), libgupnp-igd-1.0-4:arm64 (1.2.0-1, automatic), libfaad2:arm64 (2.10.0-1, automatic), timgm6mb-soundfont:arm64 (1.3-5, automatic), libmms0:arm64 (0.6.4-3, automatic), libopenexr25:arm64 (2.5.4-2, automatic), libdconf1:arm64 (0.38.0-2, automatic), libmodplug1:arm64 (1:0.8.9.0-3, automatic), libxss1:arm64 (1:1.2.3-1, automatic), glib-networking-common:arm64 (2.66.0-2, automatic), libxrandr2:arm64 (2:1.5.1-1, automatic), libsndio7.0:arm64 (1.5.0-3, automatic), glib-networking-services:arm64 (2.66.0-2, automatic), libmjpegutils-2.1-0:arm64 (1:2.1.0+debian-6, automatic), libgssdp-1.2-0:arm64 (1.2.3-2, automatic), libgstreamer-plugins-bad1.0-0:arm64 (1.16.1-1, automatic), libvisual-0.4-0:arm64 (0.4.0-17, automatic), gsettings-desktop-schemas:arm64 (3.38.0-2, automatic), gstreamer1.0-plugins-base:arm64 (1.16.1-1, automatic), libopenal1:arm64 (1:1.19.1-2, automatic), libnss3:arm64 (2:3.61-1, automatic), libusrsctp1:arm64 (0.9.3.0+20201102-2, automatic), libkate1:arm64 (0.4.1-11, automatic), libwildmidi2:arm64 (0.4.3-1, automatic), libgstreamer1.0-0:arm64 (1.16.1-1, automatic), libdca0:arm64 (0.0.7-2, automatic), libilmbase25:arm64 (2.5.4-1, automatic), libv4l-0:arm64 (1.20.0-2, automatic), libofa0:arm64 (0.9.3-21, automatic), libxinerama1:arm64 (2:1.1.4-2, automatic), libsord-0-0:arm64 (0.16.8-2, automatic), libflite1:arm64 (2.2-2, automatic), libcdparanoia0:arm64 (3.10.2+debian-13.1, automatic), libsdl2-2.0-0:arm64 (2.0.14+dfsg2-3, automatic), dconf-gsettings-backend:arm64 (0.38.0-2, automatic), libchromaprint1:arm64 (1.5.0-2, automatic), libvo-amrwbenc0:arm64 (0.1.3-2, automatic), libopenmpt0:arm64 (0.4.11-1, automatic), libsrtp2-1:arm64 (2.3.0-5, automatic), libdvdnav4:arm64 (6.1.0-1+b1, automatic), libdc1394-25:arm64 (2.2.6-3, automatic), libnice10:arm64 (0.1.16-1, automatic), libv4lconvert0:arm64 (1.20.0-2, automatic), libinstpatch-1.0-2:arm64 (1.1.6-1, automatic), libsoundtouch1:arm64 (2.2+ds1-2, automatic), libsrt1.4-gnutls:arm64 (1.4.2-1.3, automatic), liblilv-0-0:arm64 (0.24.12-2, automatic), gstreamer1.0-plugins-bad:arm64 (1.16.1-1), dconf-service:arm64 (0.38.0-2, automatic), libgstreamer-plugins-base1.0-0:arm64 (1.16.1-1, automatic), libde265-0:arm64 (1.0.8-1, automatic), libdvdread8:arm64 (6.1.1-2, automatic), glib-networking:arm64 (2.66.0-2, automatic), iso-codes:arm64 (4.6.0-1, automatic), libnspr4:arm64 (2:4.29-1, automatic), libsratom-0-0:arm64 (0.6.8-1, automatic)
+End-Date: 2023-05-15  20:50:02
+
+Start-Date: 2023-05-15  20:50:09
+Commandline: /usr/bin/apt install -y gstreamer1.0-plugins-base-apps
+Requested-By: user (1000)
+Install: gstreamer1.0-tools:arm64 (1.16.1-1, automatic), gstreamer1.0-plugins-base-apps:arm64 (1.16.1-1)
+End-Date: 2023-05-15  20:50:10
+
+Start-Date: 2023-05-15  20:51:31
+Commandline: /usr/bin/apt install -y gstreamer1.0-plugins-good
+Requested-By: user (1000)
+Install: libiec61883-0:arm64 (1.2.0-4, automatic), libgpm2:arm64 (1.20.7-8, automatic), libtag1v5:arm64 (1.11.1+dfsg.1-3, automatic), libshout3:arm64 (2.4.5-1+b1, automatic), libavc1394-0:arm64 (0.5.4-5, automatic), gstreamer1.0-x:arm64 (1.16.1-1, automatic), gstreamer1.0-plugins-good:arm64 (1.16.1-1), libaa1:arm64 (1.4p5-48, automatic), libdv4:arm64 (1.0.0-13, automatic), libtag1v5-vanilla:arm64 (1.11.1+dfsg.1-3, automatic), libxv1:arm64 (2:1.0.11-1, automatic)
+End-Date: 2023-05-15  20:51:34
+
+Start-Date: 2023-05-15  20:52:28
+Commandline: /usr/bin/apt install -y gstreamer1.0-libav
+Requested-By: user (1000)
+Install: libsphinxbase3:arm64 (0.8+5prealpha+1-12, automatic), librubberband2:arm64 (1.9.0-1, automatic), libpgm-5.3-0:arm64 (5.3.128~dfsg-2, automatic), libaacs0:arm64 (0.9.0-2, automatic), libbluray2:arm64 (1:1.2.1-4+deb11u1, automatic), libblas3:arm64 (3.9.0-3, automatic), libnorm1:arm64 (1.5.9+dfsg-2, automatic), libgfortran5:arm64 (10.2.1-6, automatic), libvidstab1.1:arm64 (1.1.0-2+b1, automatic), libssh-gcrypt-4:arm64 (0.9.5-1+deb11u1, automatic), libpostproc55:arm64 (7:4.3.2-0+deb11u2, automatic), libsodium23:arm64 (1.0.18-1, automatic), libudfread0:arm64 (1.1.1-1, automatic), libmysofa1:arm64 (1.2~dfsg0-1, automatic), pocketsphinx-en-us:arm64 (0.8+5prealpha+1-13, automatic), libpocketsphinx3:arm64 (0.8+5prealpha+1-13, automatic), libswscale5:arm64 (7:4.3.2-0+deb11u2, automatic), libbdplus0:arm64 (0.1.2-3, automatic), libzmq5:arm64 (4.3.4-1, automatic), librabbitmq4:arm64 (0.10.0-1, automatic), libavformat58:arm64 (7:4.3.2-0+deb11u2, automatic), gstreamer1.0-libav:arm64 (1.15.0.1+git20180723+db823502-2), liblapack3:arm64 (3.9.0-3, automatic), libavfilter7:arm64 (7:4.3.2-0+deb11u2, automatic)
+End-Date: 2023-05-15  20:52:39
+
+Start-Date: 2023-05-15  20:52:55
+Commandline: /usr/bin/apt install -y x265
+Requested-By: user (1000)
+Install: x265:arm64 (3.4-2)
+End-Date: 2023-05-15  20:52:57

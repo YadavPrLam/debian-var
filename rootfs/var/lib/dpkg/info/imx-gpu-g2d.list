@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/include
+/usr/include/g2d.h
+/usr/include/g2dExt.h
+/usr/lib
+/usr/lib/libg2d-viv.so
+/usr/lib/libg2d.so
+/usr/lib/libg2d.so.1.5
+/usr/share
+/usr/share/doc
+/usr/share/doc/imx-gpu-g2d
+/usr/share/doc/imx-gpu-g2d/changelog.Debian.gz
+/usr/share/doc/imx-gpu-g2d/copyright
+/usr/share/vivante
+/usr/share/vivante/SCR-imx-gpu-g2d.txt

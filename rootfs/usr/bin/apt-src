@@ -1,0 +1,590 @@
+#!/usr/bin/perl
+
+use warnings;
+use strict;
+use lib $ENV{HOME};
+use AptSrc;
+use AptPkg::Config '$_config';
+
+=head1 NAME
+
+apt-src - manage debian source package trees
+
+=head1 SYNOPSIS
+
+B<apt-src> [S<I<options>>] S<I<command>>
+
+B<apt-src> [S<I<options>>] S<I<install|remove>> pkg1 [pkg2 ...]
+
+B<apt-src> S<I<location>> pkg
+
+=head1 DESCRIPTION
+
+apt-src is a command line interface for downloading, installing, upgrading,
+and tracking debian source packages. It can be run as a normal user, or as 
+root.
+
+Unlike binary packages, source packages are not installed into a canonical
+location. Instead, they are "installed" by unpacking their source tree into
+a directory, which can be anywhere you wish. A source package can be installed
+multiple times, in different locations. This program manages source packages
+installed in this way, and provides querying facilities to help find
+where a source package is installed.
+
+Unless the -h or --help option is given one of the commands below must be
+present.
+
+=over 4
+
+=item update
+
+Update the lists of available packages. Identical to apt-get update, really,
+and must be run as root in the default configuration.
+
+=item install
+
+Install the named source package or packages into the current directory.
+If a package in the current directory is already installed, it will attempt
+to upgrade it. 
+
+This command will accept the names of binary packages, or source packages.
+Just like with apt-get install, you can prefix the name with =version or
+/release to specify what version to install or what release to take the
+source from.
+
+It will make sure that the build-dependencies of the source package are
+satisfied.
+
+If the --location option is given, the source package will be installed or
+upgraded into the given location instead of the current directory.
+
+If the --build option is given, each newly installed or upgraded package
+will be compiled.
+
+=item upgrade
+
+Upgrade all installed source packages, or, if the --location or --here options
+are used, update only source packages in the specified directory.
+
+If the --patch option is given (the default), apt-src will attempt to
+generate a patch containing any local changes made to the source package,
+and will apply this patch to the updated tree. This will allow your local
+changes to be preserved across package upgrades, but it may not always work,
+and you might sometimes have to merge in your changes by hand.
+
+If the --build option is given, each newly installed or upgraded package
+will be compiled.
+
+=item remove
+
+Remove the named source package or packages. The --location and --here options
+may be used to only remove packages in a particular directory.
+
+=item build
+
+Build the specified source or sources. If the source is not installed yet,
+it will first be installed.
+
+=item clean
+
+Clean the trees of the named source package or packages. The --location and
+--here options may be used to only clean packages in a particular directory.
+
+=item import
+
+Use this option to let apt-src know about an existing, unpacked source
+tree. Besides the name under which it should be imported, you must specify
+the location of the source tree (with --location), and you may need to tell
+the version of the source (with --version). Don't expect the build command
+to work on this source, unless it has a debian/ directory.
+
+=item list
+
+With no other parameters, it will list all installed source packages; their
+status, and the directory they are installed in. If a package's name is given,
+it will display only installed instances of that source package. If the 
+--location or --here options are used, they will limit the list to packages
+in the specified directory.
+
+=item location
+
+Takes a single parameter; the name of a source package. If the package is 
+installed, it will return the root of the package's source tree.
+
+This command can be used when you need to include files from another source
+package, or something like that. For example:
+
+ -I`apt-src location pkg`
+
+=item version
+
+Takes a single parameter; the name of a source package. If the package is 
+installed, it will return the version of the package that is installed.
+
+=item name
+
+Takes a single parameter; the name of a source package (may be specified with
+regexps). Returns the name of the source package installed matching that name,
+if any.
+
+=back
+
+=head1 OPTIONS
+
+All command line options may be set using the configuration file, the
+descriptions indicate the configuration option to set.  For boolean
+options you can override the defaults file by using something like
+-f-,--no-f, -f=no or several other variations.
+
+=over 4
+
+=item B<-h>, B<--help>
+
+Show this help text.
+
+=item B<-b>, B<--build>, B<--compile>
+
+Build source packages after installing or upgrading them. 
+Configuration Item: APT::Src::Compile.
+
+=item B<-i>, B<--installdebs>
+
+Install packages after building sources. Implies --build.
+Configuration Item: APT::Src::InstallDebs
+
+Note that if multiple packages are generated from a single source package,
+they will all be installed.
+
+=item B<-p>, B<--patch>
+
+Try to patch local changes into new source tree when upgrading. On by default,
+use --no-p to disable.
+Configuration Item: APT::Src::Patch.
+
+=item B<-l>, B<--location>
+
+Specify a directory; only operate on packages in that directory.
+Configuration Item: APT::Src::Location.
+
+=item B<-c>, B<--cwd>, B<--here>
+
+Only operate on packages in the current directory.
+Configuration Item: APT::Src::Here.
+
+=item B<--upstream-version>
+
+Only of use with the version command; makes it omit the debian version number
+from the version of the package output.
+
+=item B<-k>, B<--keep-built>
+
+Do not delete .debs and other built files after installing them with the
+--installdebs option.
+Configuration Item: APT::Src::KeepBuilt
+
+=item B<-n>, B<--no-delete-source>
+
+Do not delete source files when removing source package.
+Configuration Item: APT::Src:NoDeleteSource
+
+=item B<--version>
+
+Specify a source tree version. Of use with the import command.
+
+=item B<-q>, B<--quiet>
+
+Direct all command output to /dev/null unless a command fails to run as
+expected. Configuration item: APT::Src::Quiet
+
+=item B<-t>, B<--trace>
+
+Output each command as it is run. Configuration item: APT::Src::Trace
+
+=back
+
+In addition to the above options, some less-used configuration items may only
+be specified in the config files, /etc/apt/apt.conf and ~/.apt-src/config.
+They are:
+
+=over 4
+
+=item APT::Src::BuildCommand
+
+The command to use to build a tree. Run in the tree to build, it defaults to
+"dpkg-buildpackage -b -us -uc", with "-rfakeroot" appended for non-root users.
+
+=item APT::Src::RootCommand
+
+The command to use if a non-root user needs to become root. This is used for,
+example, to satisfy build-deps. sudo is a good choice and the default.
+The command to run is appended (e.g. for sudo), unless there's a %s
+argument in the string, in which case the command is passed a a single
+argument.
+
+In short, if you want to use su, you'll need to set it to "su -c %s". If
+you use sudo, set it to "sudo" (default).
+
+=item APT::Src::BuildDeps
+
+Controls whether apt-src makes sure a source package's build dependencies are
+installed when installing or upgrading it. Defaults to true, if you turn
+it off, packages may fail to build due to missing build dependencies.
+
+=back
+
+=cut
+
+$SIG{INT}=sub {
+	AptSrc->error("Exiting on interrupt");
+	exit(1);
+};
+
+sub help {
+	print <<EOF;
+Usage: apt-src [options] command
+       apt-src [options] install|remove pkg1 [pkg2 ...]
+       apt-src location pkg
+
+apt-src is a simple command line interface for downloading and installing
+source packages.
+
+Commands:
+   update - Retrieve new lists of packages
+   install - Install a source package into the current directory
+   upgrade - Upgrade all installed source packages
+   remove - Remove source packages and trees
+   build - Build source package trees
+   clean - Clean source package trees
+   list - List installed source packages and their locations
+   location - Output the location of a source package's tree
+   version - Output the version of a source package
+   import - Tell apt-src about an existing source tree
+   name - Expand source package name
+
+Options:
+  -h  This help text.
+  -b  Build source packages after installing or upgrading.
+  -i  Install binary packages after building them.
+  -p  Patch local changes into new tree when upgrading.
+      (On by default; disable with --no-p)
+  -l=? Operate on packages in the given location only.
+       If installing a new package, put it there.
+  -c Operate on packages in the current directory only.
+EOF
+	exit;
+}
+
+# Parse command line and config files.
+$_config->init;
+$_config->read_file(AptSrc->statusdir."/config")
+	if -e AptSrc->statusdir."/config";
+@ARGV = $_config->parse_cmdline([
+	['h', 'help',			'help'],
+	['b', 'build', 			'APT::Src::Compile'],
+	['',  'compile',		'APT::Src::Compile'],
+	['i', 'installdebs',		'APT::Src::InstallDebs'],
+	['p', 'patch',			'APT::Src::Patch'],
+	['l', 'location',		'APT::Src::Location',	'has_arg'],
+	['c', 'cwd',			'APT::Src::Here'],
+	['',  'here',			'APT::Src::Here'],
+	['',  'upstream-version',	'APT::Src::UpstreamVersion'],
+	['',  'version',		'APT::Src::Version',	'has_arg'],
+	['k', 'keep-built',		'APT::Src::KeepBuilt'],
+	['q', 'quiet',			'APT::Src::Quiet'],
+	['t', 'trace',			'APT::Src::Trace'],
+	['n', 'no-delete-source',	'APT::Src::NoDeleteSource'],
+], @ARGV);
+
+AptSrc->config($_config);
+
+if ($_config->get_bool('help')) {
+	help();
+}
+
+my $location;
+if ($_config->get_bool('APT::Src::Here')) {
+	AptSrc->loclimit('.');
+}
+elsif ($_config->exists('APT::Src::Location')) {
+	AptSrc->loclimit($_config->get('APT::Src::Location'));
+}
+
+my @tobuild;
+
+# This hash holds commands and the number of additional arguments each
+# expects (or undef for any number). A negative number means at least the 
+# absolute value of that number arguments; and maybe more. Following the
+# number of arguments is the function to call for the command, and then
+# either 0 if this command is just a querier, and 1 if it can modify the
+# status file.
+my %commands = (
+	install =>	[ -1,	\&install,	1 ],
+	import =>	[ 1,	\&import,	1 ],
+	upgrade =>	[ 0,	\&upgrade,	1 ],
+	update =>	[ 0,	\&update,	0 ],
+	remove =>	[ -1,	\&remove,	1 ],
+	clean =>	[ -1,	\&clean,	0 ],
+	build =>	[ -1,	\&build,	0 ],
+	list => 	[ undef,\&list,		0 ],
+	location =>	[ 1,	\&location,	0 ],
+	version => 	[ 1,	\&version,	0 ],
+	name =>		[ 1,	\&name,		0 ],
+	help =>		[ 1,	\&help,		0 ],
+);
+my $command=shift || help();
+
+# Check args.
+AptSrc->error("Invalid operation $command") unless exists $commands{$command};
+my $numargs=$commands{$command}->[0];
+if (defined $numargs) {
+	if ($numargs < 0) {
+		$numargs *= -1;
+		unless (@ARGV >= $numargs) {
+			AptSrc->error("The $command command requires at least ".
+				$numargs." argument".
+				($numargs == 1 ? '' : 's'));
+		}
+	}
+	else {
+		unless (@ARGV == $numargs) {
+			AptSrc->error("The $command command requires exactly ".
+				$numargs." argument".
+				($numargs == 1 ? "" : 's'));
+		}
+	}
+}
+
+# Status file reading and locking.
+if ($commands{$command}->[2]) {
+	AptSrc->readstatus(1);
+}
+else {
+	AptSrc->readstatus(0);
+}
+
+# Command dispatch.
+$commands{$command}->[1]->(@ARGV);
+
+# Build items that were upgraded or installed.
+if (@tobuild && ($_config->get_bool('APT::Src::Compile') ||
+		 $_config->get_bool('APT::Src::InstallDebs'))) {
+	$_->build foreach @tobuild;
+	if ($_config->get_bool('APT::Src::InstallDebs')) {
+		$_->installdebs foreach @tobuild;
+	}
+}
+
+# The commands make up the rest of this program. Each is its own
+# subroutine.
+
+sub install {
+	my @pkgs=@_;
+	push @tobuild, AptSrc->install($_) foreach @pkgs;
+}
+
+sub upgrade {
+	push @tobuild, $_->upgrade foreach AptSrc->installed(), AptSrc->unpacked;
+}
+
+sub update {
+	if (AptSrc->do_root("apt-get", "update") != 0) {
+		AptSrc->error("Update failed");
+	}
+}
+
+sub remove {
+	my @pkgs=@_;
+	$_->remove foreach AptSrc->match(@pkgs);
+}
+
+sub clean {
+	my @pkgs=@_;
+	$_->clean foreach AptSrc->match(@pkgs);
+}
+
+sub build {
+	my @pkgs=@_;
+	# Really does nothing, just enables building, and queues it.
+	$_config->set("APT::Src::Compile", "true");
+	my @matches = AptSrc->match(@pkgs) || AptSrc->error("Not installed");
+	push @tobuild, AptSrc->match(@pkgs);
+}
+
+sub list {
+	my @sources;
+	if (! @_) {
+		@sources=AptSrc->all();
+		if (! @sources) {
+			print "Nothing is installed\n";
+			exit;
+		}
+	}
+	else {
+		@sources=AptSrc->match(@_);
+		if (! @sources) {
+			AptSrc->error("No matches");
+		}
+	}
+	
+	foreach my $source (@sources) {
+		printf("%-3s %-14s %-14s %-45s\n",
+		      $source->shortstatus, substr($source->source, 0, 14),
+		      substr($source->version, 0, 14), $source->location);
+	}
+}
+
+sub location {
+	my $name=shift;
+	my @sources=grep { $_->status eq 'installed' } AptSrc->match($name);
+	if (! @sources) {
+		AptSrc->error("Source $name is not installed");
+	}
+	else {
+		print $sources[0]->location."\n";
+	}
+}
+
+sub version {
+	my $name=shift;
+	my @sources=grep { $_->status eq 'installed' } AptSrc->match($name);
+	if (! @sources) {
+		AptSrc->error("Source $name is not installed");
+	}
+	elsif ($_config->get_bool('APT::Src::UpstreamVersion')) {
+		print $sources[0]->upstreamversion."\n";
+	}
+	else {
+		print $sources[0]->version."\n";
+	}
+}
+
+sub name {
+	my $name=shift;
+	my @sources=grep { $_->status eq 'installed' } AptSrc->match($name);
+	if (! @sources) {
+		AptSrc->error("Source $name is not installed");
+	}
+	print $sources[0]->source."\n";
+}
+
+sub import {
+	my $name=shift;
+	
+	my $location=AptSrc->loclimit;
+	if (! defined $location || ! length $location) {
+		AptSrc->error("The import command requires the --location (or --here) option");
+	}
+	if (! -d $location) {
+		AptSrc->error("Specified location, $location, is not a directory");
+	}
+	
+	my $version=$_config->get('APT::Src::Version');
+	if (! defined $version || ! length $version) {
+		$version=AptSrc->guessversion($location);
+		if (! defined $version || ! length $version) {
+			AptSrc->error("The version of the tree at $location cannot be guessed; you must use --version to tell what it is");
+		}
+	}
+	
+	my ($basedir) = $location =~ m!(.*)\/[^\/]+!;
+	
+	push @tobuild, AptSrc->new(
+		source => $name,
+		version => $version,
+		location => $location,
+		basedir => $basedir,
+		status => 'installed',
+		# Note I could introduce a held flag here, and mark it
+		# held..
+	);
+}
+
+=head1 NOTE ON NAMES
+
+You can use either binary package names, or source package names when
+installing a new source package.
+
+The rest of the time, when dealing with already installed packages, you
+currently have to use the source package names (this may later changes).
+However, you may use regexps as part of the names.
+
+=head1 ENVIRONMENT
+
+This program sets APT_SRC_BUILD when it is building a package.
+
+=head1 EXAMPLES
+
+To install the source to pine to /usr/src, build it, and install
+the resulting debs:
+
+  apt-src install --location=/usr/src -i pine
+
+To track changes to said installed pine source package, and install debs
+whenever a new version comes out:
+
+  apt-src install -i pine
+
+To install a local copy of package foo, which you are going to
+apply a local patch to:
+
+  apt-src install foo
+  cd foo-version
+  patch <~/my-foo-patch
+  apt-src build --installdebs foo
+  
+To upgrade your local copy of foo, bringing your patch forward, and
+building and installing new debs:
+
+  apt-src install -i foo
+
+To import the source tree in /usr/src/linux, which you unpacked from
+a ftp.kernel.org tarball (or from the kernel-source package) into 
+apt-src, so it knows about it:
+
+  apt-src import kernel --location=/usr/src/linux --version=2.4.18
+  
+In a debian/rules of a kernel module package that needs to figure out if it is
+being built by apt-src, and if so set the KVERS, KSRC. and KDREV variables that
+make-kpkg normally sets:
+
+  ifdef APT_SRC_BUILD
+  KDREV=$(shell apt-src version kernel\(-source.\*\)\?)
+  KSRC=$(shell apt-src location kernel\(-source.\*\)\?)
+  KVERS=$(shell apt-src name kernel\(-source.\*\)\? | sed s/kernel-source-//)
+  endif
+  
+=head1 FILES
+
+=over 4
+
+=item /etc/apt/sources.list
+
+Locations to fetch packages from.
+
+=item ~/.apt-src/status
+
+apt-src's status file, lists installed packages.
+
+=item /etc/apt/apt.conf
+
+Global config file for apt-src (and apt).
+
+=item ~/.apt-src/config
+
+Per-user config file for apt-src.
+
+=back
+
+=head1 SEE ALSO
+
+L<apt-get(8)>, L<sources.list(5)>, L<dpkg-source(1)>
+
+=head1 AUTHOR
+
+Copyright 2002 Joey Hess <joeyh@debian.org>
+
+This is free software; see the GNU General Public Licence
+version 2 or later for copying conditions. There is NO
+warranty.
+
+=cut

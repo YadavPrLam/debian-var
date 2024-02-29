@@ -1,0 +1,9 @@
+04b80aa0e8ec6f11ffa14258e6e2b817  usr/bin/ilur
+6fece345015bfda075d68b11b36fd9b9  usr/lib/aarch64-linux-gnu/libIL.so.1.1.0
+30e568513c1397ccb004f04d9b0820d3  usr/lib/aarch64-linux-gnu/libILU.so.1.1.0
+822a81943210c7f53ba2e4d8750e9687  usr/lib/aarch64-linux-gnu/libILUT.so.1.1.0
+48f12fe3f6edc7a9a3b5cd627bbc5433  usr/share/doc/libdevil1c2/changelog.Debian.arm64.gz
+be789a98e41f6f9e78a04d9e1e686a0d  usr/share/doc/libdevil1c2/changelog.Debian.gz
+a60c02cdbdafb592a09a0a14210518a6  usr/share/doc/libdevil1c2/changelog.gz
+23f9cf4b81789fc95ea68a9642aa5ca8  usr/share/doc/libdevil1c2/copyright
+fdeca0595a69e17c48262a17a97c9c33  usr/share/lintian/overrides/libdevil1c2

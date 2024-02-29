@@ -1,0 +1,13 @@
+/.
+/opt
+/opt/imx-gpu-sdk
+/opt/imx-gpu-sdk/Console
+/opt/imx-gpu-sdk/Console/Console101
+/opt/imx-gpu-sdk/Console/Console101/.AppInfo.json
+/opt/imx-gpu-sdk/Console/Console101/Console101
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/imx-gpu-sdk-console
+/usr/share/doc/imx-gpu-sdk-console/changelog.Debian.gz
+/usr/share/doc/imx-gpu-sdk-console/copyright

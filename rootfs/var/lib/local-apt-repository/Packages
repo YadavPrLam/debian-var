@@ -1,0 +1,2314 @@
+Package: cairo-perf-utils-dbgsym
+Architecture: arm64
+Version: 1.16.0-4-var
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: cairo
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 670
+Depends: cairo-perf-utils (= 1.16.0-4-var)
+Filename: ../../..//srv/local-apt-repository/cairo-perf-utils-dbgsym_1.16.0-4-var_arm64.deb
+Size: 518788
+MD5sum: 63bd232e8eb430bf16fc65be6536b07d
+SHA1: 32bfa1b0b024e589d548be20d7e4150d9e65d1fe
+SHA256: cac2b74456cf4dba4f337230a2cae4e1f662f65b6608cb2fbc534c2da4c4fd7c
+SHA512: 3f699f0c0a05d59f719fc19a6b1ce23ddd2246ee37b6358beda0936ec6ff3051e149d0e163e917d238797768f11fa2ae4ba7bd63dc5c0715e4338374cc107a8b
+Description: debug symbols for cairo-perf-utils
+Build-Ids: 0529613ac1db0aba1c5faf24b96ccf88d1b35c94 5add84a51e3d89ce29dbf7e0e62f15a78aca693d 9bf890eaacd5bfd20067b428fa89a566f7f191fd baab9d7bc81c989e48af713791b948aed2c29594 e37ce8d81d98b2a365adb8b50017f43f9e1989a4 e4e22bcc730e8b677f164641f2b71968612b615a e8695fa0ca1e257909a7fab82d7af2b1d1f0831b f6b04e4f27fe147b19d11d48617f45536a89cfb4
+
+Package: cairo-perf-utils
+Architecture: arm64
+Version: 1.16.0-4-var
+Priority: optional
+Section: misc
+Source: cairo
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 1792
+Depends: imx-gpu-viv-core, libc6 (>= 2.29), libcairo-script-interpreter2 (>= 1.10.0), libcairo2 (>= 1.16.0-4-var), libfontconfig1 (>= 2.12.6), libpixman-1-0 (>= 0.10.0), libx11-6, libxcb-render0, libxcb1, libxrender1, zlib1g (>= 1:1.1.4)
+Filename: ../../..//srv/local-apt-repository/cairo-perf-utils_1.16.0-4-var_arm64.deb
+Size: 437924
+MD5sum: df6a3819b8d28d01c2c4982a51b07d04
+SHA1: 83c64fd2ab415072987ba0b9397f2d95f6ef9de2
+SHA256: c41128d39e620d3816a9a0c196c2fbd9044e4ef940715ad1f8e8391d4a9b1c46
+SHA512: b04923de077e538c9bbedb20ab285c4073a8f24136e03e1d3b53162d58e7f5ad5fcf55dd9c3006fd7e717845565bbed8ed6e864d7c0a5c5cb5456359a3291e45
+Homepage: https://cairographics.org/
+Description: Cairo 2D vector graphics library performance utilities
+ Cairo is a multi-platform library providing anti-aliased
+ vector-based rendering for multiple target backends.
+ .
+ This package contains a set of utilities for capturing and replaying cairo
+ execution traces using various backends, in order to be able to measure the
+ performance of cairo for real-world applications in a reproducible way.
+
+Package: gir1.2-gst-plugins-bad-1.0
+Architecture: arm64
+Version: 1.16.1-1
+Multi-Arch: same
+Priority: extra
+Section: introspection
+Source: gst-plugins-bad1.0
+Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
+Installed-Size: 1854
+Depends: gir1.2-gst-plugins-base-1.0 (>= 1.16.1), gir1.2-gstreamer-1.0 (>= 1.16.1), libgstreamer-plugins-bad1.0-0 (<< 1.17), libgstreamer-plugins-bad1.0-0 (>= 1.16.1)
+Filename: ../../..//srv/local-apt-repository/gir1.2-gst-plugins-bad-1.0_1.16.1-1_arm64.deb
+Size: 1753316
+MD5sum: b704a27fe33b34ccbb441c9f18ed2154
+SHA1: 4655e35a863ec6a891f5c9bb9859c56e4190298d
+SHA256: 03fba46dfd71afd619b69517ad5d81271c85fc131e5d8f8d28735c46de4c6b3a
+SHA512: 46e7d62b4a08f3b1f4deecd69fa8541eb3a1bbf295f74107c055dd63724aa9222ffe6baab1af9ff0bb345dfffc480f914e924cf228a897003a14431ab5dfd374
+Homepage: https://gstreamer.freedesktop.org
+Description: GObject introspection data for the GStreamer libraries from the "bad" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared
+ to the rest. They might be close to being good quality, but they're missing
+ something - be it a good code review, some documentation, a set of tests, a
+ real live maintainer, or some actual wide use.
+ .
+ This package contains introspection data for the GStreamer libraries from
+ the "bad" set. It can be used by packages using the GIRepository format to
+ generate dynamic bindings.
+
+Package: gir1.2-gst-plugins-base-1.0
+Architecture: arm64
+Version: 1.16.1-1
+Multi-Arch: same
+Priority: optional
+Section: introspection
+Source: gst-plugins-base1.0
+Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+Installed-Size: 1682
+Depends: gir1.2-glib-2.0 (>= 0.9.12-4~), gir1.2-gstreamer-1.0 (>= 1.16.1), libgstreamer-gl1.0-0 (>= 1.16.0), libgstreamer-plugins-base1.0-0 (>= 1.16.1-1)
+Filename: ../../..//srv/local-apt-repository/gir1.2-gst-plugins-base-1.0_1.16.1-1_arm64.deb
+Size: 1390020
+MD5sum: e2908452fac24760236e14c028dd2474
+SHA1: 5e0a73f221cfbf59cbe3d14605e70076fa17304c
+SHA256: 70ecfbd59288c591497ab19a290a28d303ca99b8081c2422b8926607dad4ca57
+SHA512: 2a10b2130fdcb016484e5e70742823be40b07bbfc579439cab2ccdd965eab28be73d48f2685fe33540064c5bb67d031827f75cdb143de10767fce2e49a6a655f
+Homepage: https://gstreamer.freedesktop.org
+Description: GObject introspection data for the GStreamer Plugins Base library
+ This package contains introspection data for the GStreamer Plugins Base library.
+ .
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+
+Package: gir1.2-gstreamer-1.0
+Architecture: arm64
+Version: 1.16.1-1
+Multi-Arch: same
+Priority: optional
+Section: introspection
+Source: gstreamer1.0
+Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
+Installed-Size: 1423
+Depends: gir1.2-glib-2.0 (>= 0.9.12-4~), libgstreamer1.0-0 (>= 1.16.0)
+Filename: ../../..//srv/local-apt-repository/gir1.2-gstreamer-1.0_1.16.1-1_arm64.deb
+Size: 1181960
+MD5sum: 4d2ed5d2fb528c20d66c1f875f65fca8
+SHA1: a62aaff78e323c192dd960bb0c6afc23f3550946
+SHA256: 04113c5f0251f0cc772ab958eb8681f4bc50df5b795de4710fe99e5a6b7c5188
+SHA512: 05c8c3fd3c55e1b89cbca35086dbcd489d3f31771c96594e89adab4cceea37ae188590e8d2ff4618a4889a8a533ff668d6736142c1c375a727331472bda8c6f1
+Homepage: https://gstreamer.freedesktop.org
+Description: GObject introspection data for the GStreamer library
+ This package contains introspection data for the GStreamer streaming media
+ framework.
+ .
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+
+Package: gstreamer1.0-alsa
+Architecture: arm64
+Version: 1.16.1-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: gst-plugins-base1.0
+Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+Installed-Size: 1409
+Provides: gstreamer1.0-audiosink, gstreamer1.0-audiosource
+Depends: libasound2 (>= 1.0.27), libc6 (>= 2.17), libglib2.0-0 (>= 2.40), libgstreamer-plugins-base1.0-0 (>= 1.16.1), libgstreamer1.0-0 (>= 1.16.1)
+Suggests: alsa-utils (>= 0.9.0)
+Filename: ../../..//srv/local-apt-repository/gstreamer1.0-alsa_1.16.1-1_arm64.deb
+Size: 1335348
+MD5sum: 1f603809ee455811c10e4ff07393d30c
+SHA1: 692577dba03e3a6d148bd1ccf0eada11ccc2d401
+SHA256: e17fdb6f7d74c43a4a7e7ab91f3af7d0ea0a2f2898dddd730dc6cea0d1871ba7
+SHA512: e0cfa80e466da31583bc0dcd125fe3a00fdb1a71d5f0500bca49734e6f55e464b2799af9002862167c1e1867a854e29aebbd02266057434a13358ea26d273c40
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer plugin for ALSA
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the GStreamer plugin for the ALSA library.  ALSA
+ is the Advanced Linux Sound Architecture.
+Gstreamer-Elements: alsamidisrc, alsasink, alsasrc
+Gstreamer-Version: 1.16
+
+Package: gstreamer1.0-doc
+Architecture: all
+Version: 1.16.1-1
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Source: gstreamer1.0
+Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
+Installed-Size: 11025
+Depends: libglib2.0-doc
+Recommends: libgstreamer1.0-dev (= 1.16.1-1)
+Filename: ../../..//srv/local-apt-repository/gstreamer1.0-doc_1.16.1-1_all.deb
+Size: 1686684
+MD5sum: 22ada774af048008aff83eb4ef19da96
+SHA1: e39a74251fa52854f1a86d8f77f002364efb93ef
+SHA256: ac31720023adb04b7ae407fa0c3ff5fdcce42e1ecd544c610edd4d26bc5cff6c
+SHA512: 90bd038df129efd858cb9cf3462c8dfcf415e9232e850c2b1a1d19d7f3b6f8d8a980b8a09d0257b051675bc609f95a97c4cdcd8f2e87d556b43e8efb52bd7aa9
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer core documentation and manuals
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains documentation for core libraries and elements as
+ well as:
+  * the GStreamer Manual
+  * the GStreamer Plugin Writers Guide
+  * Various API docs
+
+Package: gstreamer1.0-gl
+Architecture: arm64
+Version: 1.16.1-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: gst-plugins-base1.0
+Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+Installed-Size: 1648
+Provides: gstreamer1.0-videosink, gstreamer1.0-videosource
+Depends: libc6 (>= 2.27), libglib2.0-0 (>= 2.40), libgraphene-1.0-0 (>= 1.5.4), libgstreamer-gl1.0-0 (>= 1.16.1-1), libgstreamer-plugins-base1.0-0 (>= 1.16.1), libgstreamer1.0-0 (>= 1.16.1), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libx11-6
+Breaks: gstreamer1.0-plugins-bad (<< 1.15.1)
+Replaces: gstreamer1.0-plugins-bad (<< 1.15.1)
+Filename: ../../..//srv/local-apt-repository/gstreamer1.0-gl_1.16.1-1_arm64.deb
+Size: 1404904
+MD5sum: c7924a85e56534e3baad4696145f1d6a
+SHA1: 2dd34e1d7aa3a8d08e4f1eef4896461242b3ef36
+SHA256: 1b3f2d11e21a810538bec5f1137ad91cf44dd9beb47d4bfd7656381c80397e1c
+SHA512: d8054966b28ee31f9a1623a1fd5b76c85178b803f96da43a633e0901c4374b10c62b7ba2858a65285e6592c1a8c510d8dd1684e95efe265df98f4cbcf02ef25b
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer plugins for GL
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the GStreamer plugins for GL.
+Gstreamer-Elements: glalpha, glcolorbalance, glcolorconvert, glcolorscale, gldeinterlace, gldifferencematte, gldownload, gleffects, gleffects_blur, gleffects_bulge, gleffects_fisheye, gleffects_glow, gleffects_heat, gleffects_identity, gleffects_laplacian, gleffects_lumaxpro, gleffects_mirror, gleffects_sepia, gleffects_sin, gleffects_sobel, gleffects_square, gleffects_squeeze, gleffects_stretch, gleffects_tunnel, gleffects_twirl, gleffects_xpro, gleffects_xray, glfilterapp, glfilterbin, glfiltercube, glfilterglass, glimagesink, glimagesinkelement, glmixerbin, glmosaic, gloverlay, gloverlaycompositor, glshader, glsinkbin, glsrcbin, glstereomix, glstereosplit, gltestsrc, gltransformation, glupload, glvideoflip, glvideomixer, glvideomixerelement, glviewconvert
+Gstreamer-Version: 1.16
+
+Package: gstreamer1.0-gtk3
+Architecture: arm64
+Version: 1.16.1-1
+Multi-Arch: same
+Priority: optional
+Section: graphics
+Source: gst-plugins-good1.0
+Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
+Installed-Size: 1383
+Provides: gstreamer1.0-videosink
+Depends: libc6 (>= 2.17), libcairo2 (>= 1.10.0), libglib2.0-0 (>= 2.40), libgstreamer-gl1.0-0 (>= 1.16.1), libgstreamer-plugins-base1.0-0 (>= 1.16.1), libgstreamer1.0-0 (>= 1.16.1), libgtk-3-0 (>= 3.16.2)
+Breaks: gstreamer1.0-plugins-bad (<< 1.13.1)
+Replaces: gstreamer1.0-plugins-bad (<< 1.13.1)
+Filename: ../../..//srv/local-apt-repository/gstreamer1.0-gtk3_1.16.1-1_arm64.deb
+Size: 1324700
+MD5sum: 9073b18885d98c407094a6ce7d1fbd2f
+SHA1: af36246f97acbe840e3e9d3c322d3d493dc5b760
+SHA256: 406121dc2a73316ea9412d303b1d11c1e5b5606c07be0fc6bcd9319cd239b140
+SHA512: f1f849bc5ed7951f0bf4ab7658609839ffcca6b1cadcaca591a3b97eadc79b7214986fcdf4c9bc4ae9fb6371be224306924ccce2ce4529a4f16a18a62374b97c
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer plugin for GTK+3
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the GStreamer plugin for GTK+3.
+Gstreamer-Elements: gtkglsink, gtksink
+Gstreamer-Version: 1.16
+
+Package: gstreamer1.0-libav
+Architecture: arm64
+Version: 1.15.0.1+git20180723+db823502-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: gst-libav1.0
+Maintainer: Maintainers of GStreamer packages <gst-libav1.0@packages.debian.org>
+Installed-Size: 341
+Depends: libavcodec58 (>= 7:4.0) | libavcodec-extra58 (>= 7:4.0), libavfilter7 (>= 7:4.0) | libavfilter-extra7 (>= 7:4.0), libavformat58 (>= 7:4.0), libavutil56 (>= 7:4.0), libc6 (>= 2.17), libglib2.0-0 (>= 2.40), libgstreamer-plugins-base1.0-0 (>= 1.14.2), libgstreamer1.0-0 (>= 1.14.2)
+Filename: ../../..//srv/local-apt-repository/gstreamer1.0-libav_1.15.0.1+git20180723+db823502-2_arm64.deb
+Size: 188200
+MD5sum: 440ea7ed2016164a23bd1e145e2b1e85
+SHA1: 5720c5c770b1e786edc94db46dd29f4f70afa250
+SHA256: cc2c7edf5586cc890305a5be02fe3dc9f6318a0d14c21772828c902fd09d30b3
+SHA512: 05ae4d22dfc13a17341cedc95634a77cb41fb840abd98ad615c74cd5920cc2e9b5bc07a8d4d7ef5d0f4698b3cb586531e0940488c9b964563f0d7ad43d9f40ee
+Homepage: https://gstreamer.freedesktop.org
+Description: libav plugin for GStreamer
+ This GStreamer plugin supports a large number of audio and video compression
+ formats through the use of the libav library.  The plugin contains GStreamer
+ elements for encoding 40+ formats (MPEG, DivX, MPEG4, AC3, DV, ...), decoding
+ elements for decoding 90+ formats (AVI, MPEG, OGG, Matroska, ASF, ...),
+ demuxing 30+ formats and colorspace conversion.
+ .
+ http://www.libav.org/
+ http://gstreamer.freedesktop.org/
+ http://gstreamer.freedesktop.org/modules/gst-libav.html
+Gstreamer-Decoders: application/gxf; application/mxf; application/x-ape; application/x-gst-av-avs; application/x-gst-av-daud; application/x-gst-av-dsf; application/x-gst-av-ea; application/x-gst-av-film_cpk; application/x-gst-av-idcin; application/x-gst-av-ipmovie; application/x-gst-av-mm; application/x-gst-av-mmf; application/x-gst-av-nut; application/x-gst-av-nuv; application/x-gst-av-psxstr; application/x-gst-av-smk; application/x-gst-av-sol; application/x-gst-av-vmd; application/x-gst-av-wc3movie; application/x-gst-av-wsaud; application/x-gst-av-wsvqa; application/x-yuv4mpeg, y4mversion=(int)2; audio/AMR; audio/AMR-WB; audio/G722; audio/G729; audio/mpeg, mpegversion=(int)1, layer=(int)[ 1, 3 ]; audio/mpeg, mpegversion=(int)4, stream-format=(string)loas; audio/mpeg, mpegversion=(int){ 2, 4 }, stream-format=(string){ raw, adts, adif }; audio/ms-gsm; audio/qcelp; audio/x-ac3; audio/x-adpcm, layout=(string){ yamaha, xa, thp, swf, sbpro4, sbpro3, sbpro2, microsoft, westwood, dvi, smjpeg, quicktime, iss, ea-sead, ea-eacs, dk4, dk3, amv, g726, g721, ea-xas, ea-r1, ea-maxis-xa, ea, ct, adx, 4xm, ea-r3 }; audio/x-aiff; audio/x-alac; audio/x-bfstm; audio/x-brstm; audio/x-dpcm, layout=(string){ xan, sol, roq, interplay }; audio/x-dsd, lsbf=(boolean){ false, true }, planar=(boolean){ false, true }; audio/x-dts; audio/x-dv; audio/x-eac3; audio/x-ffmpeg-parsed-ape; audio/x-ffmpeg-parsed-musepack, streamversion=(int){ 8, 7 }; audio/x-flac; audio/x-gsm; audio/x-gst-av-mp3adufloat; audio/x-gst-av-mp3on4float; audio/x-gst-av-vmdaudio; audio/x-gst-av-ws_snd1; audio/x-imc; audio/x-mace, maceversion=(int){ 6, 3 }; audio/x-mlp; audio/x-musepack, streamversion=(int){ 8, 7 }; audio/x-nellymoser; audio/x-opus, channel-mapping-family=(int)0; audio/x-pn-realaudio, raversion=(int){ 2, 1, 8 }; audio/x-qdm2; audio/x-shorten; audio/x-sipro; audio/x-smpte-302m; audio/x-true-hd; audio/x-truespeech; audio/x-tta; audio/x-ttafile; audio/x-twin-vq; audio/x-vnd.sony.atrac1; audio/x-vnd.sony.atrac3; audio/x-voc; audio/x-wma, wmaversion=(int){ 2, 1, 3, 4 }; audio/x-wms; image/bmp; image/gif; image/gst-libav-gif, parsed=(boolean)true; image/jp2; image/jpeg, parsed=(boolean)true; image/pbm; image/png; image/ppm; image/tiff; image/x-j2c; image/x-jpc; image/x-pcx; image/x-portable-anymap; image/x-portable-graymap; image/x-sgi; image/x-sun-raster; image/x-tga; unknown/unknown; video/mpeg, mpegversion=(int)[ 1, 2 ], systemstream=(boolean)false; video/mpeg, mpegversion=(int)4, systemstream=(boolean)false; video/sp5x; video/x-4xm; video/x-aasc; video/x-amv; video/x-apple-intermediate-codec; video/x-apple-video; video/x-asus, asusversion=(int){ 2, 1 }; video/x-ati-vcr, vcrversion=(int)1; video/x-camstudio; video/x-camtasia; video/x-cavs; video/x-cineform; video/x-cinepak; video/x-cirrus-logic-accupak; video/x-compressed-yuv; video/x-divx, divxversion=(int)[ 3, 5 ]; video/x-dnxhd; video/x-dv, systemstream=(boolean)false; video/x-ffv, ffvversion=(int)1; video/x-flash-screen; video/x-flash-screen2; video/x-flash-video, flvversion=(int)1; video/x-fraps; video/x-gst-av-8bps; video/x-gst-av-avs; video/x-gst-av-ffvhuff; video/x-gst-av-flic; video/x-gst-av-idcinvideo; video/x-gst-av-interplayvideo; video/x-gst-av-mdec; video/x-gst-av-mmvideo; video/x-gst-av-pgmyuv; video/x-gst-av-qpeg; video/x-gst-av-roqvideo; video/x-gst-av-vmdvideo; video/x-gst-av-vqavideo; video/x-gst-av-wnv1; video/x-gst-av-xl; video/x-h261; video/x-h263, variant=(string)itu; video/x-h264, alignment=(string)au, stream-format=(string){ avc, byte-stream }; video/x-h265, alignment=(string)au, stream-format=(string){ hvc1, hev1, byte-stream }; video/x-huffyuv; video/x-indeo, indeoversion=(int){ 5, 4, 3, 2 }; video/x-intel-h263, variant=(string)intel; video/x-ivf; video/x-kmvc; video/x-lagarith; video/x-loco; video/x-mimic; video/x-mjpeg-b; video/x-msmpeg, msmpegversion=(int){ 43, 42, 41 }; video/x-msvideocodec, msvideoversion=(int)1; video/x-mszh; video/x-nsv; video/x-nuv; video/x-pn-realvideo, rmversion=(int){ 4, 3, 2, 1 }; video/x-prores; video/x-pva; video/x-qdrw; video/x-rle, layout=(string){ quicktime, microsoft }; video/x-smc; video/x-svq, svqversion=(int){ 3, 1 }; video/x-truemotion, trueversion=(int){ 2, 1 }; video/x-tscc, tsccversion=(int)2; video/x-ultimotion; video/x-vmnc; video/x-vp3; video/x-vp5; video/x-vp6; video/x-vp6-alpha; video/x-vp6-flash; video/x-vp8; video/x-vp9; video/x-wmv, wmvversion=(int)3, format=(string){ WMV3, WVC1, WMVA, MSS2 }; video/x-wmv, wmvversion=(int){ 2, 1 }; video/x-xan, wcversion=(int){ 4, 3 }; video/x-zmbv
+Gstreamer-Elements: avdec_4xm, avdec_8bps, avdec_8svx_exp, avdec_8svx_fib, avdec_aac, avdec_aac_fixed, avdec_aac_latm, avdec_aasc, avdec_ac3, avdec_ac3_fixed, avdec_adpcm_4xm, avdec_adpcm_adx, avdec_adpcm_afc, avdec_adpcm_aica, avdec_adpcm_ct, avdec_adpcm_dtk, avdec_adpcm_ea, avdec_adpcm_ea_maxis_xa, avdec_adpcm_ea_r1, avdec_adpcm_ea_r2, avdec_adpcm_ea_r3, avdec_adpcm_ea_xas, avdec_adpcm_ima_amv, avdec_adpcm_ima_apc, avdec_adpcm_ima_dat4, avdec_adpcm_ima_dk3, avdec_adpcm_ima_dk4, avdec_adpcm_ima_ea_eacs, avdec_adpcm_ima_ea_sead, avdec_adpcm_ima_iss, avdec_adpcm_ima_oki, avdec_adpcm_ima_qt, avdec_adpcm_ima_rad, avdec_adpcm_ima_smjpeg, avdec_adpcm_ima_wav, avdec_adpcm_ima_ws, avdec_adpcm_ms, avdec_adpcm_mtaf, avdec_adpcm_psx, avdec_adpcm_sbpro_2, avdec_adpcm_sbpro_3, avdec_adpcm_sbpro_4, avdec_adpcm_swf, avdec_adpcm_thp, avdec_adpcm_thp_le, avdec_adpcm_vima, avdec_adpcm_xa, avdec_adpcm_yamaha, avdec_aic, avdec_alac, avdec_alias_pix, avdec_als, avdec_amrnb, avdec_amrwb, avdec_amv, avdec_anm, avdec_ansi, avdec_ape, avdec_apng, avdec_aptx, avdec_aptx_hd, avdec_asv1, avdec_asv2, avdec_atrac1, avdec_atrac3, avdec_atrac3al, avdec_atrac3plus, avdec_atrac3plusal, avdec_aura, avdec_aura2, avdec_avrn, avdec_avrp, avdec_avs, avdec_avui, avdec_bethsoftvid, avdec_bfi, avdec_binkaudio_dct, avdec_binkaudio_rdft, avdec_binkvideo, avdec_bintext, avdec_bitpacked, avdec_bmp, avdec_bmv_audio, avdec_bmv_video, avdec_brender_pix, avdec_c93, avdec_camstudio, avdec_camtasia, avdec_cavs, avdec_cdgraphics, avdec_cdxl, avdec_cfhd, avdec_cinepak, avdec_clearvideo, avdec_cljr, avdec_cllc, avdec_comfortnoise, avdec_cook, avdec_cpia, avdec_cyuv, avdec_dca, avdec_dds, avdec_dfa, avdec_dirac, avdec_dnxhd, avdec_dolby_e, avdec_dpx, avdec_dsd_lsbf, avdec_dsd_lsbf_planar, avdec_dsd_msbf, avdec_dsd_msbf_planar, avdec_dsicinaudio, avdec_dsicinvideo, avdec_dss_sp, avdec_dst, avdec_dvaudio, avdec_dvvideo, avdec_dxa, avdec_dxtory, avdec_dxv, avdec_eac3, avdec_eacmv, avdec_eamad, avdec_eatgq, avdec_eatgv, avdec_eatqi, avdec_escape124, avdec_escape130, avdec_evrc, avdec_exr, avdec_ffv1, avdec_ffvhuff, avdec_fic, avdec_fits, avdec_flac, avdec_flashsv, avdec_flashsv2, avdec_flic, avdec_flv, avdec_fmvc, avdec_fraps, avdec_frwu, avdec_g2m, avdec_g722, avdec_g723_1, avdec_g726, avdec_g726le, avdec_g729, avdec_gdv, avdec_gif, avdec_gremlin_dpcm, avdec_gsm, avdec_gsm_ms, avdec_h261, avdec_h263, avdec_h263i, avdec_h263p, avdec_h264, avdec_h265, avdec_hap, avdec_hnm4video, avdec_hq_hqa, avdec_hqx, avdec_huffyuv, avdec_iac, avdec_idcinvideo, avdec_idf, avdec_iff, avdec_imc, avdec_indeo2, avdec_indeo3, avdec_indeo4, avdec_indeo5, avdec_interplay_dpcm, avdec_interplayacm, avdec_interplayvideo, avdec_jpeg2000, avdec_jpegls, avdec_jv, avdec_kgv1, avdec_kmvc, avdec_lagarith, avdec_loco, avdec_m101, avdec_mace3, avdec_mace6, avdec_magicyuv, avdec_mdec, avdec_metasound, avdec_mimic, avdec_mjpeg, avdec_mjpegb, avdec_mlp, avdec_mmvideo, avdec_motionpixels, avdec_mp1float, avdec_mp2float, avdec_mp3, avdec_mp3adu, avdec_mp3adufloat, avdec_mp3float, avdec_mp3on4, avdec_mp3on4float, avdec_mpc7, avdec_mpc8, avdec_mpeg2video, avdec_mpeg4, avdec_mpegvideo, avdec_msa1, avdec_mscc, avdec_msmpeg4, avdec_msmpeg4v1, avdec_msmpeg4v2, avdec_msrle, avdec_mss1, avdec_mss2, avdec_msvideo1, avdec_mszh, avdec_mts2, avdec_mvc1, avdec_mvc2, avdec_mxpeg, avdec_nellymoser, avdec_nuv, avdec_on2avc, avdec_opus, avdec_paf_audio, avdec_paf_video, avdec_pam, avdec_pbm, avdec_pcm_lxf, avdec_pcx, avdec_pgm, avdec_pgmyuv, avdec_pictor, avdec_pixlet, avdec_png, avdec_ppm, avdec_prores, avdec_prores_lgpl, avdec_psd, avdec_ptx, avdec_qcelp, avdec_qdm2, avdec_qdmc, avdec_qdraw, avdec_qpeg, avdec_qtrle, avdec_r10k, avdec_ralf, avdec_real_144, avdec_real_288, avdec_rl2, avdec_roq_dpcm, avdec_roqvideo, avdec_rpza, avdec_rscc, avdec_rv10, avdec_rv20, avdec_rv30, avdec_rv40, avdec_s302m, avdec_sanm, avdec_sbc, avdec_scpr, avdec_screenpresso, avdec_sdx2_dpcm, avdec_sgi, avdec_sgirle, avdec_sheervideo, avdec_shorten, avdec_sipr, avdec_smackaud, avdec_smackvid, avdec_smc, avdec_smvjpeg, avdec_snow, avdec_sol_dpcm, avdec_sonic, avdec_sp5x, avdec_speedhq, avdec_srgc, avdec_sunrast, avdec_svq1, avdec_svq3, avdec_tak, avdec_targa, avdec_targa_y216, avdec_tdsc, avdec_thp, avdec_tiertexseqvideo, avdec_tiff, avdec_tmv, avdec_truehd, avdec_truemotion1, avdec_truemotion2, avdec_truemotion2rt, avdec_truespeech, avdec_tscc2, avdec_tta, avdec_twinvq, avdec_txd, avdec_ultimotion, avdec_utvideo, avdec_vb, avdec_vble, avdec_vc1, avdec_vc1image, avdec_vcr1, avdec_vmdaudio, avdec_vmdvideo, avdec_vmnc, avdec_vp3, avdec_vp5, avdec_vp6, avdec_vp6a, avdec_vp6f, avdec_vp7, avdec_vp8, avdec_vp9, avdec_vqavideo, avdec_wavesynth, avdec_webp, avdec_wmalossless, avdec_wmapro, avdec_wmav1, avdec_wmav2, avdec_wmavoice, avdec_wmv1, avdec_wmv2, avdec_wmv3, avdec_wmv3image, avdec_wnv1, avdec_ws_snd1, avdec_xan_dpcm, avdec_xan_wc3, avdec_xan_wc4, avdec_xbin, avdec_xbm, avdec_xface, avdec_xl, avdec_xma1, avdec_xma2, avdec_xpm, avdec_xwd, avdec_ylc, avdec_yop, avdec_zerocodec, avdec_zmbv, avdeinterlace, avdemux_4xm, avdemux_aiff, avdemux_ape, avdemux_avs, avdemux_bfstm, avdemux_brstm, avdemux_daud, avdemux_dsf, avdemux_ea, avdemux_film_cpk, avdemux_gif, avdemux_gxf, avdemux_idcin, avdemux_ipmovie, avdemux_ivf, avdemux_mm, avdemux_mmf, avdemux_mpc, avdemux_mpc8, avdemux_mxf, avdemux_nsv, avdemux_nut, avdemux_nuv, avdemux_psxstr, avdemux_pva, avdemux_smk, avdemux_sol, avdemux_tta, avdemux_vmd, avdemux_voc, avdemux_wc3movie, avdemux_wsaud, avdemux_wsvqa, avdemux_yuv4mpegpipe, avenc_a64multi, avenc_a64multi5, avenc_aac, avenc_ac3, avenc_ac3_fixed, avenc_adpcm_adx, avenc_adpcm_ima_qt, avenc_adpcm_ima_wav, avenc_adpcm_ms, avenc_adpcm_swf, avenc_adpcm_yamaha, avenc_alac, avenc_alias_pix, avenc_amv, avenc_apng, avenc_aptx, avenc_aptx_hd, avenc_asv1, avenc_asv2, avenc_avrp, avenc_avui, avenc_bmp, avenc_cinepak, avenc_cljr, avenc_comfortnoise, avenc_dca, avenc_dnxhd, avenc_dpx, avenc_dvvideo, avenc_eac3, avenc_ffv1, avenc_ffvhuff, avenc_fits, avenc_flashsv, avenc_flashsv2, avenc_flv, avenc_g722, avenc_g723_1, avenc_g726, avenc_g726le, avenc_h261, avenc_h263, avenc_h263p, avenc_h264_omx, avenc_hap, avenc_huffyuv, avenc_jpeg2000, avenc_jpegls, avenc_ljpeg, avenc_magicyuv, avenc_mjpeg, avenc_mlp, avenc_mp2, avenc_mp2fixed, avenc_mpeg1video, avenc_mpeg2video, avenc_mpeg4, avenc_msmpeg4, avenc_msmpeg4v2, avenc_msvideo1, avenc_nellymoser, avenc_opus, avenc_pam, avenc_pbm, avenc_pcx, avenc_pgm, avenc_pgmyuv, avenc_png, avenc_ppm, avenc_prores, avenc_prores_aw, avenc_prores_ks, avenc_qtrle, avenc_r10k, avenc_real_144, avenc_roq_dpcm, avenc_roqvideo, avenc_rv10, avenc_rv20, avenc_s302m, avenc_sbc, avenc_sgi, avenc_snow, avenc_sonic, avenc_sonicls, avenc_sunrast, avenc_svq1, avenc_targa, avenc_tiff, avenc_truehd, avenc_tta, avenc_utvideo, avenc_vc2, avenc_wavpack, avenc_wmav1, avenc_wmav2, avenc_wmv1, avenc_wmv2, avenc_xbm, avenc_xface, avenc_xwd, avenc_zmbv, avmux_3g2, avmux_3gp, avmux_a64, avmux_adts, avmux_adx, avmux_aiff, avmux_amr, avmux_apng, avmux_asf, avmux_asf_stream, avmux_ast, avmux_au, avmux_avi, avmux_avm2, avmux_bit, avmux_caf, avmux_chromaprint, avmux_codec2, avmux_dash, avmux_daud, avmux_dv, avmux_dvd, avmux_f4v, avmux_film_cpk, avmux_filmstrip, avmux_fits, avmux_flv, avmux_gxf, avmux_hash, avmux_hds, avmux_hls, avmux_ico, avmux_ilbc, avmux_ipod, avmux_ircam, avmux_ismv, avmux_ivf, avmux_latm, avmux_matroska, avmux_md5, avmux_mkvtimestamp_v2, avmux_mmf, avmux_mov, avmux_mp2, avmux_mp3, avmux_mp4, avmux_mpeg, avmux_mpegts, avmux_mpjpeg, avmux_mxf, avmux_mxf_d10, avmux_mxf_opatom, avmux_nut, avmux_oga, avmux_ogg, avmux_ogv, avmux_oma, avmux_opus, avmux_psp, avmux_rm, avmux_rso, avmux_rtsp, avmux_sap, avmux_singlejpeg, avmux_smjpeg, avmux_smoothstreaming, avmux_sox, avmux_spdif, avmux_spx, avmux_svcd, avmux_swf, avmux_tta, avmux_uncodedframecrc, avmux_vc1test, avmux_vcd, avmux_vob, avmux_voc, avmux_w64, avmux_wav, avmux_webp, avmux_wtv, avmux_yuv4mpegpipe
+Gstreamer-Encoders: application/gxf; application/mxf; application/ogg; application/x-gst-av-a64; application/x-gst-av-adts; application/x-gst-av-adx; application/x-gst-av-apng; application/x-gst-av-asf_stream; application/x-gst-av-ast; application/x-gst-av-avm2; application/x-gst-av-bit; application/x-gst-av-caf; application/x-gst-av-chromaprint; application/x-gst-av-codec2; application/x-gst-av-dash; application/x-gst-av-daud; application/x-gst-av-dvd; application/x-gst-av-f4v; application/x-gst-av-film_cpk; application/x-gst-av-filmstrip; application/x-gst-av-fits; application/x-gst-av-hash; application/x-gst-av-hds; application/x-gst-av-hls; application/x-gst-av-ico; application/x-gst-av-ilbc; application/x-gst-av-ircam; application/x-gst-av-ismv; application/x-gst-av-latm; application/x-gst-av-md5; application/x-gst-av-mkvtimestamp_v2; application/x-gst-av-mmf; application/x-gst-av-mpjpeg; application/x-gst-av-mxf_opatom; application/x-gst-av-nut; application/x-gst-av-oga; application/x-gst-av-ogv; application/x-gst-av-oma; application/x-gst-av-opus; application/x-gst-av-rso; application/x-gst-av-rtsp; application/x-gst-av-sap; application/x-gst-av-singlejpeg; application/x-gst-av-smjpeg; application/x-gst-av-smoothstreaming; application/x-gst-av-sox; application/x-gst-av-spdif; application/x-gst-av-spx; application/x-gst-av-svcd; application/x-gst-av-uncodedframecrc; application/x-gst-av-vc1test; application/x-gst-av-vcd; application/x-gst-av-vob; application/x-gst-av-w64; application/x-gst-av-webp; application/x-gst-av-wtv; application/x-pn-realmedia, systemstream=(boolean)true; application/x-shockwave-flash; application/x-yuv4mpeg, y4mversion=(int)2; audio/G722; audio/mpeg, mpegversion=(int)4, stream-format=(string)raw, base-profile=(string)lc; audio/mpeg, mpegversion=(int)1, layer=(int)2; audio/x-ac3; audio/x-adpcm, layout=(string){ yamaha, swf, microsoft, dvi, quicktime, g726, adx }; audio/x-aiff; audio/x-alac; audio/x-amr-nb-sh; audio/x-au; audio/x-dpcm, layout=(string)roq; audio/x-dts; audio/x-eac3; audio/x-mlp; audio/x-nellymoser; audio/x-pn-realaudio, raversion=(int)1; audio/x-smpte-302m; audio/x-true-hd; audio/x-tta; audio/x-ttafile; audio/x-voc; audio/x-wav; audio/x-wma, wmaversion=(int){ 2, 1 }; image/bmp; image/jpeg, parsed=(boolean)true; image/pbm; image/png; image/ppm; image/tiff; image/x-j2c; image/x-pcx; image/x-portable-anymap; image/x-portable-graymap; image/x-sgi; image/x-sun-raster; image/x-tga; unknown/unknown; video/mpeg, mpegversion=(int)4, systemstream=(boolean)false, profile=(string){ simple, advanced-simple }; video/mpeg, mpegversion=(int){ 2, 1 }, systemstream=(boolean)false; video/mpeg, systemstream=(boolean)true; video/mpegts, systemstream=(boolean)true; video/quicktime, variant=(string){ 3gpp, 3g2, psp, iso, apple, ipod }; video/x-amv; video/x-asus, asusversion=(int){ 2, 1 }; video/x-cinepak; video/x-cirrus-logic-accupak; video/x-divx, divxversion=(int)5; video/x-dnxhd; video/x-dv, systemstream=(boolean){ true, false }; video/x-ffv, ffvversion=(int)1; video/x-flash-screen; video/x-flash-screen2; video/x-flash-video, flvversion=(int)1; video/x-flv; video/x-gst-av-ffvhuff; video/x-gst-av-pgmyuv; video/x-gst-av-roqvideo; video/x-h261; video/x-h263, variant=(string)itu, h263version=(string){ h263p, h263 }; video/x-h264, alignment=(string)au; video/x-huffyuv; video/x-ivf; video/x-matroska; video/x-ms-asf; video/x-msmpeg, msmpegversion=(int){ 43, 42 }; video/x-msvideo; video/x-msvideocodec, msvideoversion=(int)1; video/x-pn-realvideo, rmversion=(int){ 2, 1 }; video/x-prores; video/x-rle, layout=(string)quicktime; video/x-svq, svqversion=(int)1; video/x-wmv, wmvversion=(int){ 2, 1 }; video/x-zmbv
+Gstreamer-Version: 1.14
+
+Package: gstreamer1.0-opencv
+Architecture: arm64
+Version: 1.16.1-1
+Multi-Arch: same
+Priority: extra
+Section: libs
+Source: gst-plugins-bad1.0
+Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
+Installed-Size: 1963
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.40), libgstreamer-opencv1.0-0 (= 1.16.1-1), libgstreamer-plugins-base1.0-0 (>= 1.16.1), libgstreamer1.0-0 (>= 1.16.1), libopencv-calib3d4.5 (>= 4.5.1+dfsg), libopencv-contrib4.5 (>= 4.5.1+dfsg), libopencv-core4.5 (>= 4.5.1+dfsg), libopencv-features2d4.5 (>= 4.5.1+dfsg), libopencv-imgcodecs4.5 (>= 4.5.1+dfsg), libopencv-imgproc4.5 (>= 4.5.1+dfsg), libopencv-objdetect4.5 (>= 4.5.1+dfsg), libopencv-video4.5 (>= 4.5.1+dfsg), libstdc++6 (>= 5.2), gstreamer1.0-plugins-base, libgstreamer-plugins-bad1.0-0 (= 1.16.1-1)
+Recommends: opencv-data
+Conflicts: gstreamer1.0-plugins-bad (<< 1.13.1)
+Replaces: gstreamer1.0-plugins-bad (<< 1.13.1)
+Filename: ../../..//srv/local-apt-repository/gstreamer1.0-opencv_1.16.1-1_arm64.deb
+Size: 1795536
+MD5sum: 8a4470e5084bc06f64fce7b6d34ddf4c
+SHA1: ef68e841541645ac9c19d8965c43c6530f75ee85
+SHA256: 86cf989aa52a44cafdbed295c1f12df85fb4e2f6127e1013685632f23088a4ed
+SHA512: 3ecffc66ba7ff99ea6e1f2de0b331afe8343a126803014d0c7580e51fc30de981ca3854211f348022f9b4b623cee7d73ea8c2544385158486fa0b020d2dd4897
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer OpenCV plugins
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared
+ to the rest. They might be close to being good quality, but they're missing
+ something - be it a good code review, some documentation, a set of tests, a
+ real live maintainer, or some actual wide use.
+ .
+ This package contains the OpenCV plugins.
+Gstreamer-Elements: cameracalibrate, cameraundistort, cvdilate, cvequalizehist, cverode, cvlaplace, cvsmooth, cvsobel, dewarp, disparity, edgedetect, faceblur, facedetect, grabcut, handdetect, motioncells, opencvtextoverlay, retinex, segmentation, skindetect, templatematch
+Gstreamer-Version: 1.16
+
+Package: gstreamer1.0-plugins-bad-dbg
+Architecture: arm64
+Version: 1.16.1-1
+Multi-Arch: same
+Priority: extra
+Section: debug
+Source: gst-plugins-bad1.0
+Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
+Installed-Size: 15114
+Depends: gstreamer1.0-plugins-bad (= 1.16.1-1)
+Breaks: gstreamer1.0-plugins-base-dbg (<< 0.11.94), gstreamer1.0-plugins-good (<< 1.1.2)
+Replaces: gstreamer1.0-plugins-base-dbg (<< 0.11.94), gstreamer1.0-plugins-good (<< 1.1.2)
+Filename: ../../..//srv/local-apt-repository/gstreamer1.0-plugins-bad-dbg_1.16.1-1_arm64.deb
+Size: 13200340
+MD5sum: 313be0ac4dbc55241f828be1982fcba7
+SHA1: 712c7a4cb6a56e147d2cdb53fa4c18b5f115a3fb
+SHA256: 7ef7f117705153eb99f0f3c91c74ac027f4496f286c6fcc5da48df55bab85b5b
+SHA512: 329c8c708cce54ce1fd134bf2b4e06b5e3ec4b7b1829a9bf91e5a927d205943063702d587fad66c0ee065baf408d6320d2300e79d64ab86d44e4b47c279932ef
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer plugins from the "bad" set (debug symbols)
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains unstripped shared libraries. It is provided primarily
+ to provide a backtrace with names in a debugger, this makes it somewhat
+ easier to interpret core dumps. The libraries are installed in
+ /usr/lib/debug and are automatically used by gdb.
+Build-Ids: 03e0fb19e78d3a6fb0146cd059e2bcf79173dac3 043e85ffc4fe81f74fd6985b5173b2509ca75ecd 061260fd0812b8f92d786cfeabfed00dfe09ad6a 0bc022b20818ef0da23f8755bcf1e2e058d2ab96 0df61b3d0fb0f5e9ff871a83a4ee9b4413e37f4f 0f6329c28391115c34b778d9026ecba6c201c0da 10073bda846d9d9a1c03890db45457e8f2eb897f 15f9745645b9973565012d4e2c4453884ba18e3f 1ba07a1011ab7b3f4254a6be2dece204ebb9ca79 1bba8b8af69de2cbf3100511666196a09767dbf6 1f270496b72969888830fb8e99f96c6c37c7e64a 1f5bf1aecf78db432c2b1c26356d3308b7082621 21b21daa496385abfc0bc4f25c54c010814ec425 22ab54b18145ef4e6329d8650278f9c75d8ec2fb 28d7991dac2091919d7d88b6641685dfadd5cfc2 2abdfe4856f7cd1f324f43f9118ded704b4c4e8c 2bf92bd66a8ede4113e33ad5c2b8a7c5cc20a23e 31cfa259aca1daa6ade229190670e6feb6575bbe 31e1a3a8b7970f4cf3e4ec450339f1db3a206b72 35926ff0ca556a4c2a8f46f69bd62e422dd55785 364f48b11cd23199dc4bb23243e0b1ff83d72474 3696143f5a8291200e5363cf671ac7277067ff91 371a81fe2c364068e8683bef05c501d1f86783a6 3735b6e213131b17d99e2057ae517a2c4cb9d749 3ad4afbd395974c0a2f2e48510daa96e7bfe3b60 3fce4701c2057d43c0f282a6b73b8e4665f0c3f4 419279fd1107f022163f42dfef5f25e61f471dca 43c8c8ac36bbbd1be18a9393652d6bbd35f1296d 4aafff8be70ca48a3f7e63ca47c59ab54a7e1930 4f7fb71f6bc9dbe6e83ceafaea0b47d12ffd1d11 51795feb2d1ae46d33d05a09968d14d91db589c8 52a18935d6b3650f86b352852ca02af054e68a91 539177d17b0260d5bae738594086fb71a8a9bd89 56431c89a6d257b641c753c4de8b84ac7b46a81a 568f7759c7d62a8621b929e1c09601ef9fe23746 5ae904ef9b1c5c6f60d32e12e09da045afd4ebd2 5b80df8d711e6588357a12f352b48cb4b570cbab 5c896935f6d3b8c3179470963a02e65f1d75390d 6065a3f3f091042bcacb2844e3f1943be7f8f814 6394d958c6b45a2550a13e39ee35eec8c36625cf 642a9a2ba86fb0f1719320dd42fe4c5791bd4921 6547838741af740466e72fa9d84dede3ba3b5fc5 6b453c193bfb5c5a27c9d4a89e7d6f01947fdd8c 6bb9260401e9986a7e9ccc2c1735c89cd27d7dff 6dd2a2cfe78ae9deb3d66720861e0cc7f62d1f45 6efffdab0391547f0825832018111617d14a06a3 6f2e6034a4c811db61118427c4008646244575db 71d94db94f5b7474f070aed24d3003accf7b81a5 74bdcaf480f17feef2f69daa7788e0cbfce34db0 75f8a1671f5850950d1cd718056c143f3a5b21b9 770c99b75168c1ac5bd2ad7cc432d6ce4387cdae 77a8378e8db143cb56f4fbd968d5af792b73be18 789e178e310526528584dacd4685e07d15b2d9e5 79e360f2620c73b2a21aac0bcbaffdcacb582c0b 7affbef540490063fb6330262717afca69c9224c 7b1670cb998b42931421c6864d276dec7512846f 7bece67ec8b02e5c68d13f48121acb345a3a7126 7cc8bdf614bf562c4cfd0ac9e79d21e001ff12d0 7ebbe2af168a6a358e79cd3e1d2a0a976110d14c 7fa8b823e58b07e679bfbb591c16c3595740f196 8054d0abdf5bd7147f83a2aa9a0dc5016f199c86 88869a126e9fccfcae3d87720579ecd0e3869d61 8df7898cc506279bc86dfb75b23cf0547f4c6795 8f1d6d9898bc8b6f7ccada52e7b28497e2299a1a 8fb82b38c768a41afd24ea25486535ca3844eef4 934fedafbb7d5e3794dcfda83deeee9950102143 9879d9dce554dc379d0a260ad9bd7fb72457e51f 9897eaf2da90a5c8ff6916ccaf8f554520caa754 995a92fa9b31ec152519bb6f1d5c675e0c3acc97 9b16ada6c535a1b498e7c1be7378ecc9122ecd92 9d0b1ed939a73d361703439af9f0d379d059cd00 9de0c19013caac74ca0f7fb86ab5398fd28c3e00 9ff611a13ccc7eab1b88a385271549860ee9566b a38e573c4797bec1f07dad224f7af4446b9c6491 a4ea1bae24e0e95f492d8188b04c8c6cf39112c2 a58530fb897ca5eca23e89fda331ce36d8a0614b a5894f2f19babbd7aff824431ce892eed1675e7a a5d7b96430525fddee4e747d8e9a4d69b2a8d3cf a6875781c19e5479a7e953be89090e4598f6d067 a7c985b5b7e6fdce192c4e26fd87a1f08f911445 a8ea3343facf76de752bbcda7a537a05b82b4563 abe9a771271a843d3c15fe806f11321272ff3729 ad5460565dccd4dd91ec22fadc915da253185d1c aff74a585b753c0a32f1d3ee03393bc236792a4b b0063b4ff6dc9f6b02880531d764b9170b210a8c b03c7188f6621b70bb7eaa23be4d09e79616cc94 ba53e9773e24f9788829371ac1112863aee319fc be3a428ea67bde9990335fa3b5fba89f67c1b420 bf92fa2caa61d70ffaa676573b37e3e1ed443707 c29d49f5498d3ee39c890edbfc9044435bde2e57 c384179bb1d007fc908b0a819fd9ff981fa4ce5c c3f035e924ae36f378a184e83d432dbabfba3030 c668d6e06bdbcbf5f2cbf694d09c0a1113ad07af c6d961d340eaf63a5ab8e974c6c66b5373e24bef c7d5ac24afcf0a6ea64e66c17ce839557366b7d6 ce0257dd3fe4722da697f4527e99eb050bcda5c5 d0649ef25acf0c0e3ac8e41303e1c8643216e795 d233d80ea1a48f70d55e3f9f162d16d93ff5a81c d25c4474a0d43c021121496d5554f78b2ca04de6 d51eb9d93ed803d20abfa2b267f2d259433a6f8c d8bcb8c41ca3dca56ec6113c1f6b1cd6bc0ef9ee da6b185445d08bfa9f78c75bd0eb0e68077159d9 df4bf3949769ec1daf0a851f19d9902186eeaa30 e04c79bf78e214c2e5cf3a1078425116221eb82b e0c640cfe2f9b9ac62c2a2bd979475be7c7a8f60 e388ea54319ce617c3895fecea3de6e43ab96e08 e66ebdc8037f4ef0fb67642faa802a0346a3a84f e6da1271da4a0af5c46a2c5bc2e63be30a35f827 e79d8a8f5eaa3e941dfb83ad7e9f0d691968c799 e93fd3c282c60cb9c5909f24e27934dd73975635 ea4e02778a4100a116019acfe3ff811ceeb651b6 eae32e3c71f30e033da789c80020867d6f317b45 ee71ef6249e388f42f888d0c8f383b3a77a83c93 eea8375ff0869981229a8952de56af336a6efec6 efc1437a4ad9615eef760590b6352cda58b7b0e9 f5315568eec9f8aa4ddbcfd5fc6301b78c844bff f6fdda9c3e1b4bb83f1d2707c1931e54f99c961a f7463b84b6143cbd2ea3884d6cf57fa2609d53cf f8fc875f4c95fbe7869fe4eaf1571f92471fd06d f9e6743ea34e54268fba8cc29ae8744f22a5ccb0 fb59c061001c5ca3e707b1824413e22c48dbec58 fc28440503e32fb778ac1935dffc4a8fece754b5 fd781d9eab857de323deba295e571e47fb2836b1 ff58068f2512576f765aff5100c4ea06bbdb0732 4d06a85036a376801caeb99a42575136e374fe08 08e481293d8b72b5a1112cb88e16681c48609b5a 0cdfe281ce398b51807253f6159a1915331eaaf2 1fc9555b86d5053ba096b42d0428e82f9e356ba5 4002fb145dc7b375105ec82b0d145b23b0a12a6c 50433936749700e53cefdc86ea58d9009b573ec1 7d435dcd4b28a0ba98069ead4d2a7cf4034b8a01 bda454bb0a049a5a7c1510530b69abec621c0e04 c17801be4c164baed5661c42395284c56b4f3570 cad7f4f4f0ac79bef611c8a9b71e427d3fb7421b d3a7df4d7bbcd5761dda1b461285672d7704474d d59bbaece89c5c00fdf87567379f589ee4e4ceb5 da9788ffa8db5bae527b3e30c652718b79267067 fde5e60612b583aec6d778922cf6dd7db2ab12ab a3bb9510a75d736a7ce7825b8c76b0b296b5040e
+
+Package: gstreamer1.0-plugins-bad-doc
+Architecture: all
+Version: 1.16.1-1
+Multi-Arch: foreign
+Priority: extra
+Section: doc
+Source: gst-plugins-bad1.0
+Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
+Installed-Size: 1757
+Depends: gstreamer1.0-doc, gstreamer1.0-plugins-base-doc
+Filename: ../../..//srv/local-apt-repository/gstreamer1.0-plugins-bad-doc_1.16.1-1_all.deb
+Size: 1730380
+MD5sum: 0a51e22a8d6a6dced93074d886168b3d
+SHA1: 2edac4478f17fe1f1c810e0c2b55916fd3dac61b
+SHA256: 32f9fb46b19fded79066e1e10f8301573b5670614c7b60cec15298501fe81ace
+SHA512: b660fccc484854f32de568fd14f88a1ac703ebcb60a1dedc87b537cafe0364aa3f40aa6dc1a331d214ac758f34355c05ebc0e081102e170258e81415055fa857
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer documentation for plugins from the "bad" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared
+ to the rest. They might be close to being good quality, but they're missing
+ something - be it a good code review, some documentation, a set of tests, a
+ real live maintainer, or some actual wide use.
+ .
+ This package contains the documentation for plugins from the "bad" set.
+
+Package: gstreamer1.0-plugins-bad
+Architecture: arm64
+Version: 1.16.1-1
+Multi-Arch: same
+Priority: extra
+Section: libs
+Source: gst-plugins-bad1.0
+Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
+Installed-Size: 8102
+Provides: gstreamer1.0-audiosink, gstreamer1.0-audiosource, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-videoparsers, gstreamer1.0-videosink, gstreamer1.0-videosource, gstreamer1.0-visualization
+Depends: imx-gpu-viv-core, libaom0 (>= 1.0.0), libass9 (>= 1:0.13.6), libbs2b0, libbz2-1.0, libc6 (>= 2.29), libcairo2 (>= 1.6.0), libchromaprint1 (>= 1.3.2), libcurl3-gnutls (>= 7.35.0), libdc1394-25 (>= 2.2.6), libdca0 (>= 0.0.5), libde265-0 (>= 0.8), libdrm2 (>= 2.4.71), libdvdnav4 (>= 4.1.3), libdvdread8 (>= 4.1.3), libfaad2 (>= 2.7), libflite1 (>= 1.4-release-9~), libfluidsynth2 (>= 2.0.5), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.43.2), libgme0 (>= 0.6.0), libgsm1 (>= 1.0.18), libgstreamer-plugins-bad1.0-0 (= 1.16.1-1), libgstreamer-plugins-base1.0-0 (>= 1.16.1-1), libgstreamer1.0-0 (>= 1.16.1), libgudev-1.0-0 (>= 146), libilmbase25 (>= 2.5.4), libkate1 (>= 0.4.1), liblcms2-2 (>= 2.7), liblilv-0-0 (>= 0.22.0~dfsg0), libmjpegutils-2.1-0, libmms0 (>= 0.4), libmodplug1 (>= 1:0.8.8.5), libmpcdec6 (>= 1:0.1~r435), libmpeg2encpp-2.1-0, libmplex2-2.1-0, libnettle8, libnice10 (>= 0.1.14), libofa0 (>= 0.9.3), libopenal1 (>= 1.14), libopenexr25 (>= 2.5.4), libopenjp2-7 (>= 2.0.0), libopenmpt0 (>= 0.3.0), libopus0 (>= 1.1), liborc-0.4-0 (>= 1:0.4.25), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), librsvg2-2 (>= 2.36.2), librtmp1 (>= 2.3), libsbc1 (>= 1.5), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libspandsp2 (>= 0.0.6~pre18), libsrt1.4-gnutls (>= 1.4.2), libsrtp2-1 (>= 2.0.0+20170516), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5), libusb-1.0-0 (>= 2:1.0.8), libusrsctp1 (>= 0.9.3.0+20190901), libvo-aacenc0 (>= 0.1.3), libvo-amrwbenc0 (>= 0.1.3), libwayland-client0 (>= 1.11.0), libwebp6 (>= 0.5.1), libwebrtc-audio-processing1, libwildmidi2 (>= 0.2.3), libx11-6, libx265-192 (>= 3.2), libxcb1, libxml2 (>= 2.9.0), libzbar0 (>= 0.10), libzvbi0 (>= 0.2.35), gstreamer1.0-plugins-base
+Suggests: frei0r-plugins
+Conflicts: gstreamer1.0-plugins-bad-faad (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-bad-videoparsers (<< 1.11.91-1ubuntu1)
+Breaks: gstreamer1.0-plugins-base (<< 0.11.94), gstreamer1.0-plugins-good (<< 1.1.2)
+Replaces: gstreamer1.0-plugins-bad-faad (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-bad-videoparsers (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-base (<< 0.11.94), gstreamer1.0-plugins-good (<< 1.1.2)
+Filename: ../../..//srv/local-apt-repository/gstreamer1.0-plugins-bad_1.16.1-1_arm64.deb
+Size: 3258992
+MD5sum: e1ee44b345cafc80de46d0f68bf995c1
+SHA1: bc1664a26df5f8784b6912ac2275a29fbaceca7c
+SHA256: 3443acb741d05e7d149f33af4c36a90f95edbea463e8ab7273e72a848ce99a67
+SHA512: aea7aadaddd8cad4684b614668339abd50e5d963cd233aeeeab1c5f857a268c6c79df6ffeff66adddc6e0b89fc1d38a60bbd4aae4092c17325fe448f8df58c5f
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer plugins from the "bad" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared
+ to the rest. They might be close to being good quality, but they're missing
+ something - be it a good code review, some documentation, a set of tests, a
+ real live maintainer, or some actual wide use.
+Gstreamer-Decoders: application/dash+xml; application/mxf; application/vnd.ms-sstr+xml; application/x-hls; application/x-yuv4mpeg, y4mversion=(int)2; audio/midi; audio/mpeg, mpegversion=(int)4, stream-format=(string){ raw, adts }; audio/mpeg, mpegversion=(int)2; audio/ms-gsm; audio/riff-midi; audio/x-adpcm, layout=(string){ microsoft, dvi }; audio/x-aiff; audio/x-ay; audio/x-dts; audio/x-gbs; audio/x-gsm; audio/x-gym; audio/x-hes; audio/x-ircam; audio/x-it; audio/x-kss; audio/x-midi-event; audio/x-mod; audio/x-musepack, streamversion=(int){ 7, 8 }; audio/x-nist; audio/x-nsf; audio/x-paris; audio/x-private1-dts; audio/x-rf64; audio/x-s3m; audio/x-sap; audio/x-sbc, parsed=(boolean)true; audio/x-sds; audio/x-siren, dct-length=(int)320; audio/x-spc; audio/x-stm; audio/x-svx; audio/x-vgm; audio/x-voc; audio/x-w64; audio/x-xi; audio/x-xm; image/jp2; image/svg; image/svg+xml; image/webp; image/x-exr; image/x-j2c, sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, GRAYSCALE, YCbCrA-4:4:4:4 }; image/x-jpc, sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, GRAYSCALE, YCbCrA-4:4:4:4 }; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; subtitle/x-kate; video/mpeg, mpegversion=(int){ 1, 2 }, systemstream=(boolean)true; video/mpegts, systemstream=(boolean)true; video/x-av1; video/x-cdxa; video/x-h264; video/x-h265; video/x-ivf; video/x-vmnc, version=(int)1
+Gstreamer-Elements: a2dpsink, accurip, adpcmdec, adpcmenc, aiffmux, aiffparse, asfmux, asfparse, assrender, audiobuffersplit, audiochannelmix, audiolatency, audiomixmatrix, audioparse, audiosegmentclip, autoconvert, autovideoconvert, av1dec, av1enc, avdtpsink, avdtpsrc, avwait, bayer2rgb, bpmdetect, bs2b, bulge, burn, bz2dec, bz2enc, camerabin, cc708overlay, cccombiner, ccconverter, ccextractor, checksumsink, chopmydata, chromahold, chromaprint, chromium, circle, coloreffects, combdetect, compare, curlfilesink, curlftpsink, curlhttpsink, curlhttpsrc, curlsmtpsink, dashdemux, dc1394src, debugspy, decklinkaudiosink, decklinkaudiosrc, decklinkvideosink, decklinkvideosrc, diffuse, dilate, diracparse, dodge, dtlsdec, dtlsenc, dtlssrtpdec, dtlssrtpdemux, dtlssrtpenc, dtmfdetect, dtsdec, dvbbasebin, dvbsrc, dvbsuboverlay, dvdspu, errorignore, exclusion, faad, faceoverlay, fakevideosink, fbdevsink, festival, fieldanalysis, fisheye, flitetestsrc, fluiddec, fpsdisplaysink, freeverb, gaussianblur, gdpdepay, gdppay, gmedec, gsmdec, gsmenc, h263parse, h264parse, h265parse, hlsdemux, hlssink, hlssink2, id3mux, interaudiosink, interaudiosrc, interlace, intersubsink, intersubsrc, intervideosink, intervideosrc, ipcpipelinesink, ipcpipelinesrc, ipcslavepipeline, irtspparse, ivfparse, ivtc, jifmux, jp2kdecimator, jpegparse, kaleidoscope, katedec, kateenc, kateparse, katetag, kmssink, ladspa-amp-so-amp-mono, ladspa-amp-so-amp-stereo, ladspa-delay-so-delay-5s, ladspa-filter-so-hpf, ladspa-filter-so-lpf, ladspa-sine-so-sine-faaa, ladspa-sine-so-sine-faac, ladspa-sine-so-sine-fcaa, ladspasrc-noise-so-noise-white, ladspasrc-sine-so-sine-fcac, lcms, libde265dec, line21decoder, line21encoder, marble, midiparse, mirror, mmssrc, modplug, mpeg2enc, mpeg4videoparse, mpegpsdemux, mpegpsmux, mpegtsmux, mpegvideoparse, mplex, mssdemux, musepackdec, mxfdemux, mxfmux, netsim, ofa, openalsink, openalsrc, openexrdec, openjpegdec, openjpegenc, openmptdec, opusparse, pcapparse, perspective, pinch, pitch, pngparse, pnmdec, pnmenc, proxysink, proxysrc, removesilence, rfbsrc, rgb2bayer, rotate, rsndvdbin, rsvgdec, rsvgoverlay, rtmpsink, rtmpsrc, rtpasfpay, rtponvifparse, rtponviftimestamp, sbcdec, sbcenc, scenechange, sctpdec, sctpenc, sdpdemux, sdpsrc, sfdec, shmsink, shmsrc, simplevideomark, simplevideomarkdetect, sirendec, sirenenc, smooth, solarize, spacescope, spanplc, spectrascope, speed, sphere, square, srtclientsink, srtclientsrc, srtenc, srtpdec, srtpenc, srtserversink, srtserversrc, srtsink, srtsrc, stretch, synaescope, teletextdec, testsrcbin, timecodestamper, tonegeneratesrc, tsdemux, tsparse, ttmlparse, ttmlrender, tunnel, twirl, uvch264mjpgdemux, uvch264src, vc1parse, videoanalyse, videodiff, videoframe-audiolevel, videoparse, videosegmentclip, viewfinderbin, vmncdec, voaacenc, voamrwbenc, vulkansink, vulkanupload, watchdog, waterripple, wavescope, waylandsink, webpdec, webpenc, webrtcbin, webrtcdsp, webrtcechoprobe, webvttenc, wildmididec, wrappercamerabinsrc, x265enc, y4mdec, yadif, zbar, zebrastripe
+Gstreamer-Encoders: application/mxf; application/x-bzip; application/x-dtls; application/x-gdp; application/x-kate; application/x-rtp, media=(string){ audio, video, application }, encoding-name=(string)X-ASF-PF; application/x-sctp; application/x-subtitle; application/x-subtitle-vtt; audio/AMR-WB; audio/mpeg, mpegversion=(int)4, stream-format=(string){ adts, raw }, base-profile=(string)lc; audio/x-adpcm, layout=(string)dvi; audio/x-aiff; audio/x-gsm; audio/x-sbc, channel-mode=(string){ mono, dual, stereo, joint }, blocks=(int){ 4, 8, 12, 16 }, subbands=(int){ 4, 8 }, allocation-method=(string){ snr, loudness }, bitpool=(int)[ 2, 64 ]; audio/x-siren, dct-length=(int)320; image/jp2; image/webp; image/x-j2c, num-components=(int)[ 1, 4 ], sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, GRAYSCALE, YCbCrA-4:4:4:4 }, colorspace=(string){ sRGB, sYUV, GRAY }; image/x-jpc, num-components=(int)[ 1, 4 ], sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, GRAYSCALE, YCbCrA-4:4:4:4 }, colorspace=(string){ sRGB, sYUV, GRAY }; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; subtitle/x-kate; video/mpeg, systemstream=(boolean)false, mpegversion=(int){ 1, 2 }; video/mpeg, systemstream=(boolean)true; video/mpegts, systemstream=(boolean)true, packetsize=(int){ 188, 192 }; video/x-av1; video/x-h265, stream-format=(string)byte-stream, alignment=(string)au, profile=(string){ main }; video/x-ms-asf, parsed=(boolean)true
+Gstreamer-Uri-Sinks: rtmfp, rtmp, rtmpe, rtmps, rtmpt, rtmpte, rtmpts, srt
+Gstreamer-Uri-Sources: dvb, dvd, http, https, mms, mmsh, mmst, mmsu, rtmfp, rtmp, rtmpe, rtmps, rtmpt, rtmpte, rtmpts, sdp, srt, testbin
+Gstreamer-Version: 1.16
+
+Package: gstreamer1.0-plugins-base-apps
+Architecture: arm64
+Version: 1.16.1-1
+Priority: optional
+Section: utils
+Source: gst-plugins-base1.0
+Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+Installed-Size: 1410
+Depends: libc6 (>= 2.17), libglib2.0-0 (>= 2.40), libgstreamer-plugins-base1.0-0 (>= 1.14.0), libgstreamer1.0-0 (>= 1.16.1), gstreamer1.0-tools
+Filename: ../../..//srv/local-apt-repository/gstreamer1.0-plugins-base-apps_1.16.1-1_arm64.deb
+Size: 1335264
+MD5sum: 20aba06c6bb75cd5868c419080e01f2b
+SHA1: 662343d3eb7a359fc60db2bfd99b5dc18b80e091
+SHA256: ffe37112f177f8d300ee22fd550ae616b4feb9d4de5525f9d39933e934452992
+SHA512: 3feb2d7cb4f0dcffd3df0d627537ccbef7c804152fbce8cbd7a40d0a3fcfd2dd6c6cc4e0e084e9cf7b869f0e8111c36dd370e8a4fcc90608c3018c5872ea121e
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer helper programs from the "base" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains helper programs from the "base" set, an essential
+ exemplary set of elements.
+
+Package: gstreamer1.0-plugins-base-dbg
+Architecture: arm64
+Version: 1.16.1-1
+Multi-Arch: same
+Priority: extra
+Section: debug
+Source: gst-plugins-base1.0
+Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+Installed-Size: 8999
+Depends: gstreamer1.0-alsa (= 1.16.1-1), gstreamer1.0-plugins-base (= 1.16.1-1), gstreamer1.0-x (= 1.16.1-1), libgstreamer-plugins-base1.0-0 (= 1.16.1-1)
+Breaks: gstreamer1.0-plugins-bad-dbg (<< 1.15.1)
+Replaces: gstreamer1.0-plugins-bad-dbg (<< 1.15.1)
+Filename: ../../..//srv/local-apt-repository/gstreamer1.0-plugins-base-dbg_1.16.1-1_arm64.deb
+Size: 7971256
+MD5sum: b1e82f820d0db79c57267abcb40c54b7
+SHA1: 119a8d3bec1e7b9c8f76e41a267f6fb48f46a598
+SHA256: f009be4ac00ca03d5ceca83b1c75f56d389787321d4580948ed3187d4bb5bed2
+SHA512: c8684604abdc66e27b88474a454a1a2983a4cd8ee975717e5e1772a54ed61e535bdc8bf7a7602446f62064b42ccd67efc9a49b355952ec003f1865de1fe63265
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer plugins from the "base" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains unstripped shared libraries. It is provided primarily
+ to provide a backtrace with names in a debugger, this makes it somewhat
+ easier to interpret core dumps. The libraries are installed in
+ /usr/lib/debug and are automatically used by gdb.
+Build-Ids: 14e3824a110100632238bed2adcff28342ec6c60 6404816754d7e948cf4af6c7f7b28cb8a2dac232 b479aa52501f099e34adb273f1107bb27d105e86 1f3085124a3b9b660fb5306b9b86a565fd5330bc 2020416d2d656ab23369477ed2a88b889ee0ea87 46e4f82ddf9cb95f9a62feb945d141f16d31e175 4e652d14b64ed98d1a18159befbebb8032605961 716d2025f5034cad1304f13524e48fb502a2d047 902c7d3bd77705355406ac4a2503f977863a326e b641b8692463e96b2bbc103e6daa63dd3f9b7b17 b6e8eda09e0cea03f749dc43fea1b01f80a55ea2 c3e3a357508c2773c7914ce60d78615b98f2584c dc22bac0c1f7de9f98d7848a4b3f13d2bf33917c dd36c5ec88007e9579492861daec198be8f11e02 b2a3d87f17fb3dcb018295f689a1bc10e8bdf04c d8b4a8403a970621411447da55a835106df258da 0175185b02ef7911f8d1eeb1b7839cac7bed0beb 0789087fd5d5c96a10f9d2d6be1f69522c231ce8 0a604138bb62eb9334330c7f9af4284b0bd8d30a 0b1e6f94767f8c5c4a5a089d61c27efaffd88e35 1eb86fb78220b35a3a162891aea4e4f518f86d0f 29bc7f63b75954e7dc501870a60421a635d75839 2cdbc5e4b1409a3eb2f0586b0e17d5a5c0e7789a 31ff81ae441e639652d9d20bcf6634c42ff49c33 3483098e1f4d736ca3be000e2b378cea0e023b7c 3f34388c14866f20d6b6710a5e9dc7f2d1221c30 43ee5e3ae8feb7c96a540ab1c2ff2a2a8d8c3bf1 52f6646f31cb9f6db6911141eb4408f6677a276c 57984de14f144e0086df19f8bba313e9011248e1 5bd8cbff4b1fdd269725b7d7edda6bf1d3e773b2 6b9beeaa95abc4f2329312896db49b13af292963 7523beedd45bde4e3f72abceecdee6f5a62d920f 7a6b81ab22865da66b0ea08acb0b4a53cbd709bd 9c7c14a3676add3a2692dc8c05628d7353d26b64 a18d2325522a03f91a9e684e18b45209a40c175f b1351dbc4ec3ae3a1e6c832702d237c9cedbdf2d b1bdc8fabd9321b2b63605806f256ee3e8c5d9d4 cb4dfb4d3883ce893abb0a5ae81c9597572a792b cdb76e0413b47211daf0472dad73f1b3b959b21d d1aa233224a46b9b75576e43ab3559b7e70940ff d8fc0e3667ab9df0bd8672f330ecc3a8416ead7a d924bd3a635414bd8dddffa665038247ac88bc67 e2acafedc1db72d771033a2deef7a6bcb82a6f36 e5a6c1b21370db1f83e1d10c0dacc82bd57be690 880a3dd9eed400156e4952e5daa3df38ea7cf966 8be5e641eac37d9e52475c5239e7752c8b526b0b d938487c62fa212dd1b1520aa385a20bf54ee0b0 78877f35999fe4862b8fe246f7a00739b691877d
+
+Package: gstreamer1.0-plugins-base-doc
+Architecture: all
+Version: 1.16.1-1
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Source: gst-plugins-base1.0
+Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+Installed-Size: 1317
+Depends: libglib2.0-doc, gstreamer1.0-doc
+Filename: ../../..//srv/local-apt-repository/gstreamer1.0-plugins-base-doc_1.16.1-1_all.deb
+Size: 1310284
+MD5sum: ba9b5f0876b7f0b9650db731c4c2f56a
+SHA1: 2267a7c479329fa4999c738f5c0faee4d0e1fb55
+SHA256: c0c9618138eb786392001a90b00eaf8008691c43653f40fc4c584cfe1775aadf
+SHA512: 5c8e915b80a8b362b62e0654c28bc490283b8a095b1a2df7c92be4558ed1e73409e730576ee75b1c979937575d6cd77891783fe0c7d8839a4bc4457f764d78e5
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer documentation for plugins from the "base" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains documentation for plugins from the "base" set,
+ an essential exemplary set of elements.
+
+Package: gstreamer1.0-plugins-base
+Architecture: arm64
+Version: 1.16.1-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: gst-plugins-base1.0
+Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+Installed-Size: 3320
+Provides: gstreamer1.0-audiosource, gstreamer1.0-videosource
+Depends: libc6 (>= 2.29), libcdparanoia0 (>= 3.10.2+debian), libglib2.0-0 (>= 2.40), libgstreamer-plugins-base1.0-0 (>= 1.16.1), libgstreamer1.0-0 (>= 1.16.1), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), liborc-0.4-0 (>= 1:0.4.25), libtheora0 (>= 1.1), libvisual-0.4-0 (>= 0.4.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2)
+Suggests: gvfs
+Breaks: gstreamer1.0-plugins-bad (<< 1.15.1)
+Replaces: gstreamer1.0-plugins-bad (<< 1.15.1)
+Filename: ../../..//srv/local-apt-repository/gstreamer1.0-plugins-base_1.16.1-1_arm64.deb
+Size: 1850940
+MD5sum: 89dc8fc8adcd7fe2e5c0e79536ec6518
+SHA1: 58feeba8b12eb257a8f5b21ffbfbbdff11431971
+SHA256: 50de67bde27d423e9119d17a66a8910dbc92084eab8b5bf6d23371c7c79c8076
+SHA512: 82ca4642200bc9c6d7c38881dd0f4506a8ee6b9ad1bcf2f72ac87271d22388b6fb5149e7042ffa35eb7c660ab681701f0f0aba08b0105ce23fb425178c38e49f
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer plugins from the "base" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the GStreamer plugins from the "base" set, an
+ essential exemplary set of elements.
+Gstreamer-Decoders: application/kate; application/ogg; application/x-ass; application/x-ogg-avi; application/x-ogm-audio; application/x-ogm-text; application/x-ogm-video; application/x-ssa; application/x-subtitle; application/x-subtitle-dks; application/x-subtitle-lrc; application/x-subtitle-mpl2; application/x-subtitle-qttext; application/x-subtitle-sami; application/x-subtitle-tmplayer; application/x-subtitle-vtt; audio/ogg; audio/x-opus, channel-mapping-family=(int)[ 1, 255 ], stream-count=(int)[ 1, 255 ], coupled-count=(int)[ 0, 255 ]; audio/x-opus, channel-mapping-family=(int)0; audio/x-unaligned-raw, format=(string){ S8, U8, S16LE, S16BE, U16LE, U16BE, S24_32LE, S24_32BE, U24_32LE, U24_32BE, S32LE, S32BE, U32LE, U32BE, S24LE, S24BE, U24LE, U24BE, S20LE, S20BE, U20LE, U20BE, S18LE, S18BE, U18LE, U18BE, F32LE, F32BE, F64LE, F64BE }, layout=(string){ interleaved, non-interleaved }; audio/x-vorbis; video/ogg; video/x-theora; video/x-unaligned-raw, format=(string){ I420, YV12, YUY2, UYVY, AYUV, VUYA, RGBx, BGRx, xRGB, xBGR, RGBA, BGRA, ARGB, ABGR, RGB, BGR, Y41B, Y42B, YVYU, Y444, v210, v216, Y210, Y410, NV12, NV21, GRAY8, GRAY16_BE, GRAY16_LE, v308, RGB16, BGR16, RGB15, BGR15, UYVP, A420, RGB8P, YUV9, YVU9, IYU1, ARGB64, AYUV64, r210, I420_10BE, I420_10LE, I422_10BE, I422_10LE, Y444_10BE, Y444_10LE, GBR, GBR_10BE, GBR_10LE, NV16, NV24, NV12_64Z32, A420_10BE, A420_10LE, A422_10BE, A422_10LE, A444_10BE, A444_10LE, NV61, P010_10BE, P010_10LE, NV12_10LE, IYU2, VYUY, GBRA, GBRA_10BE, GBRA_10LE, BGR10A2_LE, GBR_12BE, GBR_12LE, GBRA_12BE, GBRA_12LE, I420_12BE, I420_12LE, I422_12BE, I422_12LE, Y444_12BE, Y444_12LE, GRAY10_LE32, NV12_10LE32, NV16_10LE32, NV12_10LE40 }
+Gstreamer-Elements: adder, appsink, appsrc, audioconvert, audiointerleave, audiomixer, audiorate, audioresample, audiotestsrc, cdparanoiasrc, compositor, decodebin, decodebin3, encodebin, giosink, giosrc, giostreamsink, giostreamsrc, liveadder, multifdsink, multisocketsink, oggaviparse, oggdemux, oggmux, oggparse, ogmaudioparse, ogmtextparse, ogmvideoparse, opusdec, opusenc, overlaycomposition, parsebin, playbin, playbin3, playsink, rawaudioparse, rawvideoparse, socketsrc, ssaparse, streamsynchronizer, subparse, subtitleoverlay, tcpclientsink, tcpclientsrc, tcpserversink, tcpserversrc, theoradec, theoraenc, theoraparse, unalignedaudioparse, unalignedvideoparse, uridecodebin, uridecodebin3, urisourcebin, videoconvert, videorate, videoscale, videotestsrc, volume, vorbisdec, vorbisenc, vorbisparse, vorbistag
+Gstreamer-Encoders: application/ogg; audio/ogg; audio/x-opus; audio/x-vorbis; video/ogg; video/x-theora
+Gstreamer-Uri-Sinks: appsink, file, resource
+Gstreamer-Uri-Sources: appsrc, cdda, file, resource
+Gstreamer-Version: 1.16
+
+Package: gstreamer1.0-plugins-good-dbg
+Architecture: arm64
+Version: 1.16.1-1
+Multi-Arch: same
+Priority: extra
+Section: debug
+Source: gst-plugins-good1.0
+Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
+Installed-Size: 11462
+Depends: gstreamer1.0-plugins-good (= 1.16.1-1), gstreamer1.0-pulseaudio (= 1.16.1-1), gstreamer1.0-qt5 (= 1.16.1-1), gstreamer1.0-gtk3 (= 1.16.1-1)
+Breaks: gstreamer1.0-plugins-bad (<< 1.13.1)
+Replaces: gstreamer1.0-plugins-bad (<< 1.13.1)
+Filename: ../../..//srv/local-apt-repository/gstreamer1.0-plugins-good-dbg_1.16.1-1_arm64.deb
+Size: 10239764
+MD5sum: ad68880bcac5928bc09611e2bca5e28f
+SHA1: 818add608972d8457d15a471678f5aaffc152ed8
+SHA256: d4bd69a851c2153de284152970c16735eaaaa9fbb36ac679fb275adeda5c988e
+SHA512: bfa51c6f9954013e03f444fbc9f67fe287840e056e7c3e1d573e93c62f3368fe30f0a8fccb5d3fa24b0d6dfb259eb0c7cd77eb2b22cae16ea179f3104e461eee
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer plugins from the "good" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains unstripped shared libraries. It is provided primarily
+ to provide a backtrace with names in a debugger, this makes it somewhat
+ easier to interpret core dumps. The libraries are installed in
+ /usr/lib/debug and are automatically used by gdb.
+Build-Ids: 421da29e088d6be952a748a9dd92bd91ccbc6127 14f137e38315627cd92f3affdd3596558fc3b56b e12d8a035abb39bdba10e41bfca7a6601ee7df52 01bc28289993d25b1806aa68fb8f1db2eaec01ee 034947d7d16a274c90da4aae1544b3c538867c36 0ab8f154230d563e0d346114a5dd9e1650c49233 0f9a6f97ce6101b0685e9969d5912b6382376ce9 151c0c4f096bfcd670371886d821b8b849bed192 173bdb8931dfb2fc062719b877d761bbfb0417f6 1831e61283f7e3aef7835831fe727b1dbc289354 18876b1726d9314f4b9de79146b2ca25e6ac2270 1e9d010820cbbe3f4eca44ec46879c291578263e 25ca60db7d53f588035c12d537a91d5041c80167 2624e560f15c3e1dfc75a71cd7743f7f1cbf8949 2b4c92cfc706fb577a6930ab2e0704e97777e514 311db92846c38c47bdc12ebc2b71f3d1b51bffc6 3458735110ada106ad9558d93515bc4bd93cef8a 36ec279537ba1c79048728ac2ce92f67a28dd41d 371123181ff030b7d4b60511f1903866f4943336 38b9e2ba4eaba4b122ed397a16404293350d3f96 38c4c913f1f2b0f89ab210af72a17641f2f8df5d 3bd6b58405cf7a318e2b04d717d6d2a93c77d1b2 40b868bbfbcde32634870d6fbe939c218c37000a 43a489c84e42c1c1df4e452cb7e6b7517e3d4b8f 470ed344ea0dc6ec617e3f0dd059be0b4bcbf7e1 52b721d16ed92b344128d82d141ee6f047d68707 53a5c75134d262001a618c19eb18207b99f28016 543f0242ecf6abc8644f07f809f65f8c3be97447 54eb24fc6c32c94bae36fa734043a8691d1342c7 56cb1d8b8b59a919f2ffe3513bfc740b7dbfbdd5 608310b2bfdd3dae553076dcfea84cdd693f5bf5 60e7c2afce71de7dbad8149da6cf7fce567ea501 62f25c5b0be0398ee70e68106d2d4a5a4feb3e44 72097cb2d30f5e99992d11a592c9d6b2383a66bd 74f27cc17b677f16fc419d4f2c3951bb2581e2a1 791056fba8a21f975b16449c3ce2fe6dcb41bfa3 7acda8d26b9166c10ed903883636b95377ba43e3 7e0da4b1393139652a8a0cfeaa68d1f8cb1c34ac 80824a541887f3371d62f7bf7407817560443791 814b6ed4cd1090f1d48440e3cffb50989e0ca5ac 81f592bc618e4cfed41aea0a0f8faa1797819eaf 87bf78aad32c097d9ad2a83a3ddc12a76af11ffc 8ba9299667f1ddf9451547c40c68037bfcbbc8f4 8ebb8545460e803699f3fada1af6198c7fdf1362 9164cea5aff62de4d22a3bf2189baed1a5337332 9ff7658a20af66ec5c4e6441eafa15c654582519 a548a25a4e4e3fcedb02d0aff83d7b1bba9562a0 a6f706d30f33c86a699802ec53ed0b7be8d1f342 a878bfc38a531f308b018d3816d1855ccf342ab1 ae5d8af9092a18c2c352c2f19677042822951a4e b23bb1e05acf623ca9a91ee132c70a14d2f3cffb b43189d4a7b4913f4eb1d8723c3b8aa321a2c4f2 bc18d771e5639f3fe3ace37a94d00b42005e12c5 be5a784b850410a831727ba68641513874263023 bed7d855563b89dd5ab8b5503460ad480f9a5431 c6f80eb70dcbfbaeaaae82c11df1d17e5e4d0a59 ca8479558fd533f81d885d239411ad7204bea7ca cc25261ff50c3fbc940054dae95955a1e4a66cfd cd9c84a71ab57c74b83cdb9d7580148ef6c86368 cf82eccc20439ed10e73a1dfdd07d115001795a5 d14d72d017844bcc3fb16b552b417ca1c7e29bf2 d231b078836ec8d02c21a6617f6557b3061c05fb d4212fa4ec2f8304267970aa1470f93cf8d08fec dbb2566f693c2cfe1f137ca04dbf3a464416c373 dcccfe15e0a35b0ff773b3cef7db42cc3887dde6 dfa6bced986d699206d9af888dcc54d23d503154 e242facde319ee73bd7cc56ab996a73215920f0c e76ec7c130c36af262b6ac7bb3641e6eccd0c669 e976489ccfe7e4ebbf042c654da280e5ae08f0d3 ef0618e0bbc729af9db6c4e942d2b6e9585772ca f003facb21257dea8d21b869d97e9c6b0484b33e f5fafd462aad847d23ce488709082b61a9ca4785
+
+Package: gstreamer1.0-plugins-good-doc
+Architecture: all
+Version: 1.16.1-1
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Source: gst-plugins-good1.0
+Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
+Installed-Size: 1332
+Depends: gstreamer1.0-doc, gstreamer1.0-plugins-base-doc
+Filename: ../../..//srv/local-apt-repository/gstreamer1.0-plugins-good-doc_1.16.1-1_all.deb
+Size: 1309620
+MD5sum: df6e79853e188001573370ba0036aaf3
+SHA1: 4ee96bc439ab9544e21922b7661abd14d69cd3c1
+SHA256: 56f24fd71252839be51e82763aebb40b5b74c8e45f9f28824db1895626030ebc
+SHA512: 1f2cf77c340898be66123e8dad6cba2fa61a112498f521e58c23a7ffa0c70a1d9b7276a0cbbee79e650612e0112a41cf8ae145082168ad3ead1aabb7aff8baaa
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer documentation for plugins from the "good" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains documentation for plugins from the "good" set,
+ a set of good-quality plug-ins under the LGPL license.
+
+Package: gstreamer1.0-plugins-good
+Architecture: arm64
+Version: 1.16.1-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: gst-plugins-good1.0
+Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
+Installed-Size: 7191
+Provides: gstreamer1.0-audiosink, gstreamer1.0-audiosource, gstreamer1.0-videosink, gstreamer1.0-videosource, gstreamer1.0-visualization
+Depends: libaa1 (>= 1.4p5), libavc1394-0 (>= 0.5.3), libbz2-1.0, libc6 (>= 2.29), libcaca0 (>= 0.99.beta17-1), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdv4 (>= 1.0.0), libflac8 (>= 1.3.0), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.53.2), libgstreamer-plugins-base1.0-0 (>= 1.16.1-1), libgstreamer1.0-0 (>= 1.16.1), libgudev-1.0-0 (>= 146), libiec61883-0 (>= 1.2.0), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libjpeg62-turbo (>= 1.3.1), libmp3lame0 (>= 3.100), libmpg123-0 (>= 1.6.2), liborc-0.4-0 (>= 1:0.4.25), libpng16-16 (>= 1.6.2-1), libraw1394-11 (>= 2.1.2), libshout3 (>= 2.2.2), libsoup2.4-1 (>= 2.48), libspeex1 (>= 1.2~beta3-1), libstdc++6 (>= 5), libtag1v5 (>= 1.9.1-2.2~), libtwolame0 (>= 0.3.10), libv4l-0 (>= 0.5.0), libvpx6 (>= 1.6.0), libwavpack1 (>= 4.60), libx11-6, libxdamage1 (>= 1:1.1), libxext6, libxfixes3, zlib1g (>= 1:1.1.4), gstreamer1.0-plugins-base
+Recommends: gstreamer1.0-x
+Breaks: gstreamer1.0-plugins-bad (<< 1.15.1), gstreamer1.0-plugins-ugly (<< 1.13.1)
+Replaces: gstreamer1.0-plugins-bad (<< 1.15.1), gstreamer1.0-plugins-ugly (<< 1.13.1)
+Filename: ../../..//srv/local-apt-repository/gstreamer1.0-plugins-good_1.16.1-1_arm64.deb
+Size: 2833020
+MD5sum: 53a21771ce85b2514b351a06127f4968
+SHA1: 9091e6e7773cd8ed967ba5463d71fd595db44402
+SHA256: 4643b8e53003a2319feb04846877ccc16bdef685990cf066d9df8fff67c2dcf1
+SHA512: db0f5e06020b09de7b2d76e24be7f29706f6468cade384242b6e11da17d1a8c05d1703a5364f8a65f075de2733d409b2b27e787e966b1c0b8b658ff83231f9af
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer plugins from the "good" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the GStreamer plugins from the "good" set, a set
+ of good-quality plug-ins under the LGPL license.
+Gstreamer-Decoders: application/x-3gp; application/x-apetag; application/x-icy; application/x-id3; application/x-navi-animation; application/x-rtp, media=(string)audio, payload=(int)[ 96, 127 ], encoding-name=(string){ TELEPHONE-EVENT, SBC, OPUS, X-GST-OPUS-DRAFT-SPITTKA-00 }; application/x-rtp, payload=(int)[ 96, 127 ], media=(string){ audio, video }, encoding-name=(string){ X-QT, X-QUICKTIME }; application/x-rtp, media=(string)video, encoding-name=(string)RAW, sampling=(string){ RGB, RGBA, BGR, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1 }; application/x-rtp, media=(string){ video, audio, application }, encoding-name=(string)MPEG4-GENERIC, mode=(string){ generic, CELP-cbr, CELP-vbr, AAC-lbr, AAC-hbr }; application/x-rtp, media=(string)video, sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCrA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, GRAYSCALE }, encoding-name=(string)JPEG2000; application/x-rtp, media=(string)video, colorspace=(string){ sRGB, sYUV, GRAY }, encoding-name=(string)JPEG2000; application/x-rtp, media=(string)video, payload=(int)31, encoding-name=(string)H261; application/x-rtp, media=(string)video, payload=(int)[ 96, 127 ], encoding-name=(string)H261; application/x-rtp, media=(string)audio, encoding-name=(string){ AMR, AMR-WB }, octet-align=(string)1; application/x-rtp, media=(string){ video, audio }, encoding-name=(string)DV, encode=(string){ SD-VCR/525-60, SD-VCR/625-50, HD-VCR/1125-60, HD-VCR/1250-50, SDL-VCR/525-60, SDL-VCR/625-50, 306M/525-60, 306M/625-50, 314M-25/525-60, 314M-25/625-50, 314M-50/525-60, 314M-50/625-50 }; application/x-rtp, media=(string)video, encoding-name=(string){ VP9, VP9-DRAFT-IETF-01, VP8, VP8-DRAFT-IETF-01, THEORA, X-SV3V-ES, X-SORENSON-VIDEO, X-SORENSONVIDEO, X-SorensonVideo, MP4V-ES, MP2T, MP2T-ES, MP1S, JPEG, H265, H264, H263, H263-1998, H263-2000, MPV }; application/x-rtp, media=(string)audio, encoding-name=(string){ VORBIS, SPEEX, SIREN, X-QDM, QCELP, MP4A-LATM, L24, L16, L8, MPA-ROBUST, X-MP3-DRAFT-00, X-MP3-DRAFT-01, X-MP3-DRAFT-02, X-MP3-DRAFT-03, X-MP3-DRAFT-04, X-MP3-DRAFT-05, X-MP3-DRAFT-06, MPA, PCMU, PCMA, GSM, G729, G726, G726-16, G726-24, G726-32, G726-40, AAL2-G726-16, AAL2-G726-24, AAL2-G726-32, AAL2-G726-40, G723, G722, ILBC, CELT, BV16, BV32, AC3 }; application/x-rtp, media=(string)audio, payload=(int){ 12, 10, 11, 14, 0, 8, 3, 18, 4, 9 }; application/x-rtp, media=(string)video, payload=(int){ 33, 26, 34, 32 }; application/x-rtp, media=(string)other, encoding-name=(string)MP1S; application/x-rtp, media=(string)application, encoding-name=(string){ SMPTE336M, X-GST }; application/x-subtitle-avi; audio/ac3; audio/mpeg, mpegversion=(int){ 1, 2, 4 }; audio/webm; audio/x-ac3; audio/x-alaw; audio/x-amr-nb-sh; audio/x-amr-wb-sh; audio/x-au; audio/x-dts; audio/x-eac3; audio/x-flac; audio/x-m4a; audio/x-matroska; audio/x-mulaw; audio/x-private1-ac3; audio/x-private1-dts; audio/x-rf64; audio/x-sbc; audio/x-speex; audio/x-wav; audio/x-wavpack; audio/x-wavpack-correction; image/bmp; image/jpeg; image/png; image/svg; image/svg+xml; image/tiff; image/vnd.wap.wbmp; image/x-MS-bmp; image/x-bitmap; image/x-bmp; image/x-cmu-raster; image/x-icon; image/x-pcx; image/x-pixmap; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; image/x-sun-raster; image/x-tga; multipart/x-mixed-replace; video/mj2; video/quicktime; video/webm; video/x-dv, systemstream=(boolean){ false, true }; video/x-fli; video/x-flv; video/x-matroska; video/x-matroska-3d; video/x-msvideo; video/x-vp8; video/x-vp9
+Gstreamer-Elements: 3gppmux, aacparse, aasink, ac3parse, agingtv, alawdec, alawenc, alpha, alphacolor, amrparse, apedemux, apev2mux, aspectratiocrop, asteriskh263, audioamplify, audiochebband, audiocheblimit, audiodynamic, audioecho, audiofirfilter, audioiirfilter, audioinvert, audiokaraoke, audiopanorama, audiowsincband, audiowsinclimit, auparse, autoaudiosink, autoaudiosrc, autovideosink, autovideosrc, avidemux, avimux, avisubtitle, breakmydata, cacasink, cairooverlay, capssetter, cpureport, cutter, dcaparse, deinterlace, deinterleave, dicetv, dtmfsrc, dv1394src, dvdec, dvdemux, dynudpsink, edgetv, equalizer-10bands, equalizer-3bands, equalizer-nbands, flacdec, flacenc, flacparse, flactag, flvdemux, flvmux, flxdec, gamma, gdkpixbufdec, gdkpixbufoverlay, gdkpixbufsink, goom, goom2k1, hdv1394src, icydemux, id3demux, id3v2mux, imagefreeze, interleave, ismlmux, jackaudiosink, jackaudiosrc, jpegdec, jpegenc, lamemp3enc, level, matroskademux, matroskamux, matroskaparse, mj2mux, monoscope, mp4mux, mpegaudioparse, mpg123audiodec, mulawdec, mulawenc, multifilesink, multifilesrc, multipartdemux, multipartmux, multiudpsink, navigationtest, navseek, optv, oss4sink, oss4src, osssink, osssrc, pngdec, pngenc, progressreport, pushfilesrc, qtdemux, qtmoovrecover, qtmux, quarktv, radioactv, revtv, rganalysis, rglimiter, rgvolume, rippletv, rndbuffersize, rtpL16depay, rtpL16pay, rtpL24depay, rtpL24pay, rtpL8depay, rtpL8pay, rtpac3depay, rtpac3pay, rtpamrdepay, rtpamrpay, rtpbin, rtpbvdepay, rtpbvpay, rtpceltdepay, rtpceltpay, rtpdec, rtpdtmfdepay, rtpdtmfmux, rtpdtmfsrc, rtpdvdepay, rtpdvpay, rtpfunnel, rtpg722depay, rtpg722pay, rtpg723depay, rtpg723pay, rtpg726depay, rtpg726pay, rtpg729depay, rtpg729pay, rtpgsmdepay, rtpgsmpay, rtpgstdepay, rtpgstpay, rtph261depay, rtph261pay, rtph263depay, rtph263pay, rtph263pdepay, rtph263ppay, rtph264depay, rtph264pay, rtph265depay, rtph265pay, rtpilbcdepay, rtpilbcpay, rtpj2kdepay, rtpj2kpay, rtpjitterbuffer, rtpjpegdepay, rtpjpegpay, rtpklvdepay, rtpklvpay, rtpmp1sdepay, rtpmp2tdepay, rtpmp2tpay, rtpmp4adepay, rtpmp4apay, rtpmp4gdepay, rtpmp4gpay, rtpmp4vdepay, rtpmp4vpay, rtpmpadepay, rtpmpapay, rtpmparobustdepay, rtpmpvdepay, rtpmpvpay, rtpmux, rtpopusdepay, rtpopuspay, rtppcmadepay, rtppcmapay, rtppcmudepay, rtppcmupay, rtpptdemux, rtpqcelpdepay, rtpqdm2depay, rtpreddec, rtpredenc, rtprtxqueue, rtprtxreceive, rtprtxsend, rtpsbcdepay, rtpsbcpay, rtpsession, rtpsirendepay, rtpsirenpay, rtpspeexdepay, rtpspeexpay, rtpssrcdemux, rtpstorage, rtpstreamdepay, rtpstreampay, rtpsv3vdepay, rtptheoradepay, rtptheorapay, rtpulpfecdec, rtpulpfecenc, rtpvorbisdepay, rtpvorbispay, rtpvp8depay, rtpvp8pay, rtpvp9depay, rtpvp9pay, rtpvrawdepay, rtpvrawpay, rtpxqtdepay, rtspsrc, sbcparse, scaletempo, shagadelictv, shapewipe, shout2send, smpte, smptealpha, souphttpclientsink, souphttpsrc, spectrum, speexdec, speexenc, splitfilesrc, splitmuxsink, splitmuxsrc, stereo, streaktv, taginject, testsink, twolamemp2enc, udpsink, udpsrc, v4l2radio, v4l2sink, v4l2src, vertigotv, videobalance, videobox, videocrop, videoflip, videomedian, videomixer, vp8dec, vp8enc, vp9dec, vp9enc, warptv, wavenc, wavpackdec, wavpackenc, wavpackparse, wavparse, webmmux, ximagesrc, y4menc
+Gstreamer-Encoders: application/x-rtcp-stream; application/x-rtp; application/x-rtp-stream; application/x-srtcp-stream; application/x-srtp-stream; application/x-yuv4mpeg, y4mversion=(int)2; audio/mpeg, mpegversion=(int)1, layer=(int){ 3, 2 }; audio/webm; audio/x-alaw; audio/x-flac; audio/x-matroska; audio/x-mulaw; audio/x-rf64; audio/x-speex; audio/x-wav; audio/x-wavpack-correction, framed=(boolean)true; image/jpeg, sof-marker=(int){ 0, 1, 2, 4, 9 }; image/png; multipart/x-mixed-replace; video/mj2; video/quicktime; video/webm; video/x-flv; video/x-matroska; video/x-matroska-3d; video/x-msvideo; video/x-vp8, profile=(string){ 0, 1, 2, 3 }; video/x-vp9, profile=(string){ 0, 1, 2, 3 }
+Gstreamer-Uri-Sinks: udp
+Gstreamer-Uri-Sources: dv, hdv, http, https, icy, icyx, multifile, pushfile, radio, rtsp, rtsp-sdp, rtsph, rtsps, rtspsh, rtspst, rtspsu, rtspt, rtspu, splitfile, splitmux, udp, v4l2
+Gstreamer-Version: 1.16
+
+Package: gstreamer1.0-pulseaudio
+Architecture: arm64
+Version: 1.16.1-1
+Multi-Arch: same
+Priority: optional
+Section: sound
+Source: gst-plugins-good1.0
+Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
+Installed-Size: 1452
+Provides: gstreamer1.0-audiosink, gstreamer1.0-audiosource
+Depends: libc6 (>= 2.17), libglib2.0-0 (>= 2.40), libgstreamer-plugins-base1.0-0 (>= 1.16.1), libgstreamer1.0-0 (>= 1.16.1), libpulse0 (>= 2.0)
+Filename: ../../..//srv/local-apt-repository/gstreamer1.0-pulseaudio_1.16.1-1_arm64.deb
+Size: 1346224
+MD5sum: 0299c8b3cce19f1770d8d8d4ead81dd0
+SHA1: 99557c9e8f5609045e1093efaa10263e5f73f606
+SHA256: 2ade3109b05ca2f6ac42d02c019d8577dba795b2cfa1a4caa26fbb0056a0cce7
+SHA512: 966e3e0652f646ec9a478797b6b16d9c569ac0a3306f105a66261b41fdb62e59db226a16bb3d5586267c1142fcec0943434e1059bc86c21d0e8178ddbba350c1
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer plugin for PulseAudio
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the GStreamer plugin for PulseAudio, a sound server
+ for POSIX and WIN32 systems.
+Gstreamer-Elements: pulsesink, pulsesrc
+Gstreamer-Version: 1.16
+
+Package: gstreamer1.0-qt5
+Architecture: arm64
+Version: 1.16.1-1
+Multi-Arch: same
+Priority: optional
+Section: graphics
+Source: gst-plugins-good1.0
+Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
+Installed-Size: 1428
+Provides: gstreamer1.0-videosink, gstreamer1.0-videosource
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.40), libgstreamer-gl1.0-0 (>= 1.16.1), libgstreamer-plugins-base1.0-0 (>= 1.16.1), libgstreamer1.0-0 (>= 1.16.1), libqt5core5a (>= 5.6.0~beta), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.1.1)
+Breaks: gstreamer1.0-plugins-bad (<< 1.13.1)
+Replaces: gstreamer1.0-plugins-bad (<< 1.13.1)
+Filename: ../../..//srv/local-apt-repository/gstreamer1.0-qt5_1.16.1-1_arm64.deb
+Size: 1335140
+MD5sum: 91ca4f31b541871db4a844b3923caefe
+SHA1: 3eab1779f69e2f3deae21c570fb513e1d3062521
+SHA256: 7b872ca288d727b9a41c698f792695c2e3025c0f79919980d7653312908f7d25
+SHA512: 64edc7301971da36222c6ea19f4fcfa7c7b3b78785a47bc2ccf837b07f5bab4db8451c6856a418c494c043a8a035b03331489ab830661ef6892d3c0b3c335382
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer plugin for Qt5
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the GStreamer plugin for Qt5.
+Gstreamer-Elements: qmlglsink, qmlglsrc
+Gstreamer-Version: 1.16
+
+Package: gstreamer1.0-tools
+Architecture: arm64
+Version: 1.16.1-1
+Priority: optional
+Section: utils
+Source: gstreamer1.0
+Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
+Installed-Size: 1234
+Depends: libc6 (>= 2.17), libglib2.0-0 (>= 2.40), libgstreamer1.0-0 (>= 1.16.1)
+Suggests: gstreamer1.0-plugins-base
+Filename: ../../..//srv/local-apt-repository/gstreamer1.0-tools_1.16.1-1_arm64.deb
+Size: 1152076
+MD5sum: 28ab376c793b159f977dc7d535d12696
+SHA1: 839fa64cd35acf43bb2cc921b96cd35237cd18b9
+SHA256: 5bfd414d20d86dce2d39312c795a2600af1fb16882ed6d3df6008f402ee53085
+SHA512: 28c944f0b585caa4d2586ad0bfead2b31ee51db4c5a135f692cf6abd815fef4d344957dac202a386072e46742085d7723306bf2e34feb1cc47ef95716afadfdd
+Homepage: https://gstreamer.freedesktop.org
+Description: Tools for use with GStreamer
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains versioned command-line tools for GStreamer.
+
+Package: gstreamer1.0-x
+Architecture: arm64
+Version: 1.16.1-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: gst-plugins-base1.0
+Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+Installed-Size: 1533
+Provides: gstreamer1.0-videosink
+Depends: libc6 (>= 2.17), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.40), libgstreamer-plugins-base1.0-0 (>= 1.16.1), libgstreamer1.0-0 (>= 1.16.1), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.16.0), libx11-6, libxext6, libxv1
+Filename: ../../..//srv/local-apt-repository/gstreamer1.0-x_1.16.1-1_arm64.deb
+Size: 1372088
+MD5sum: d4ebf6edf29869f00a0221dc04999329
+SHA1: 89c5b4d9e9572d72f20629a9ade2aa6a09caa5e3
+SHA256: 33bed4b26fed6044f7424ec8b7a5f54e1fa25ce7bd914523c9ac8055520c4773
+SHA512: 47947bab0d616b7780472999f411c48de7bd17a05837a68c39caa9e1398c0cd5d71e44896c16418b810c500823d90bd2e496439ba919e618a1efcd57f712e908
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer plugins for X11 and Pango
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the GStreamer plugins for X11 video output, both
+ for standard Xlib support and for the Xv extension, as well as the
+ plugin for Pango-based text rendering and overlay.
+Gstreamer-Elements: clockoverlay, textoverlay, textrender, timeoverlay, ximagesink, xvimagesink
+Gstreamer-Version: 1.16
+
+Package: imx-firmware-epdc
+Architecture: arm64
+Version: 8.8-var02
+Priority: optional
+Section: restricted/base
+Source: imx-firmware
+Maintainer: Harshesh Valera <harshesh.v@variscite.com>
+Installed-Size: 4437
+Filename: ../../..//srv/local-apt-repository/imx-firmware-epdc_8.8-var02_arm64.deb
+Size: 79208
+MD5sum: c954551b271c0310763783914f961660
+SHA1: a886768fcb2ce294dd0f8018310440c421ebc7d9
+SHA256: 08a1ae65b16d3c6e6f4b96846265d4b981d32de8e986678d2e7f72f809bdcf79
+SHA512: da148dbb3c19bcc8b614d0a26c89e3241cd4d73128f89c683eeb91cf496d8dd10ab51e9ff7bcee05e474a14b87c2dbd9d8018e5ec9b76727c7ee0ab8d3f0e9c4
+Homepage: http://www.variscite.com/
+Description: NXP firmware for EPDC
+
+Package: imx-firmware-hdmi
+Architecture: arm64
+Version: 8.8-var02
+Priority: optional
+Section: restricted/base
+Source: imx-firmware
+Maintainer: Harshesh Valera <harshesh.v@variscite.com>
+Installed-Size: 552
+Filename: ../../..//srv/local-apt-repository/imx-firmware-hdmi_8.8-var02_arm64.deb
+Size: 76632
+MD5sum: d39ecb2c4ef5a878aaed81c8ba3e1d2d
+SHA1: 33743401bc667cfd2a418e674c6cb4476cbcb7c4
+SHA256: 6061ef819b2d64494e3983d8a1abb9a76268a5f8971f038c7773a93d7bef4262
+SHA512: 4e3baf5a1cd365d910bcdd62f29a300b3283a6e5633d3bbc997611efa9c9b2392596098ece494df7f0ba756fc18addb4d0f88b20b348d7a28a2af8e6edb983e3
+Homepage: http://www.variscite.com/
+Description: NXP firmware for HDMI
+
+Package: imx-firmware-sdma
+Architecture: arm64
+Version: 8.8-var02
+Priority: optional
+Section: restricted/base
+Source: imx-firmware
+Maintainer: Harshesh Valera <harshesh.v@variscite.com>
+Installed-Size: 69
+Filename: ../../..//srv/local-apt-repository/imx-firmware-sdma_8.8-var02_arm64.deb
+Size: 19232
+MD5sum: 57ca04c671d87dead2b0378f17d414cb
+SHA1: 992f6441304fad40ab4cca102fa531e8e4408f0b
+SHA256: 980299ca7dce97c5f2abe48a87bbb7b4625f3f37d844211beeb146763faf5913
+SHA512: 94286bf3d579f6c82efb47d289af161de99c77fa42c4ce2ca4e0c656f57dec9f226425ac869bdbd4c83389567f92b8b5cc38d9512101df3fd620c1b36d6e9258
+Homepage: http://www.variscite.com/
+Description: NXP firmware for SDMA
+
+Package: imx-firmware-vpu
+Architecture: arm64
+Version: 8.8-var02
+Priority: optional
+Section: restricted/base
+Source: imx-firmware
+Maintainer: Harshesh Valera <harshesh.v@variscite.com>
+Installed-Size: 1447
+Filename: ../../..//srv/local-apt-repository/imx-firmware-vpu_8.8-var02_arm64.deb
+Size: 458556
+MD5sum: f1ca97cec318b30a20e0998ad28b7a73
+SHA1: cf7e0f7b02ba5ae10fb19f20bcec327f6c3589d7
+SHA256: f4182bcb5b683087927452cd2301a00ed75575dfe90b9555382d954819f52d9e
+SHA512: 6753811f0569aa49224112c3c8e74f3f471549d5210658bafdb0c5e42cde103010ac16b35caef3cc21dcec6898ff6c6dcd82120fbf49150666107b5357391e77
+Homepage: http://www.variscite.com/
+Description: NXP firmware for VPU
+
+Package: imx-gpu-g2d-demos
+Architecture: arm64
+Version: 6.4.0.p2.0-var
+Priority: extra
+Section: devel
+Source: imx-gpu-g2d
+Maintainer: Harshesh Valera <harshesh.v@variscite.com>
+Installed-Size: 3361
+Depends: libc6 (>= 2.15), libgcc1, libstdc++6, imx-gpu-g2d
+Filename: ../../..//srv/local-apt-repository/imx-gpu-g2d-demos_6.4.0.p2.0-var_arm64.deb
+Size: 1232176
+MD5sum: 3ffa4728a866b8f71fc08e208d97ed2d
+SHA1: 5ffede0b84cb2bb0750bf27f98db91a13d5a6e53
+SHA256: 5b43a0334ffa255c367c01b81b8913c47fa742ab683e8743c9899bb1310d3693
+SHA512: 79468882b6d753c4470e3911035d0c4b519e97bf025a986d167adfc9a9aab3448570b20139b5382fc5b045468744dc67c666df7eadf456b62d9cdf8e75346c6b
+Homepage: http://www.variscite.com/
+Description: GPU driver G2D demos for i.MX8
+
+Package: imx-gpu-g2d
+Architecture: arm64
+Version: 6.4.0.p2.0-var
+Priority: extra
+Section: libs
+Maintainer: Harshesh Valera <harshesh.v@variscite.com>
+Installed-Size: 152
+Provides: lib-g2d-dev
+Depends: libc6 (>= 2.17), libgcc1, libstdc++6
+Filename: ../../..//srv/local-apt-repository/imx-gpu-g2d_6.4.0.p2.0-var_arm64.deb
+Size: 25936
+MD5sum: cf9583602385699f55b0f40373ca14e4
+SHA1: b75bfb93c5e749f42de1ef90b12573bdd359c781
+SHA256: 8ff9c59fe46137d2dd9e4caaa0ec5ee0d7ef73645b750c3a1805ab2dd76e4d1a
+SHA512: 7388282580e45e511b8f79a98bd5f2708c33fcda7296846ee19c5b75ae708034e7d707fe5cb1f00bf5603b4eb07812edc583332060b62a1623aa90a3398d94a0
+Homepage: http://www.variscite.com/
+Description: GPU driver G2D libraries and developer files for i.MX8
+
+Package: imx-gpu-sdk-console
+Architecture: arm64
+Version: 6.4.0.p2.0-var
+Priority: extra
+Section: libs
+Source: imx-gpu-sdk
+Maintainer: Pierluigi Passaro <pierluigi.p@variscite.com>, Harshesh Valera <harshesh.v@variscite.com>
+Installed-Size: 1039
+Provides: imx-gpu-sdk-console
+Depends: console-setup, gawk, libdrm-dev, libwayland-dev, imx-gpu-viv-core, libwayland-egl-backend-dev, glslang-tools, libdevil-dev, libassimp-dev (>= 4)
+Filename: ../../..//srv/local-apt-repository/imx-gpu-sdk-console_6.4.0.p2.0-var_arm64.deb
+Size: 278580
+MD5sum: 48526dede5d1084f261c6f990eb41467
+SHA1: 8ffde080211f58d5f6c37f96f69d6f5327dd1749
+SHA256: 63157a7c06ba82c595907dbf0f63f58d26765fe8752bdb0711e478b3912511e8
+SHA512: 1a4144e45e046a3b3e07dba48e80ff23e2d7579769d8b91c1ef7fcba7942692e99c2512be44b8af81f8e19ee84858ac6c6492f97a28aea1fd9148eff77fa1b04
+Homepage: http://www.variscite.com/
+Description: GPU driver console samples for i.MX8
+
+Package: imx-gpu-sdk-gles2
+Architecture: arm64
+Version: 6.4.0.p2.0-var
+Priority: extra
+Section: libs
+Source: imx-gpu-sdk
+Maintainer: Pierluigi Passaro <pierluigi.p@variscite.com>, Harshesh Valera <harshesh.v@variscite.com>
+Installed-Size: 77301
+Provides: imx-gpu-sdk-gles2
+Depends: console-setup, gawk, libdrm-dev, libwayland-dev, imx-gpu-viv-core, libwayland-egl-backend-dev, glslang-tools, libdevil-dev, libassimp-dev (>= 4)
+Filename: ../../..//srv/local-apt-repository/imx-gpu-sdk-gles2_6.4.0.p2.0-var_arm64.deb
+Size: 34965600
+MD5sum: d1990dd6432e3f79bd3d7c9e2488f4a7
+SHA1: 2131f370d109227e734b2bcfc6f3416813b24ceb
+SHA256: 99a12434cf0dd9439b0c2bb3cc0737ef973f3f528442073fd7e5271b238d37fe
+SHA512: 9ec50eb4ae7e98222322b86d841666f89c5f6a051046bab45e0f96a1cc22658bd50a0bb89a509fd44993c8537c1666d9e55de5ffed2a03d873e9aa6adcc0195b
+Homepage: http://www.variscite.com/
+Description: GPU driver gles2 samples for i.MX8
+
+Package: imx-gpu-sdk-gles3
+Architecture: arm64
+Version: 6.4.0.p2.0-var
+Priority: extra
+Section: libs
+Source: imx-gpu-sdk
+Maintainer: Pierluigi Passaro <pierluigi.p@variscite.com>, Harshesh Valera <harshesh.v@variscite.com>
+Installed-Size: 176376
+Provides: imx-gpu-sdk-gles3
+Depends: console-setup, gawk, libdrm-dev, libwayland-dev, imx-gpu-viv-core, libwayland-egl-backend-dev, glslang-tools, libdevil-dev, libassimp-dev (>= 4)
+Filename: ../../..//srv/local-apt-repository/imx-gpu-sdk-gles3_6.4.0.p2.0-var_arm64.deb
+Size: 74312808
+MD5sum: 4972076b58e6f9d0e6dd42d3a5c69cd5
+SHA1: e85095625a0b40466c9e66f1fe5666b2881607d4
+SHA256: e40a147146f5fa53f00ff4aa02d9e5c0363e71125d1f2d52f3944dd584fbbbeb
+SHA512: fb14d5d8c4b5cc876012e03ccd3cc80140bcd51866b9fea9edf803e717463d8aa065bb822030bb400cf6087efe96bb3818bd47d7c688090e7617d36fb17e99a2
+Homepage: http://www.variscite.com/
+Description: GPU driver gles3 samples for i.MX8
+
+Package: imx-gpu-sdk-opencl
+Architecture: arm64
+Version: 6.4.0.p2.0-var
+Priority: extra
+Section: libs
+Source: imx-gpu-sdk
+Maintainer: Pierluigi Passaro <pierluigi.p@variscite.com>, Harshesh Valera <harshesh.v@variscite.com>
+Installed-Size: 3025
+Provides: imx-gpu-sdk-opencl
+Depends: console-setup, gawk, libdrm-dev, libwayland-dev, imx-gpu-viv-core, libwayland-egl-backend-dev, glslang-tools, libdevil-dev, libassimp-dev (>= 4)
+Filename: ../../..//srv/local-apt-repository/imx-gpu-sdk-opencl_6.4.0.p2.0-var_arm64.deb
+Size: 546856
+MD5sum: bfce43afd4c70666b5300f9b3b28e2e0
+SHA1: d49de2e75a22777d0f261cbb7f54c4b9a6face2a
+SHA256: 06d86d431fd36e91570b46c19467b592e17c8c4b3e171506e57e28598705d43c
+SHA512: 74280ba829c6827438be0e970d0e3c9a1987bdda159ac5e78849f3bb2f4ecc742b8c56d82dd58661d0be55c65be63b251bf7996953d92cfef946f9b75b3d1392
+Homepage: http://www.variscite.com/
+Description: GPU driver opencl samples for i.MX8
+
+Package: imx-gpu-sdk-window
+Architecture: arm64
+Version: 6.4.0.p2.0-var
+Priority: extra
+Section: libs
+Source: imx-gpu-sdk
+Maintainer: Pierluigi Passaro <pierluigi.p@variscite.com>, Harshesh Valera <harshesh.v@variscite.com>
+Installed-Size: 3007
+Provides: imx-gpu-sdk-window
+Depends: console-setup, gawk, libdrm-dev, libwayland-dev, imx-gpu-viv-core, libwayland-egl-backend-dev, glslang-tools, libdevil-dev, libassimp-dev (>= 4)
+Filename: ../../..//srv/local-apt-repository/imx-gpu-sdk-window_6.4.0.p2.0-var_arm64.deb
+Size: 515712
+MD5sum: 5a79b8e4a1e7ed7c41c24484139c0a87
+SHA1: 7773029e866ac54bb03e9485e75e5bb7c3b9c3cf
+SHA256: 2172c361c0df5233045ce1402778545925b2857407eeba63765eda9564fd7e52
+SHA512: 8c2f1cfd858f7d463d9e5dc65f9aa9e53ffa9a071ae7f3bf4f41c024f01bafb805c79c75c0806880e958936f2851b85533a606c63d701db96fd5e35e84ca8745
+Homepage: http://www.variscite.com/
+Description: GPU driver samples for i.MX8
+
+Package: imx-gpu-viv-core
+Architecture: arm64
+Version: 6.4.0.p2.4-var
+Priority: extra
+Section: libs
+Source: imx-gpu-viv
+Maintainer: Harshesh Valera <harshesh.v@variscite.com>
+Installed-Size: 180437
+Provides: vivante-opencl-dev
+Depends: libc6 (>= 2.29), libdrm2 (>= 2.4.71), libwayland-client0 (>= 1.11.0), libwayland-cursor0 (>= 1.0.2), libwayland-egl1 (>= 1.15.0), libwayland-server0 (>= 1.2.0), libx11-6 (>= 2:1.4.99.1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, console-setup, gawk, libdrm-dev, libwayland-dev
+Filename: ../../..//srv/local-apt-repository/imx-gpu-viv-core_6.4.0.p2.4-var_arm64.deb
+Size: 10221528
+MD5sum: 978ee29922aea4a0ddbddc86bad5c4b7
+SHA1: 13fbebdbb691b8957dfa478186c8665b8076bce9
+SHA256: 3b62e7626fe6f9e12e3595fd9fc71b9627debe74213ec3efcab5c2c75750b4dc
+SHA512: b488ca75005c57351b59d7ff4566ae68142da59584d8ca299e5f01a58ff46652c0e4334f9affd38711937dfd7148b142b8a1dfcdf2eed5e8c5871056ee63773c
+Homepage: http://www.variscite.com/
+Description: GPU driver libraries and developer files for i.MX8
+
+Package: imx-gpu-viv-demos
+Architecture: arm64
+Version: 6.4.0.p2.4-var
+Priority: extra
+Section: devel
+Source: imx-gpu-viv
+Maintainer: Harshesh Valera <harshesh.v@variscite.com>
+Installed-Size: 36745
+Depends: libc6 (>= 2.15), libgcc1, libstdc++6, imx-gpu-viv-core
+Filename: ../../..//srv/local-apt-repository/imx-gpu-viv-demos_6.4.0.p2.4-var_arm64.deb
+Size: 7461396
+MD5sum: 596a5bda1381a806ee460bf2b491b345
+SHA1: 902da1d5d0b0f20512fbcfd9b7bc0b7aa42f6a19
+SHA256: 725704802473e8e814ffcfd682b7ac1fcbdaa8d8a35c837170d60519832d4be9
+SHA512: 971e9474aaa4bab5e25bc2b255d393c5b891b5dab4873594ff5744e1e17e88f70b4e120ce94682684ab685a7ffd9e9ae5d531d72b5967c306408f095d378a630
+Homepage: http://www.variscite.com/
+Description: GPU driver demos for i.MX8
+
+Package: imx-gpu-viv-fb
+Architecture: arm64
+Version: 6.4.0.p2.4-var
+Priority: extra
+Section: libs
+Source: imx-gpu-viv
+Maintainer: Harshesh Valera <harshesh.v@variscite.com>
+Installed-Size: 43
+Depends: imx-gpu-viv-core
+Conflicts: imx-gpu-viv-wl, imx-gpu-viv-x11
+Replaces: imx-gpu-viv-wl, imx-gpu-viv-x11
+Filename: ../../..//srv/local-apt-repository/imx-gpu-viv-fb_6.4.0.p2.4-var_arm64.deb
+Size: 12564
+MD5sum: 943f5d5aa967703bf3a445bdc662741a
+SHA1: 5e23abde7ff63f088e80c70a87bd3545d59ba121
+SHA256: ab256f0ead3ba24dc1602a3db5d5657aa7fe1184d069153a636e4704e1980a55
+SHA512: 226be45e3b191472e11675c5670ef1bba6cc49dfee888ca6e9fd09a866bc9b46db3196255ff83e968624b51376639fb8899459a6df37314be76895e30ec2254f
+Homepage: http://www.variscite.com/
+Description: Enables imx-gpu-viv framebuffer backend (not working)
+
+Package: imx-gpu-viv-tools
+Architecture: arm64
+Version: 6.4.0.p2.4-var
+Priority: extra
+Section: devel
+Source: imx-gpu-viv
+Maintainer: Harshesh Valera <harshesh.v@variscite.com>
+Installed-Size: 54
+Depends: libc6 (>= 2.15), libgcc1, libstdc++6, imx-gpu-viv-core
+Filename: ../../..//srv/local-apt-repository/imx-gpu-viv-tools_6.4.0.p2.4-var_arm64.deb
+Size: 15800
+MD5sum: 15c8ce9edd1c592333abecdacdd89cb2
+SHA1: 08b4fc99d71106336fe317ecc2a38698dd7bc232
+SHA256: f38973645cec0275b2d908ba53160bcdfd9d45d906792e4adeec81e11b4db4af
+SHA512: 97b4904f96a40f5a0de1f43e87de0ab5863f5a25ffce00a72de92f3d30b0c7638074cb9c1ddd668ebdc77983ba1a2d23b86a8d7b02faf1f228584817027af9f0
+Homepage: http://www.variscite.com/
+Description: GPU driver tools for i.MX8
+
+Package: imx-gpu-viv-wl
+Architecture: arm64
+Version: 6.4.0.p2.4-var
+Priority: extra
+Section: libs
+Source: imx-gpu-viv
+Maintainer: Harshesh Valera <harshesh.v@variscite.com>
+Installed-Size: 43
+Depends: imx-gpu-viv-core
+Conflicts: imx-gpu-viv-fb, imx-gpu-viv-x11
+Replaces: imx-gpu-viv-fb, imx-gpu-viv-x11
+Filename: ../../..//srv/local-apt-repository/imx-gpu-viv-wl_6.4.0.p2.4-var_arm64.deb
+Size: 12572
+MD5sum: 25d68c9452116b7a75d76708d403ee76
+SHA1: 32e7d860bcad432c89fb6abfbdbfa94d9400b288
+SHA256: 193a1699db26a8565ecb01522da133a9bf98e54e2c099520ea516f0e30546271
+SHA512: fadf855f753cbea2e4cfcd98e42f593028540603b615765783c94f35bea70d9374e9ed8b3b069182507b106e8ab45bc76c8d8f77027e1f9ba8171ccc0ddf8cbd
+Homepage: http://www.variscite.com/
+Description: Enables imx-gpu-viv wayland backend (enabled by default)
+
+Package: imx-gpu-viv-x11
+Architecture: arm64
+Version: 6.4.0.p2.4-var
+Priority: extra
+Section: libs
+Source: imx-gpu-viv
+Maintainer: Harshesh Valera <harshesh.v@variscite.com>
+Installed-Size: 43
+Depends: imx-gpu-viv-core
+Conflicts: imx-gpu-viv-fb, imx-gpu-viv-wl
+Replaces: imx-gpu-viv-fb, imx-gpu-viv-wl
+Filename: ../../..//srv/local-apt-repository/imx-gpu-viv-x11_6.4.0.p2.4-var_arm64.deb
+Size: 12568
+MD5sum: bb0587f9cf002eec1c65646d73f7d36c
+SHA1: cf3d9e8a74b002f597f7c4ec9d33a1aa136bb7f1
+SHA256: c9def2cda309e29c5970bf39a6c80d11e3d305cf1bc5c8ff5ecfe01d19463b47
+SHA512: f8ef7a30eb63447dd8ec9140d1ba64b3c44731319d6d83c5d7f7aebe26258047da37053cf6a329a13965df7fa4e68871e2a44c14001dc63816143d18d24aa33d
+Homepage: http://www.variscite.com/
+Description: Enables imx-gpu-viv X11 backend (not working)
+
+Package: imx-gst1.0-plugin-mx8mm
+Architecture: arm64
+Version: 4.5.5-var
+Priority: optional
+Section: multimedia
+Source: imx-gst1.0-plugin
+Maintainer: Harshesh Valera <harshesh.v@variscite.com>
+Installed-Size: 2439
+Depends: imx-gpu-g2d, imx-vpuwrap-mx8mm, libc6 (>= 2.17), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-bad1.0-0 (>= 1.16.1), libgstreamer-plugins-bad1.0-0 (<< 1.17), libgstreamer-plugins-base1.0-0 (>= 1.16.1-1), libgstreamer1.0-0 (>= 1.14.0), imx-codec, imx-parser
+Filename: ../../..//srv/local-apt-repository/imx-gst1.0-plugin-mx8mm_4.5.5-var_arm64.deb
+Size: 337344
+MD5sum: 9433f4c1f6610add62e20076f4e16418
+SHA1: eb8b60da5c38d6f992216bfaef9429ff74b6d5cb
+SHA256: 0bf926ce94964232abcc4f287393f5431b36c6f54ed69d596996b7f43042a068
+SHA512: 44b65a3cc030bc0220f89e7e583f59b2e9dc39bfe7471060880897f4f6599844c8da0fecfb4fd938c7d80e9b63056bb8345d56751266d4260e023df2d37a62df
+Homepage: http://www.variscite.com/
+Description: NXP gstreamer1.0 plugin library
+
+Package: imx-gst1.0-plugin-mx8qm
+Architecture: arm64
+Version: 4.5.5-var
+Priority: optional
+Section: multimedia
+Source: imx-gst1.0-plugin
+Maintainer: Harshesh Valera <harshesh.v@variscite.com>
+Installed-Size: 2123
+Depends: imx-dpu-g2d, libc6 (>= 2.17), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-bad1.0-0 (>= 1.16.1), libgstreamer-plugins-bad1.0-0 (<< 1.17), libgstreamer-plugins-base1.0-0 (>= 1.16.1-1), libgstreamer1.0-0 (>= 1.14.0), imx-codec, imx-parser
+Filename: ../../..//srv/local-apt-repository/imx-gst1.0-plugin-mx8qm_4.5.5-var_arm64.deb
+Size: 290928
+MD5sum: 78bc348bb631434bbe05c6cc7178dd2e
+SHA1: 8861aa5d37cec0abf20854e18995dab1510a2e58
+SHA256: 9385c53ec0368e73a3a715d591dabbaa933ace5d84fc3652056f99a7a80019a8
+SHA512: 6f4922989792f998124939e5e981894265f55d64aea9ddb58d239c1cf2ef201222a2ac39dcfa06913c5deb8ed51aba863629dca951b770bc08db9aa7c63bd913
+Homepage: http://www.variscite.com/
+Description: NXP gstreamer1.0 plugin library
+
+Package: libcairo-gobject2-dbgsym
+Architecture: arm64
+Version: 1.16.0-4-var
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: cairo
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 29
+Depends: libcairo-gobject2 (= 1.16.0-4-var)
+Breaks: libcairo2-dbg (<< 1.14.8-1~)
+Replaces: libcairo2-dbg (<< 1.14.8-1~)
+Filename: ../../..//srv/local-apt-repository/libcairo-gobject2-dbgsym_1.16.0-4-var_arm64.deb
+Size: 11768
+MD5sum: a8691bfbcbb01214733fc1d222f044ec
+SHA1: c85ec2f79a8e742060bacc36d47aa932adedefb7
+SHA256: c19b18c2042e46267aa8103e414e4179cb10804e4b44d76afed4628aed9fc73a
+SHA512: 1d448da1cefd84341587f320eda6cf4a728ab32a787e2f176c586de7ea0b79a9dad2bf004f4a442a7306df19c74192912da2449b0f99cbcb71dd5f84c04d5214
+Description: debug symbols for libcairo-gobject2
+Build-Ids: 8a197eef92d2bae8af2d7f91f3472fa398f3afba
+
+Package: libcairo-gobject2
+Architecture: arm64
+Version: 1.16.0-4-var
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: cairo
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 183
+Depends: libcairo2 (>= 1.10.0), libglib2.0-0 (>= 2.14.0)
+Filename: ../../..//srv/local-apt-repository/libcairo-gobject2_1.16.0-4-var_arm64.deb
+Size: 124336
+MD5sum: ba83f8e584cc0ca6f8f29e2524350573
+SHA1: 59fc2fb411c0e685ed270961b6b1032fb876ff3e
+SHA256: edcfa28fcc7b7ab064adb84d1557bd9aa11dda7cd655637539159c1f6567a61c
+SHA512: e7f77c0257a4341caac40739039da685fed335b791dcdc1bc31e9d4050e3b8c616dfb1a435bb25e4bbc2e4f04431c77625ce2222031a92f252bb18fcefcdaed2
+Homepage: https://cairographics.org/
+Description: Cairo 2D vector graphics library (GObject library)
+ Cairo is a multi-platform library providing anti-aliased
+ vector-based rendering for multiple target backends.
+ .
+ This package contains the GObject library, providing wrapper GObject types
+ for all cairo types.
+
+Package: libcairo-script-interpreter2-dbgsym
+Architecture: arm64
+Version: 1.16.0-4-var
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: cairo
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 252
+Depends: libcairo-script-interpreter2 (= 1.16.0-4-var)
+Breaks: libcairo2-dbg (<< 1.14.8-1~)
+Replaces: libcairo2-dbg (<< 1.14.8-1~)
+Filename: ../../..//srv/local-apt-repository/libcairo-script-interpreter2-dbgsym_1.16.0-4-var_arm64.deb
+Size: 226256
+MD5sum: 927387624b7c1c50f066b958244aff26
+SHA1: 0c3cca9b742fd9b692c2a8a7489ecf6b24e6366a
+SHA256: 3b16cfb61563f6a7c0908f47aa971c3dd256c8c7e25271a14955471d9dae4085
+SHA512: 7b9c154172a399c9f2df9c903cd5e22717818642c2595e38798596758a5e1c8dcca0f6c9e191475aa9c9fe2194fa2026270fda6408854d193ce90e425da61d05
+Description: debug symbols for libcairo-script-interpreter2
+Build-Ids: 5bcefc1ad04f62c27a57a2a9e2a63bf0d41fb397
+
+Package: libcairo-script-interpreter2
+Architecture: arm64
+Version: 1.16.0-4-var
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: cairo
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 293
+Depends: libc6 (>= 2.29), libcairo2 (>= 1.14.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), liblzo2-2 (>= 2.02), zlib1g (>= 1:1.1.4)
+Filename: ../../..//srv/local-apt-repository/libcairo-script-interpreter2_1.16.0-4-var_arm64.deb
+Size: 158804
+MD5sum: a4b319b67e462bbdd80b16c72069b148
+SHA1: f66cc19a0097dbf28be3afb5e9d79fbc6f40733e
+SHA256: eb9bac1487a151dbb184579ee671f98250ef98d1a5a181ba36dd74d04ac43d56
+SHA512: f0079dff7dd67ff0bf2bed3884c4dbcaa8cfa3f77f794c4d5852f41143bb2539bbaa8c13688bffe1a0fdfcf6b0fec40fab8d6bbd436a5fa574e28d221981d8c2
+Homepage: https://cairographics.org/
+Description: Cairo 2D vector graphics library (script interpreter)
+ Cairo is a multi-platform library providing anti-aliased
+ vector-based rendering for multiple target backends.
+ .
+ This package contains the script interpreter for executing and manipulating
+ cairo execution traces.
+
+Package: libcairo2-dbgsym
+Architecture: arm64
+Version: 1.16.0-4-var
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: cairo
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 2609
+Depends: libcairo2 (= 1.16.0-4-var)
+Breaks: libcairo2-dbg (<< 1.14.8-1~)
+Replaces: libcairo2-dbg (<< 1.14.8-1~)
+Filename: ../../..//srv/local-apt-repository/libcairo2-dbgsym_1.16.0-4-var_arm64.deb
+Size: 2452608
+MD5sum: 85defae2cb772b9db4cea5c52904a065
+SHA1: c3a56a7eb79d7f3226f103915f871c53276b6023
+SHA256: 38245b77102c4dcedb1b0561cc77da5bd555357895223f74e557c56b40cdfee5
+SHA512: 759dcb8aad7c9a38bf364d670f79255c2b00a2bcfc8c9cc3d6ffe41af0997ff87f8b5ccb9c9eb948138440aa0f5613bb0704a5dd388bd7d8826aa79c359779b9
+Description: debug symbols for libcairo2
+Build-Ids: 723ea861860f2808757b945d36674f5371e19ed5
+
+Package: libcairo2-dev
+Architecture: arm64
+Version: 1.16.0-4-var
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: cairo
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 3050
+Provides: libcairo-dev
+Depends: libcairo2 (= 1.16.0-4-var), libcairo-gobject2 (= 1.16.0-4-var), libcairo-script-interpreter2 (= 1.16.0-4-var), libfontconfig1-dev (>= 2.2.95), libfreetype6-dev (>= 2.1.10), libx11-dev, libxrender-dev (>= 0.6), libxext-dev, libpng-dev, libsm-dev, libpixman-1-dev (>= 0.22.0), libxcb1-dev (>= 1.6), libxcb-render0-dev (>= 1.6), libxcb-shm0-dev, libglib2.0-dev
+Suggests: libcairo2-doc
+Filename: ../../..//srv/local-apt-repository/libcairo2-dev_1.16.0-4-var_arm64.deb
+Size: 747996
+MD5sum: 3ccbe85bcc4de5a371ab79229a0776c4
+SHA1: 0e37bf20195c6fab4b823fba3728d4ebfa8c1e3f
+SHA256: c41357e13fcea250865d4fd5ff0a306a88fcdd11bc0c7b94bea003bcd9d7f0b5
+SHA512: b18f14741440817a373d847b261312836907961917a36d2c477c44b746835fa645c0670b6d7671a8db75f251c13c23470217e554e1b23aaa575098a1709a696e
+Homepage: https://cairographics.org/
+Description: Development files for the Cairo 2D graphics library
+ Cairo is a multi-platform library providing anti-aliased
+ vector-based rendering for multiple target backends.
+ .
+ This package contains the development libraries, header files needed by
+ programs that want to compile with Cairo.
+
+Package: libcairo2-doc
+Architecture: all
+Version: 1.16.0-4-var
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Source: cairo
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 1992
+Recommends: lynx | www-browser
+Filename: ../../..//srv/local-apt-repository/libcairo2-doc_1.16.0-4-var_all.deb
+Size: 250112
+MD5sum: 3d93ddce61d4f8ce91cda4cf15155f6b
+SHA1: 3f43e2e1556c2589c3d1efeb3b5a7125ebc5a097
+SHA256: f99e6bf71999d84f23942d68f69047623de408cc5200398c11e88ddc26b787d4
+SHA512: 3a31b4ebe7fcfc791e0d531d80ed5275cfb8b9a9eaee382ce4b0bc91818c71360f2d20e952d4fcd70070c15910748faee050cfc448096bbbf62112dab66e9454
+Homepage: https://cairographics.org/
+Description: Documentation for the Cairo Multi-platform 2D graphics library
+ Cairo is a multi-platform library providing anti-aliased
+ vector-based rendering for multiple target backends.
+ .
+ This package contains the HTML documentation for the Cairo library
+ in /usr/share/gtk-doc/html/cairo/.
+
+Package: libcairo2
+Architecture: arm64
+Version: 1.16.0-4-var
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: cairo
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 1445
+Depends: imx-gpu-viv-core, libc6 (>= 2.29), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.9.1), libpixman-1-0 (>= 0.30.0), libpng16-16 (>= 1.6.2-1), libx11-6, libxcb-render0, libxcb-shm0, libxcb1 (>= 1.6), libxext6, libxrender1, zlib1g (>= 1:1.1.4)
+Breaks: libwebkit2gtk-3.0-25 (<< 2.4.5-2~), libwebkitgtk-1.0-0 (<< 2.4.5-2~), libwebkitgtk-3.0-0 (<< 2.4.5-2~), weston (<< 1.5.0-3~)
+Filename: ../../..//srv/local-apt-repository/libcairo2_1.16.0-4-var_arm64.deb
+Size: 678072
+MD5sum: 9ba5a16e1e55c541a083422d31872e48
+SHA1: f009be5aaadeaf0f4567001f7d82bbbc6ee2c161
+SHA256: 1394910214e3a7001ef48bb8d8751a6e1ffeb99932a17bd7e80aa287fb0ad038
+SHA512: 52c644daab1e4bb2b0c501234aa4a3c2fc69b2eb6b6ab11dc6e61a351665c45e8d518971631b91d6e769beb1bc2280ca4c60cb2d468bd19b41590d063e996b02
+Homepage: https://cairographics.org/
+Description: Cairo 2D vector graphics library
+ Cairo is a multi-platform library providing anti-aliased
+ vector-based rendering for multiple target backends. Paths consist
+ of line segments and cubic splines and can be rendered at any width
+ with various join and cap styles. All colors may be specified with
+ optional translucence (opacity/alpha) and combined using the
+ extended Porter/Duff compositing algebra as found in the X Render
+ Extension.
+ .
+ Cairo exports a stateful rendering API similar in spirit to the path
+ construction, text, and painting operators of PostScript, (with the
+ significant addition of translucence in the imaging model). When
+ complete, the API is intended to support the complete imaging model of
+ PDF 1.4.
+ .
+ This package contains the shared libraries.
+
+Package: libdrm-amdgpu1-dbgsym
+Architecture: arm64
+Version: 2.4.102-1
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 69
+Depends: libdrm-amdgpu1 (= 2.4.102-1)
+Filename: ../../..//srv/local-apt-repository/libdrm-amdgpu1-dbgsym_2.4.102-1_arm64.deb
+Size: 50528
+MD5sum: 1d5ed988d06bc95e5ef4b4f529af3b50
+SHA1: 98b2cccae22c4a15d9aa8c2cf12bc848cda8260c
+SHA256: 2a68d2e554272b0a715c64fd0546bfabf6ab2151c8d5f9567b4dcd9b858a3357
+SHA512: 367dd576dbf834e0aeba04ba9f2b03ae7db6068ef1548e421ff94e0f28e02c4e51644ab9a01005119595bb08dbc1f5e055f4a906117a5f6e1ba79da77dc2d9d4
+Description: debug symbols for libdrm-amdgpu1
+Build-Ids: b4d483f1cd3e3bb92c18350472e6dd0881a992e7
+
+Package: libdrm-amdgpu1
+Architecture: arm64
+Version: 2.4.102-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 79
+Depends: libc6 (>= 2.28), libdrm2 (>= 2.4.101)
+Filename: ../../..//srv/local-apt-repository/libdrm-amdgpu1_2.4.102-1_arm64.deb
+Size: 27956
+MD5sum: 8f565f862332d62cba98ffbed7e795cf
+SHA1: 0a762afa50172efb6dac0d556602bf8c7b85aec8
+SHA256: 44dda1d1cebf903f3b057d632331bfea46e9523cc6a765dd14fd27a22da504d6
+SHA512: 7c6c727e80f9b6b2ec96080a55ba1ddae8c4c615fd346d7e681f28cf0f8060fdab1ac172512061d418c642ce780c88a7caeb24eae2bdcd5fe70371657556e3f5
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Description: Userspace interface to amdgpu-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+
+Package: libdrm-common
+Architecture: all
+Version: 2.4.102-1
+Multi-Arch: foreign
+Priority: optional
+Section: libs
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 41
+Filename: ../../..//srv/local-apt-repository/libdrm-common_2.4.102-1_all.deb
+Size: 14488
+MD5sum: 19f1f4f68df64ed6742e2cbea52e82de
+SHA1: d09233a7844a774f9d02ed845430d7fe84a40b2d
+SHA256: 2c4ba08b8a6cacac1c2d3633462e750ffac415fe042c7ce3050ec506a54011fe
+SHA512: b662882c7eea09850167435a184d67a3a96e3695468d0e7b88ce5a10ccaa1c5e09bfc58eed55fe0063955cd9ec655b913dc5cccaa258d7bd40d0872aa89eeeff
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Description: Userspace interface to kernel DRM services -- common files
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+ .
+ This package provides common files for libdrm.
+
+Package: libdrm-dev
+Architecture: arm64
+Version: 2.4.102-1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 684
+Depends: libdrm2 (= 2.4.102-1), libdrm-radeon1 (= 2.4.102-1), libdrm-nouveau2 (= 2.4.102-1), libdrm-amdgpu1 (= 2.4.102-1), libdrm-freedreno1 (= 2.4.102-1), libdrm-tegra0 (= 2.4.102-1), libdrm-etnaviv1 (= 2.4.102-1)
+Filename: ../../..//srv/local-apt-repository/libdrm-dev_2.4.102-1_arm64.deb
+Size: 141324
+MD5sum: 6dd8f150dc0099483191211471247f45
+SHA1: 8b232d84235ed80547c0ae39b55e6464bbf1ebd5
+SHA256: 3c13c45a191973e4cb0eec1582454ff2d40f1df56065258c890315316aa534e0
+SHA512: d5f231164cc8e497d0d382b9cc809fed9682166c86e768dc3e2fa543fc89e54c8c65e422a20d2543268a78213a1f53ce188e4a1b83bea4adbb3571cb424bc4e4
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Description: Userspace interface to kernel DRM services -- development files
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+ .
+ This package provides the development environment for libdrm.
+
+Package: libdrm-etnaviv1-dbgsym
+Architecture: arm64
+Version: 2.4.102-1
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 42
+Depends: libdrm-etnaviv1 (= 2.4.102-1)
+Filename: ../../..//srv/local-apt-repository/libdrm-etnaviv1-dbgsym_2.4.102-1_arm64.deb
+Size: 25252
+MD5sum: e5ec895cb0162ee20098f4183e4968ac
+SHA1: 339c41caee788117bebc111e936bacc7045691fa
+SHA256: 3c1caa585f888f77c2557fa075fe66bd0f3ab03e2d65584d77c8bc6e26f1bff7
+SHA512: ea9d3a872439ada6115707d6419f66e161ff013db609904ef11a1760e1844d3bd442c4ade51571b7422da36a9eee7f2260eca9037b31fb17f6a8ba26617c188d
+Description: debug symbols for libdrm-etnaviv1
+Build-Ids: cee19911719b9a432a14341982a004b12b74ed9b
+
+Package: libdrm-etnaviv1
+Architecture: arm64
+Version: 2.4.102-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 61
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.38)
+Filename: ../../..//srv/local-apt-repository/libdrm-etnaviv1_2.4.102-1_arm64.deb
+Size: 21656
+MD5sum: e19942e8d10ca4db76c472580df329e9
+SHA1: e6c5d4bd66aa61f51790347ae6e97a2a0463e42c
+SHA256: cc1399c66556baade61570bab8c02b2d434fd3d733bc88f94b9d3430ecb6bfb7
+SHA512: 46f717d4f802931cfc8e560e03b1c70990530e0849a535fa37528d5abafef27973481819fde295e0a301675ee48471bd2efd4eaf48bd405552f3d23ca9b1a035
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Description: Userspace interface to etnaviv-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+
+Package: libdrm-freedreno1-dbgsym
+Architecture: arm64
+Version: 2.4.102-1
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 70
+Depends: libdrm-freedreno1 (= 2.4.102-1)
+Filename: ../../..//srv/local-apt-repository/libdrm-freedreno1-dbgsym_2.4.102-1_arm64.deb
+Size: 49916
+MD5sum: af5df7db0f126ae768c4329261fd3c43
+SHA1: 5b850a9c38b54429aa1507970e0fa0957db438dc
+SHA256: b99a108ef5b9570912ead13257e666807da0acafc3687ee12a1549bc1690f847
+SHA512: 0709da1f0f485afbbde22e81286cbfba805408523956adfa6b338aa2174915cb4cb62312456a8922f9869e23a5646f8859ca75959f9d2d94417bb0fc73954d04
+Description: debug symbols for libdrm-freedreno1
+Build-Ids: 4035c9c9101881b3c846c2f8f268f6cb02a8e048
+
+Package: libdrm-freedreno1
+Architecture: arm64
+Version: 2.4.102-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 82
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.38)
+Filename: ../../..//srv/local-apt-repository/libdrm-freedreno1_2.4.102-1_arm64.deb
+Size: 28412
+MD5sum: 94d7eb04bac92482c317848a39e2c67a
+SHA1: ab45f768eeefa95ef19e1ba3578a31150a0e3eac
+SHA256: e20c0a58f7df7383a7359159204c1998d5b483a41e80e79ee7bea01b36e94e94
+SHA512: 511796704f673e99b9aea2831c9b7f96b697a72fe5ba28de9205d6283c7b67994c74bd1183958d58c61934251e5c1629cbe79df5188a5f7a64ed920c46ac74dc
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Description: Userspace interface to msm/kgsl kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+
+Package: libdrm-nouveau2-dbgsym
+Architecture: arm64
+Version: 2.4.102-1
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 55
+Depends: libdrm-nouveau2 (= 2.4.102-1)
+Filename: ../../..//srv/local-apt-repository/libdrm-nouveau2-dbgsym_2.4.102-1_arm64.deb
+Size: 38856
+MD5sum: 2dfc7121bd266b9f083184a82c73a0db
+SHA1: d594342a9e87780575767ef5ce0047d5102872f0
+SHA256: 0881e8ca046cd42d29d899a8ea1f9e4b614f768f1767687cfa844760ae4bb954
+SHA512: dc418184dcb9d6ab70ff32e4253751457e95985bfcba03dfaea80381f79385bfc884f2ff7eb9f16149ab6773e7184155cb2758f464d57e3edddee1bf05584d98
+Description: debug symbols for libdrm-nouveau2
+Build-Ids: fa5d4f1bab1e58558f4d7dcd7617a6c573d0f17e
+
+Package: libdrm-nouveau2
+Architecture: arm64
+Version: 2.4.102-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 73
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.38)
+Filename: ../../..//srv/local-apt-repository/libdrm-nouveau2_2.4.102-1_arm64.deb
+Size: 25996
+MD5sum: 2dd8992c3393a825539dd21e265aabbf
+SHA1: 8465a5322504e38aff8226da61b0152a64ab69b9
+SHA256: d649949c416f75229d4ae314120d80956a8f58b832762fff64ce4bd123af51ac
+SHA512: 9edda5b4e2928e428764f9a3fd7299191ecf5733c50fb83d7ea9c93f623551123893ffce4c4d2a25a9b6e8d8af3b3c19fa9d197af552a3692add59979645b1ee
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Description: Userspace interface to nouveau-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+
+Package: libdrm-radeon1-dbgsym
+Architecture: arm64
+Version: 2.4.102-1
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 63
+Depends: libdrm-radeon1 (= 2.4.102-1)
+Filename: ../../..//srv/local-apt-repository/libdrm-radeon1-dbgsym_2.4.102-1_arm64.deb
+Size: 45636
+MD5sum: 586df4cf2beec0b408a7274cc46beeb3
+SHA1: ddeb10f083f11fc74eede440ffd8e8e5924f3120
+SHA256: 11cc88af26e66e32cdc8f45047b5317378195e3c38353185497c0133929a2171
+SHA512: fb6a95c310b29ed44677f5fb629ab538ad80b7bf5dd09227b5d328df2e293a9d57ccd797cf6cb046d5ec5708e6458c331c6c48be5e092cde3ec192b13c05dfd6
+Description: debug symbols for libdrm-radeon1
+Build-Ids: dec0761a2329fc2d0960900df82df7df57e084fb
+
+Package: libdrm-radeon1
+Architecture: arm64
+Version: 2.4.102-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 86
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.38)
+Filename: ../../..//srv/local-apt-repository/libdrm-radeon1_2.4.102-1_arm64.deb
+Size: 29180
+MD5sum: 1f184608a57e3d391133e6e554aeea80
+SHA1: 1805b86503fb20bc7ac08016008f28b39b36fb7e
+SHA256: e7c7d57a05ec85e858a270476893d0a519564e2f31bf16d4d269dfe87d77b8e5
+SHA512: df8b93f3d3b99c78f4ff3e484a7fa1e976ce964216bcf82f7989bf53696928f293e04fc6b71398b54553d42854b7fb60041502845d417946b05db9d01b55c488
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Description: Userspace interface to radeon-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+
+Package: libdrm-tegra0-dbgsym
+Architecture: arm64
+Version: 2.4.102-1
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 22
+Depends: libdrm-tegra0 (= 2.4.102-1)
+Filename: ../../..//srv/local-apt-repository/libdrm-tegra0-dbgsym_2.4.102-1_arm64.deb
+Size: 7880
+MD5sum: 451239c363779894b4a8ae0de75ef341
+SHA1: b6f7f3168eb89d641c6e4f1d80bb47ed3ed8a33e
+SHA256: de8f550006e474f82242d079102b150823d3231d66a48350ede792f663a61a25
+SHA512: 7c60125982c03e709625ce2ba7ee61dd305ae36cca66e0c4fac417b82b85a36241a471e8e08f65fd7a81787b328142dd7141bcb2b07fb04bee4e33499e085836
+Description: debug symbols for libdrm-tegra0
+Build-Ids: 16103f1780f45e268a90e99b74322fb7f62031f6
+
+Package: libdrm-tegra0
+Architecture: arm64
+Version: 2.4.102-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 48
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.3)
+Filename: ../../..//srv/local-apt-repository/libdrm-tegra0_2.4.102-1_arm64.deb
+Size: 16432
+MD5sum: 61cf70aad348e300468bc5c903fc82c4
+SHA1: b62276c21ae9ec0706be988b80b784bd1c336b1e
+SHA256: 54fbb0e5487c9dd0e2ae5595f79bb6f31e92c94b5ae7a6bb31a20cb2775c8382
+SHA512: 9b18945e26fa381840e25867fca626161fadc4a37fd89ec0a12a88551ce636041137dba0d32dcc40c78e678229126fe84bed280c9079520f78a95a7a59dbde0a
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Description: Userspace interface to tegra-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+
+Package: libdrm-tests-dbgsym
+Architecture: arm64
+Version: 2.4.102-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 277
+Depends: libdrm-tests (= 2.4.102-1)
+Filename: ../../..//srv/local-apt-repository/libdrm-tests-dbgsym_2.4.102-1_arm64.deb
+Size: 177856
+MD5sum: aa4443d676e84543c19bf00038c97741
+SHA1: b18c3f420d7cdf3e083ccfceae1fd77ee426a9ce
+SHA256: 4fb928e28d5a0a5ced4cbb39c1780447f5623a7e3e13c3b3f2887ff9a71ed809
+SHA512: bc12a0837548e7c35b39a826382a653ba3fb1e1c8d3ce8cbfe4c2afaf1a7925cfe3fde2c11f1b87f4c757a2c72c8973957d1387e6cf03f9770e0af6916b8481c
+Description: debug symbols for libdrm-tests
+Build-Ids: 0d834499a6c730239ff3f143ac4c4ae66eb4838b 1c0c8bed33385d62233b64932ee6c2c318df1ebb 59601d7041c0d70cd0f3955943e31667128999f1 91f01ca6faf3f7df148f464d745693966d63fe09 a6b3c54b37cfb67b0b37461d9c86dccb77bb459b ae424c6d50585b4d19064078802cba3497bf9e9f b1fe7c6960ec8ca43db1d2972d5b8642a9e85174 c00b70c0157e0f665c5bdc8381dc338cda0286d2 df5f8e03de89aaa29037af5a95dcf9e5f381ad3e e88806fbb26a2c4d3a34434057302031b416d275
+
+Package: libdrm-tests
+Architecture: arm64
+Version: 2.4.102-1
+Priority: optional
+Section: libs
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 260
+Depends: libdrm2 (= 2.4.102-1), libc6 (>= 2.17), libcairo2 (>= 1.2.4), libdrm-etnaviv1
+Filename: ../../..//srv/local-apt-repository/libdrm-tests_2.4.102-1_arm64.deb
+Size: 61368
+MD5sum: 33de384d992952f753dfe9a71a248700
+SHA1: ee9fb9c0c8936face9ca43af052838c7eb38bfdf
+SHA256: 448d23bd6b9bf9fb132b2c06ffd3cf4a889e0476f59bb865c45613578c0da26d
+SHA512: 776856b3a950ae6aa48d2c98ed8a23e9ea450dda46220bfd7b42bb91469f6da20c7f27a15732644f540e7215c80ed47ad4d81fc68ec902525e4e059af6b84853
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Description: Testing tools from the libdrm project
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+ .
+ This package contains a variety of tools for testing from the libdrm project.
+
+Package: libdrm-vivante1-dbgsym
+Architecture: arm64
+Version: 2.4.102-1
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 25
+Depends: libdrm-vivante1 (= 2.4.102-1)
+Filename: ../../..//srv/local-apt-repository/libdrm-vivante1-dbgsym_2.4.102-1_arm64.deb
+Size: 10676
+MD5sum: f033fab73014aaa52c1dbf396cb89097
+SHA1: ac0d694a0741065a98ed60526d96177702bf7184
+SHA256: 5b808d21ef1e133ae3b43ff62712c5955d74b7252edb5fdbd3cf2ce4d19b0740
+SHA512: 3dc436628bb934f84895788fa8588ad10d20b7bb575780a765ad5ff9ea3d62ed07fb0e3c8c50308c0d897984ed2d420536c8f99370f88a9d374a52b28d1bb7e9
+Description: debug symbols for libdrm-vivante1
+Build-Ids: 750ab1ba4e73cf0a69ea1b7bee697a1f34f77a8a
+
+Package: libdrm-vivante1
+Architecture: arm64
+Version: 2.4.102-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 45
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.38)
+Filename: ../../..//srv/local-apt-repository/libdrm-vivante1_2.4.102-1_arm64.deb
+Size: 16792
+MD5sum: ca5713d41ad8dc0c68518d4c227ee3af
+SHA1: 5caabaf0f656a9b69f30acca54fdc5f9c95e0dce
+SHA256: 47f56e65305ef60494e1d642db3d87de4530de97c5e4fcf5f514ca3529bd269d
+SHA512: 0ee4caba4b6812e83fb74727b85c5b5d6e44e8b076f4d4a48e58a68134642d65d7c8053101b2d991c1f44837639a826d01c5e37c257173faf3850b02a1c9e42f
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Description: Userspace interface to vivante-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+
+Package: libdrm2-dbgsym
+Architecture: arm64
+Version: 2.4.102-1
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 114
+Depends: libdrm2 (= 2.4.102-1)
+Filename: ../../..//srv/local-apt-repository/libdrm2-dbgsym_2.4.102-1_arm64.deb
+Size: 94344
+MD5sum: a0e5b61798597031aed79a10723cf882
+SHA1: c9db0ecbac0a691ef1852228231ae15df3586d43
+SHA256: 486e33ad4f38693a61c6c648538283a0ee842784b3b323b6f567963e4e58f4d4
+SHA512: 5c4e96f9e43eb448066e079c5662507934ec82dff6935e3c569b8e30f9d45880b64160072fc121d205239ff6d5a1f4260ce7c24913442f0db8ca89cd03d666b9
+Description: debug symbols for libdrm2
+Build-Ids: 03d3237ede7c8e62f8584abbae7a2f344946e980
+
+Package: libdrm2
+Architecture: arm64
+Version: 2.4.102-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 119
+Depends: libdrm-common (>= 2.4.102-1), libc6 (>= 2.29)
+Filename: ../../..//srv/local-apt-repository/libdrm2_2.4.102-1_arm64.deb
+Size: 41328
+MD5sum: 8a99287f0c04c9f065df483d0b4b6054
+SHA1: c2c997ac0c8630cbaf56a52923209421162a9c03
+SHA256: 2f0f179d430f347c6fb8aa74bb0a097f41db27412eee8173f83223e6bf64566d
+SHA512: a31c919d4a4b80c4808d1e9bf03a17033d7f438501218cd142b4ebf5af980f1230a6dc7e4c10b63d7f2c3c9ad0d96326aa696cc92d188508c5d6a8b30b4665f9
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Description: Userspace interface to kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+ .
+ This package provides the runtime environment for libdrm.
+
+Package: libgbm1
+Architecture: arm64
+Version: 20.3.5-1
+Priority: extra
+Section: libs
+Maintainer: Harshesh Valera <harshesh.v@variscite.com>
+Installed-Size: 90
+Provides: libgbm-dev
+Depends: libc6 (>= 2.17)
+Filename: ../../..//srv/local-apt-repository/libgbm1_20.3.5-1_arm64.deb
+Size: 18732
+MD5sum: a0201507a4859c1d316ffd8cc058bdd6
+SHA1: edd3ff2f4dd3f841facaadceb15791fe1dd5b823
+SHA256: 5aebbec4e279adfd10397d785ed8b2acd0cb294441328524a67dd9ec4cdb9687
+SHA512: 14b9241e2aef6870a486a4e644e21ee840f976a93bbf962c5870b1258b07d70ecdb394e7220360ff088a440635c8263a7126de484dd33536413ad6b7bfb25533
+Homepage: http://www.variscite.com/
+Description: Vivante generic buffer management API -- runtime for i.MX8
+
+Package: libgstreamer-gl1.0-0
+Architecture: arm64
+Version: 1.16.1-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: gst-plugins-base1.0
+Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+Installed-Size: 1805
+Depends: imx-gpu-viv-core, libc6 (>= 2.17), libdrm2 (>= 2.4.17), libgbm1 (>= 8.1~0), libgl1, libglib2.0-0 (>= 2.40), libgstreamer-plugins-base1.0-0 (>= 1.16.1-1), libgstreamer1.0-0 (>= 1.16.1), libgudev-1.0-0 (>= 165), libwayland-client0 (>= 1.9.91), libwayland-egl1 (>= 1.15.0), libx11-6, libx11-xcb1 (>= 2:1.7.1), libxcb1
+Recommends: gstreamer1.0-gl
+Breaks: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
+Replaces: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
+Filename: ../../..//srv/local-apt-repository/libgstreamer-gl1.0-0_1.16.1-1_arm64.deb
+Size: 1451944
+MD5sum: 599138c8bcff4d524c42a55baf826e50
+SHA1: 9b43068acbc4c620fcdd3c38198586684427655b
+SHA256: 816b13f04938b96b1fe8a723adb01bb7f6bf071b7a936bec572d618b7d408bd2
+SHA512: 3db8afdbef5c791e8191f2211d5c0c351b2eb68ad3142f819595d30ca6bf3af65e98de46ad7c392c1a7bf98395d904ecddfa428dc5a1cc6daa8972f69b5b0249
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer GL libraries
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the GL library.
+
+Package: libgstreamer-opencv1.0-0
+Architecture: arm64
+Version: 1.16.1-1
+Multi-Arch: same
+Priority: extra
+Section: libs
+Source: gst-plugins-bad1.0
+Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
+Installed-Size: 1777
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.40), libgstreamer-plugins-base1.0-0 (>= 1.16.1), libgstreamer1.0-0 (>= 1.16.1), libopencv-core4.5 (>= 4.5.1+dfsg), libstdc++6 (>= 4.1.1)
+Conflicts: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
+Replaces: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
+Filename: ../../..//srv/local-apt-repository/libgstreamer-opencv1.0-0_1.16.1-1_arm64.deb
+Size: 1734968
+MD5sum: b698c8d5ea6b76e6931768e7fdc322d8
+SHA1: 9992296fd1d5f8f607b893462a29a6359ab82c6f
+SHA256: d5e156f4d3409159e4b996f18aa6b13b558745e1ba326c76a2cc9aba8c713faf
+SHA512: 88a3850478e6f0a15a355fc98eaf4970cb05b398af84ebd38861fec4fadeff50fb6d6faef61de442e3a5278149a3b92af83359611472131de8a226c0bb281204
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer OpenCV libraries
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared
+ to the rest. They might be close to being good quality, but they're missing
+ something - be it a good code review, some documentation, a set of tests, a
+ real live maintainer, or some actual wide use.
+ .
+ This package contains shared GStreamer libraries for OpenCV.
+
+Package: libgstreamer-plugins-bad1.0-0
+Architecture: arm64
+Version: 1.16.1-1
+Multi-Arch: same
+Priority: extra
+Section: libs
+Source: gst-plugins-bad1.0
+Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
+Installed-Size: 2721
+Depends: libc6 (>= 2.29), libglib2.0-0 (>= 2.40), libgstreamer-plugins-base1.0-0 (>= 1.16.1), libgstreamer1.0-0 (>= 1.16.1)
+Filename: ../../..//srv/local-apt-repository/libgstreamer-plugins-bad1.0-0_1.16.1-1_arm64.deb
+Size: 1980444
+MD5sum: db192c2ce1cb34e6745e68e9ff5ac847
+SHA1: a32d8d470ff9df0d4e9ce1286f536fcc3fd3a7ed
+SHA256: 659129303e4884abac3234f2a1b52d46d867562deffa15a2b3ee1d771e01dc8d
+SHA512: 1b1a7c139a7009b5f9b1d1bfbfea56506399057372f0bcd2c63eada00882a5dab461e9b17987d70204e7ac5ad092e02e0d6eb596360078c34f1516cfd9bb50a2
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer libraries from the "bad" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared
+ to the rest. They might be close to being good quality, but they're missing
+ something - be it a good code review, some documentation, a set of tests, a
+ real live maintainer, or some actual wide use.
+ .
+ This package contains shared GStreamer libraries from the "bad" set. The API
+ is not guaranteed to be stable.
+
+Package: libgstreamer-plugins-bad1.0-dev
+Architecture: arm64
+Version: 1.16.1-1
+Multi-Arch: same
+Priority: extra
+Section: libdevel
+Source: gst-plugins-bad1.0
+Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
+Installed-Size: 2820
+Depends: libgstreamer-plugins-bad1.0-0 (= 1.16.1-1), libgstreamer-opencv1.0-0 (= 1.16.1-1), libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, gir1.2-gst-plugins-bad-1.0 (= 1.16.1-1), libopencv-dev (>= 2.3.0)
+Filename: ../../..//srv/local-apt-repository/libgstreamer-plugins-bad1.0-dev_1.16.1-1_arm64.deb
+Size: 1839176
+MD5sum: 5f87003e9cb921b2e3a75f6edf40ec4c
+SHA1: 2f5d2a2a095869ca2a13ac7355a2b682a39c05ce
+SHA256: 90902795d6b83ccf820b5fc5ce95f7c83c2d99abf7de3b5826d11b8e01b14374
+SHA512: 1174994aa19f7f249cddca350e15d789d4dcd182829aa39044bfc6e8de27a9b444cc6d89f5730fad3dd9fd1a9878abd7f7224d813cbad140c504e2f857714970
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer development files for libraries from the "bad" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared
+ to the rest. They might be close to being good quality, but they're missing
+ something - be it a good code review, some documentation, a set of tests, a
+ real live maintainer, or some actual wide use.
+ .
+ This package contains development files for GStreamer libraries from the
+ "bad" set. The API is not guaranteed to be stable.
+
+Package: libgstreamer-plugins-base1.0-0
+Architecture: arm64
+Version: 1.16.1-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: gst-plugins-base1.0
+Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+Installed-Size: 4182
+Depends: libc6 (>= 2.29), libglib2.0-0 (>= 2.59.2), libgstreamer1.0-0 (>= 1.16.1), liborc-0.4-0 (>= 1:0.4.25), zlib1g (>= 1:1.1.4), iso-codes
+Recommends: gstreamer1.0-plugins-base
+Suggests: libvisual-0.4-plugins
+Conflicts: libgstreamer-plugins-bad1.0-0 (<< 1.15.1)
+Breaks: gstreamer1.0-plugins-bad (<< 1.15.1), libgstreamer-plugins-bad1.0-0 (<< 1.15.1), totem-gstreamer (<= 2.17.92-0ubuntu1)
+Filename: ../../..//srv/local-apt-repository/libgstreamer-plugins-base1.0-0_1.16.1-1_arm64.deb
+Size: 2002576
+MD5sum: 9b2af251d4e8f5c8fdd766761d96d99d
+SHA1: 34b77d2d7c020d99b4a5eea26bfef5c2d089fe94
+SHA256: 83ffd1ddacd0e189e69a6a8c5de7726d4d7e058b04f6497aaa4aefce2b492c79
+SHA512: 1eae9fbea1f32df84d77b60c0bfe7b5cfc84fb90bb9cb2a146fbd479d81f770b06085279d229a8a9f272d468e36b850392270aefe29a8dcf9eb5c76f8e5c0a95
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer libraries from the "base" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains libraries from the "base" set, an essential
+ exemplary set of elements.
+
+Package: libgstreamer-plugins-base1.0-dev
+Architecture: arm64
+Version: 1.16.1-1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: gst-plugins-base1.0
+Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+Installed-Size: 6211
+Depends: libgstreamer-plugins-base1.0-0 (= 1.16.1-1), libgstreamer-gl1.0-0 (= 1.16.1-1), libc6-dev | libc-dev, pkg-config, libgstreamer1.0-dev (>= 1.16.1), libglib2.0-dev, liborc-0.4-dev (>= 1:0.4.24), libgl1-mesa-dev, libegl1-mesa-dev, libgles2-mesa-dev, gir1.2-gst-plugins-base-1.0 (= 1.16.1-1)
+Conflicts: libgstreamer-plugins-bad1.0-dev (<< 1.15.1)
+Breaks: libgstreamer-plugins-bad1.0-dev (<< 1.15.1)
+Filename: ../../..//srv/local-apt-repository/libgstreamer-plugins-base1.0-dev_1.16.1-1_arm64.deb
+Size: 1699004
+MD5sum: 8f6b8729541764471138d4cacf862099
+SHA1: ed5eab28f9b9eb746ff3e50be22ffc261a0f1b1a
+SHA256: d3a7fb4df1dc316428722ad559deaeeb5332edaf9cbb2d27a0b3794761e9771b
+SHA512: ee6edb59815e1ba36a31502f0a859072a7ba551ee3777410fb09c4b781dc013377e3d8c0053776680205a769e72ac3c0d9a622398dbf60a02a98f3251bba2ec4
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer development files for libraries from the "base" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains development files for GStreamer libraries from
+ the "base" set, an essential exemplary set of elements.
+
+Package: libgstreamer1.0-0-dbg
+Architecture: arm64
+Version: 1.16.1-1
+Multi-Arch: same
+Priority: extra
+Section: debug
+Source: gstreamer1.0
+Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
+Installed-Size: 4621
+Depends: libgstreamer1.0-0 (= 1.16.1-1)
+Filename: ../../..//srv/local-apt-repository/libgstreamer1.0-0-dbg_1.16.1-1_arm64.deb
+Size: 4197940
+MD5sum: 7b9e16db40296ccb7f5163b5b659b300
+SHA1: f51f0f345f0c0b93870e90e4a6d06d577869489f
+SHA256: 380401849627851388ecd66f5c1b71cf301160d0722762023502037e2f1eb86a
+SHA512: 843f4309a75f4629c79063f130a592a829ebd7448086d255b8e2e8e06740b545a1061f359efd6d11dcdd3d4e13cd459bb22b15f70d089d78cb555617ce89f754
+Homepage: https://gstreamer.freedesktop.org
+Description: Core GStreamer libraries and elements
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains unstripped shared libraries. It is provided primarily
+ to provide a backtrace with names in a debugger, this makes it somewhat
+ easier to interpret core dumps. The libraries are installed in
+ /usr/lib/debug and are automatically used by gdb.
+Build-Ids: 10944b0000d62e7e43835d4df3094f59a6ba28a6 47a94b990c0e4e51c0f53baf1aec59d4e339509f 5187a5ed9cdfc615aa4a75160feaa24767ad8a68 518b81282040c9390957b1e7cbf20fa736c9a1a7 6854870b1137ba8f2d8676537cc98cc4a6254dbf 6d3580ed6f16bd26ebfa1af0b19aee58c3162ef8 e8428ca1c3be7d3a737462d5a05276203b37baa7 ea2d0f2c1180acb6e88987de0239fab8793040aa fb7209c1271b34a586f4e3fe3ad5064cd7ba6e0a 2cd2c9dbbb52eb5f72aa75a1d64030b659ea01a7 6aa73e0bff1588ead19e6a984d6a77a24239c8b2 6eb5e7714a60ef84078fe904b63c95ec53c2a617 8c0af3cfbe492f9ba35dd505d3c883a13990c891
+
+Package: libgstreamer1.0-0
+Architecture: arm64
+Version: 1.16.1-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: gstreamer1.0
+Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
+Installed-Size: 5168
+Depends: libc6 (>= 2.29), libcap2 (>= 1:2.10), libglib2.0-0 (>= 2.41.1), libcap2-bin
+Suggests: gstreamer1.0-tools
+Breaks: gstreamer1.0-plugins-bad (<< 1.11.1), gstreamer1.0-plugins-base (<< 1.8.0), libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
+Filename: ../../..//srv/local-apt-repository/libgstreamer1.0-0_1.16.1-1_arm64.deb
+Size: 2077436
+MD5sum: dfb2d752f89c8d3fad58877417d95c74
+SHA1: ad0a13a57e9655ec4203ac5a25dbb58fa56f4ee4
+SHA256: c555eeed10f8d2ddf771ebdf7273205ef1438a6103a80cd1b7a69a067081019c
+SHA512: 90061a7127017ce341dac79c8f1c081163f93ee359b77cf1c8d36c1f151473b140e356482c611a5b0ebdbc0383d110e271d647b3d6ee8e771878fa3c9fc983b1
+Homepage: https://gstreamer.freedesktop.org
+Description: Core GStreamer libraries and elements
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the core library and elements.
+
+Package: libgstreamer1.0-dev
+Architecture: arm64
+Version: 1.16.1-1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: gstreamer1.0
+Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
+Installed-Size: 6683
+Depends: libgstreamer1.0-0 (= 1.16.1-1), libc6-dev | libc-dev, pkg-config, libglib2.0-dev, libc6 (>= 2.17), libglib2.0-0 (>= 2.40), gir1.2-gstreamer-1.0 (= 1.16.1-1)
+Recommends: debhelper
+Suggests: gstreamer1.0-doc
+Conflicts: libgstreamer-plugins-bad1.0-dev (<< 1.13.1)
+Replaces: libgstreamer-plugins-bad1.0-dev (<< 1.13.1)
+Filename: ../../..//srv/local-apt-repository/libgstreamer1.0-dev_1.16.1-1_arm64.deb
+Size: 1598236
+MD5sum: e2909ac8377d914e1ee35bb319b1ea34
+SHA1: 2745d2dcc1b316f45bac390e2cbf2fa0fda712a9
+SHA256: ff73f7f2b7851121173b2b7c71d2dda9e87022d1fb5e80cb90daa454601dda81
+SHA512: 995ce9471a2f574c90e669b8a0243a34435ef57bf1e4d5a0507ff0c9d37407c635275b074466e151ce9e0fd8e07cfc480f1fc465debd25cb3610f9980e8c0d61
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer core development files
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains development files for the core library and
+ elements.
+
+Package: libweston-8-0-dbgsym
+Architecture: arm64
+Version: 8.0.0-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: weston
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1387
+Depends: libweston-8-0 (= 8.0.0-1)
+Filename: ../../..//srv/local-apt-repository/libweston-8-0-dbgsym_8.0.0-1_arm64.deb
+Size: 1201132
+MD5sum: c92483f0f2db74a9c60fb8f71907518a
+SHA1: d7bc4e308148910c0c89943d11650980030bc517
+SHA256: 9855928cd50fb4787c7c5711cebd840afd5fc485803b09c44cfe95ccc66107a9
+SHA512: f52ba5ae1e82afe87547322dbb8636fa604eba00b75eeedc0e9624a42e2445e062370876c2d017a0be21d1e164dd96adfb2741b24ff0f5e63cf2d38f4325f657
+Description: debug symbols for libweston-8-0
+Build-Ids: 4855b679ed488d00a537a5c92a548a1d66950e17 5740ae9f6a00919128c86cf4cae9ead2d0d5897b 7906298fd7d9619831d3467b13e65db099c67c02 99001463853d21185177964fd88252c21d44c04b d885273614a32d9722d6f583b2ff684acf56dd4f d96095c99f0a99ddc4b07294b42b548129454abe ef83db46ea4546dd025ecbdba309464eadc07137
+
+Package: libweston-8-0
+Architecture: arm64
+Version: 8.0.0-1
+Priority: optional
+Section: libs
+Source: weston
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 788
+Depends: imx-gpu-g2d, imx-gpu-viv-core, libc6 (>= 2.29), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.71), libgbm1 (>= 17.1.0~rc2), libinput10 (>= 0.21.0), libjpeg62-turbo (>= 1.3.1), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpixman-1-0 (>= 0.30.0), libpng16-16 (>= 1.6.2-1), libsystemd0, libudev1 (>= 183), libwayland-server0 (>= 1.12.0), libxcb-composite0, libxcb-render0, libxcb-xfixes0, libxcb1, libxcursor1 (>> 1.1.2), libxkbcommon0 (>= 0.5.0)
+Breaks: weston (<< 1.12.0-1)
+Replaces: weston (<< 1.12.0-1)
+Filename: ../../..//srv/local-apt-repository/libweston-8-0_8.0.0-1_arm64.deb
+Size: 229084
+MD5sum: d5111cb92d788baee62609130a19c81d
+SHA1: 3c6e9360b2d161cd4ef59fecb078d54ed1fc9f67
+SHA256: 99699433cfcb2ec2f45034eb7b2f5caf45912b458b3a0b42257c65ac38057d06
+SHA512: 27fa879eb1112e7ecdd570feefc2d8e67a13bc3be6de58cc8d4aed8daaf95c9a0292fbb3bb31cad729878c00ef433737711564499d3ebe42a7a7c7518a2a0e0d
+Homepage: http://wayland.freedesktop.org/
+Description: reference implementation of a wayland compositor (shared libs)
+ Part of the Wayland project is also the Weston reference implementation
+ of a Wayland compositor. Weston can run as an X client or under Linux
+ KMS and ships with a few demo clients. The Weston compositor is a minimal
+ and fast compositor and is suitable for many embedded and mobile use
+ cases.
+ .
+ This package includes the libweston shared libraries.
+
+Package: libweston-8-dev
+Architecture: arm64
+Version: 8.0.0-1
+Priority: optional
+Section: libdevel
+Source: weston
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 168
+Depends: libpixman-1-dev, libwayland-dev, libweston-8-0 (= 8.0.0-1), libxkbcommon-dev
+Breaks: weston (<< 1.12.0-1)
+Replaces: weston (<< 1.12.0-1)
+Filename: ../../..//srv/local-apt-repository/libweston-8-dev_8.0.0-1_arm64.deb
+Size: 36640
+MD5sum: a3518ec2e779c9517edb69b2cb69f0c6
+SHA1: 4f348ee13c10a2e561fe03298f37f58483f35782
+SHA256: 4914af16436180be3db82ce938ab265f8e0bcd7010f250cff8acabd496785e80
+SHA512: 30f7859c86842b4a35fcaf5a6e9ef75f6651910b85345268eb3c7e28b433e66820da4de4b763ccd391d36e39f0e87636c4801bac389d0dcf2d448be221bdab4c
+Homepage: http://wayland.freedesktop.org/
+Description: reference implementation of a wayland compositor (shared libs)
+ Part of the Wayland project is also the Weston reference implementation
+ of a Wayland compositor. Weston can run as an X client or under Linux
+ KMS and ships with a few demo clients. The Weston compositor is a minimal
+ and fast compositor and is suitable for many embedded and mobile use
+ cases.
+ .
+ This package includes the libweston headers.
+
+Package: linux-headers-5.4.142-gc19da14f4040-dirty-arm64
+Architecture: arm64
+Version: 5.4.142-gc19da14f4040-dirty
+Section: kernel
+Source: kernel
+Maintainer: Harshesh Valera <harshesh.v@variscite.com>
+Installed-Size: 2929
+Provides: linux-headers-5.8.0-2-arm64
+Depends: linux-headers-5.4.142-gc19da14f4040-dirty-common (= 5.4.142-gc19da14f4040-dirty), linux-kbuild-5.4.142-gc19da14f4040-dirty (>= 5.4.142-gc19da14f4040-dirty), gcc-10
+Replaces: linux-headers-5.8.0-2-arm64
+Filename: ../../..//srv/local-apt-repository/linux-headers-5.4.142-gc19da14f4040-dirty-arm64_5.4.142-gc19da14f4040-dirty_arm64.deb
+Size: 331372
+MD5sum: c1de18998ad262ca5d8aa514d4128ce0
+SHA1: 2679be22e3947513d4379e21c72d8abefe4a388b
+SHA256: 5ec67f4c325cf3e415220ca107748f2709be3849d53bcefc799c6fc6d9205725
+SHA512: ffa4f42d091852e56a9cd1a337d3b8b58c999ec2989152d7963917a7b9810011ca1cb54f741c6bcff2a234015178c0b92ddeb6799ead3a372b1b127136eb2d46
+Homepage: https://www.variscite.com
+Description: Common header files for Linux 5.4.142-gc19da14f4040-dirty
+ This package provides the common kernel header files for Linux kernel
+ version 5.4.142-gc19da14f4040-dirty, generally used for building out-of-tree kernel modules.
+ To obtain a complete set of headers you also need to install the
+ linux-headers-5.4.142-gc19da14f4040-dirty-(flavour) package, matching the flavour of the
+ kernel you intend the build for.
+
+Package: linux-headers-5.4.142-gc19da14f4040-dirty-common
+Architecture: all
+Version: 5.4.142-gc19da14f4040-dirty
+Multi-Arch: foreign
+Section: kernel
+Source: kernel
+Maintainer: Harshesh Valera <harshesh.v@variscite.com>
+Installed-Size: 69088
+Provides: linux-headers-5.8.0-2-common
+Replaces: linux-headers-5.8.0-2-common
+Filename: ../../..//srv/local-apt-repository/linux-headers-5.4.142-gc19da14f4040-dirty-common_5.4.142-gc19da14f4040-dirty_all.deb
+Size: 10871680
+MD5sum: 14cc13483cbd9582e55382e96f84f294
+SHA1: 772809306d88adca9d13855f88afa8cbb44673b5
+SHA256: 6ff31291db91731d256592cfa4bd361890612e8d7afcb01c32c358110741430c
+SHA512: 7f3b4ce6e68163285ede96186304e2117b2dc2b31a4122a93d2ddbd09e40e842adaf9ba59af522bd06b5896028e7ce26719a90dc9f1916e488f334cd6d65f47b
+Homepage: https://www.variscite.com
+Description: Common header files for Linux 5.4.142-gc19da14f4040-dirty
+ This package provides the common kernel header files for Linux kernel
+ version 5.4.142-gc19da14f4040-dirty, generally used for building out-of-tree kernel modules.
+ To obtain a complete set of headers you also need to install the
+ linux-headers-5.4.142-gc19da14f4040-dirty-(flavour) package, matching the flavour of the
+ kernel you intend the build for.
+
+Package: linux-headers
+Architecture: arm64
+Version: 5.4.142-gc19da14f4040-dirty
+Section: kernel
+Source: kernel
+Maintainer: Harshesh Valera <harshesh.v@variscite.com>
+Installed-Size: 7
+Provides: linux-headers, linux-headers-arm64
+Depends: linux-headers-5.4.142-gc19da14f4040-dirty-common (= 5.4.142-gc19da14f4040-dirty), linux-kbuild-5.4.142-gc19da14f4040-dirty (>= 5.4.142-gc19da14f4040-dirty), linux-headers-5.4.142-gc19da14f4040-dirty-arm64 (>= 5.4.142-gc19da14f4040-dirty), gcc-10
+Filename: ../../..//srv/local-apt-repository/linux-headers_5.4.142-gc19da14f4040-dirty_arm64.deb
+Size: 1256
+MD5sum: 8bfcbb2ff666477464cd642102cb70f0
+SHA1: d1ea10b533a1a8c103290ed3844b9a0622ef3763
+SHA256: d3c216b7bafdc1c7882cda8f40ffb5249d3099ca5f07a57d11def350a1331f7a
+SHA512: b4116c42d0301a1e2e38585f63d90590fbbd2e524c2bfb7fe587e94d96359749b36ecc4eba71c24a1ba6873ba9dc03e7dac9b4e298ca8297db76d24f3fa46b48
+Homepage: https://www.variscite.com
+Description: Header files for Linux ARM64 (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel ARM64 configuration.
+
+Package: linux-kbuild-5.4.142-gc19da14f4040-dirty
+Architecture: arm64
+Version: 5.4.142-gc19da14f4040-dirty
+Multi-Arch: foreign
+Section: kernel
+Source: kernel
+Maintainer: Harshesh Valera <harshesh.v@variscite.com>
+Installed-Size: 527
+Provides: linux-kbuild-5.8
+Depends: libc6 (>= 2.17), libssl1.1 (>= 1.1.0)
+Replaces: linux-kbuild-5.8
+Filename: ../../..//srv/local-apt-repository/linux-kbuild-5.4.142-gc19da14f4040-dirty_5.4.142-gc19da14f4040-dirty_arm64.deb
+Size: 143536
+MD5sum: d2d83993a8d8e9e9ce49fa47d189bcc5
+SHA1: 7d1c290c63567d87c27274093da9b8462b6cdfbf
+SHA256: ec2860117b57a2600b38662946c88009086ca52706efc4ee5ed93d4f9495f8cc
+SHA512: caf160d2ed00207dff222a6e398d9e01fa298d12adff4edd144ceb23a63eb1863624d4de67383140f666f9e4d11d7d95fb88e2c8c343e05c0385551447ee5284
+Homepage: https://www.variscite.com
+Description: Kbuild infrastructure for Linux 5.4.142-gc19da14f4040-dirty
+ This package provides the kbuild infrastructure for the headers packages
+ for Linux kernel version 5.4.142-gc19da14f4040-dirty.
+
+Package: wayland-protocols
+Architecture: all
+Version: 1.20-1
+Multi-Arch: foreign
+Priority: optional
+Section: libdevel
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 472
+Filename: ../../..//srv/local-apt-repository/wayland-protocols_1.20-1_all.deb
+Size: 61956
+MD5sum: a998bee902692fe878722fdb15be7902
+SHA1: e8b02af1db9fd227cadc6227a6be49c2a1d68396
+SHA256: c2a06e5db1a1a9b893c018168261ecd44600ab018e2bfa6f75f6f28fda038734
+SHA512: ea2858d4dc94d4bb6aa1dca0233cd06fe770759a8b613d6d373a1ae04d0a260d7222c576ed44454dc37e5e41a657893ad8d8b6b67cd4386bcb5ad8f2134373f1
+Homepage: http://wayland.freedesktop.org/
+Description: wayland compositor protocols
+ Wayland protocols that add functionality not available in the Wayland core
+ protocol. Such protocols either add completely new functionality, or extend
+ the functionality of some other protocol either in Wayland core, or some other
+ protocol in wayland-protocols.
+
+Package: weston-dbgsym
+Architecture: arm64
+Version: 8.0.0-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: weston
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 5478
+Depends: weston (= 8.0.0-1)
+Filename: ../../..//srv/local-apt-repository/weston-dbgsym_8.0.0-1_arm64.deb
+Size: 4262424
+MD5sum: f32662cc03cded6cc729c1e2aa834737
+SHA1: 98108bdefc7da59cb0f042eb5fb85847b7a16157
+SHA256: 3811392eab3c6d275c39c4dcf7e97e8edcb18a8ae733eb052c62f9d3407d00be
+SHA512: b167b641278c97648cd3e5a24fcbe817afbdacec9cb36449f1d25c3069ecf5e86d39fbcda3199487398b9d816ed0f607fc14d1a3e146e149a2fb22229bc5fa44
+Description: debug symbols for weston
+Build-Ids: 1e493842a448ea1a6df217a3e861324f6e90f18f 23b835502953d669837cb7cdafac3f614c252d17 294adb70b2cd418566b62921dc9f00174676374c 2f0f8d98856f1465209080bf0b5b0ef6861cd2ae 38e3874d37255a588c8bdffe3e5b7d57b5714f43 3f802664dd05ba7b2707392ae568e530cd9b4a69 3f8cb7bf1580626626c4f86ff428cc516f69a626 4ac0845558cd386dbd7af193698bf2b74db00ca3 4b1ace336e9e6ae32043e53dbc5dc9197ad42178 544cc1d90582e459454fe1c0fd590dd48c885a32 553c500c61b6b8d76fd32e6ca8a6b32c12d147f7 562c01bcd5bb125f3b2aa8f2b85daa863a605e95 5af53ffd4c5b1a53348127637cfa00265c443beb 5fe7da9d76472bf5496e2a487186257d21989e76 6157ce8f19d60fbf85ef8780fe97c9ee16afcee0 6497bfaa88a3326deee56b2ded576b5cadda3dc9 6951c8a86fee37194e638376de734fd860669e6b 6a9bdb995cc8e955d86f87eebe32c514cc262426 71736eed79f74595603952d6c49fb45dd70142fa 719175c32af5be0eba480f296677a2449dd4be8c 735ed7f0ba9fa93d00cd94ea00716be147327788 7cef92da14361a08d278b67baca4056d93d314e1 848d7c91588abe0eb477773dc72dd840d0cf2d52 85b318a33eef6d58bc9351f493172db9153da71a 8cff4ac2a098e8e0076d00165930f02eac135919 8e5c5c5820a5f4fe66d553dd23f1437044753c1d 8e616dac09eb794f962110feccab04a7351da4a6 9510075cb8056b65fc80e7d6a8ad403d51064245 9fc1e17446904a7d998e495f58c9b0d3f03f097e a643072849c6bd75446e20c9b32c6865cc07fe8c b770f31cc1da1c4f0b8ee7c8f27559d6c620d9bd ba6f89d69e5612bd133edf8f441a583d10557926 bd20dd42e5b59373f7b461e841ce2f1b9ca37ef7 c3d827b54fcabbcaae32d689047beda8749b3cd0 d0efb2807350efbd4fb63b4747e7b0e8eeda51d1 d1f4f3aaa4315d9e45d8e8dd7355161b51b0c6ee d74961bc6ad80dc6a9a39406073fef08391bc094 dc6d6387366a350ed776d93e6e17e4fc2be45862 dc8b80032fc62a642816e17eaf75a7a342840b24 e15d258f486ed699c0fc9496faccdab53aa1218d e8db75bb0d6284e4c88b5ce7d0ed5fef6751571f f0e59de037b8b62a431fe295af44030373cee4e3 f89e4e6b167c6eb49269109a8b7ec7cc52246a47 fe08ad0008c7235d9150a27087e895c917ffcb30
+
+Package: weston
+Architecture: arm64
+Version: 8.0.0-1
+Priority: optional
+Section: x11
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 3765
+Depends: adduser, libegl1-mesa (>= 8.0-2) | libegl1-x11, libgles2-mesa (>= 8.0-2) | libgles2, libwayland-egl1 (>= 1.15.0), imx-gpu-viv-core, libc6 (>= 2.29), libcairo2 (>= 1.10.0), libdrm2 (>= 2.4.38), libevdev2 (>= 0.9.1), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.12.0), libinput10 (>= 1.4.0), libjpeg62-turbo (>= 1.3.1), libpam0g (>= 0.99.7.1), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpixman-1-0 (>= 0.30.0), libpng16-16 (>= 1.6.2-1), libsystemd0, libwayland-client0 (>= 1.12.0), libwayland-cursor0 (>= 1.12.0), libwayland-server0 (>= 1.12.0), libweston-8-0 (>= 8.0.0), libxkbcommon0 (>= 0.5.0)
+Recommends: libgl1-mesa-dri
+Filename: ../../..//srv/local-apt-repository/weston_8.0.0-1_arm64.deb
+Size: 771948
+MD5sum: 3f9efce4985005607b4abdc5aa6826bd
+SHA1: b6c2ccd3f91ac51a488b994e78cd69607655bdc9
+SHA256: 2077cb8356b2ff4ac55720aee265dd8f2193fececa35c17ddf3b45e3232c9ee7
+SHA512: 959c4c419a8fb0e857c2500319e5e6e68b33e14cad2544e3343f551a652db22ac99f4eec2ede05b7eef4264583a13090ceda697dda20c2a89c10230b7c003726
+Homepage: http://wayland.freedesktop.org/
+Description: reference implementation of a wayland compositor
+ Part of the Wayland project is also the Weston reference implementation
+ of a Wayland compositor. Weston can run as an X client or under Linux
+ KMS and ships with a few demo clients. The Weston compositor is a minimal
+ and fast compositor and is suitable for many embedded and mobile use
+ cases.
+

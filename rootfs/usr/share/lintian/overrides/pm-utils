@@ -1,0 +1,5 @@
+# https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=812545
+# use absolte symlinks to allow molly-guard to work
+pm-utils: symlink-should-be-relative usr/sbin/pm-hibernate /usr/lib/pm-utils/bin/pm-action
+pm-utils: symlink-should-be-relative usr/sbin/pm-suspend /usr/lib/pm-utils/bin/pm-action
+pm-utils: symlink-should-be-relative usr/sbin/pm-suspend-hybrid /usr/lib/pm-utils/bin/pm-action

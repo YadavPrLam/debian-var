@@ -1,0 +1,9 @@
+3d6f49634db46c19c6b4419db98bcf6d  usr/lib/aarch64-linux-gnu/libweston-8.so.0.0.0
+40fdf5f6a5f093b8adb52276eba067fc  usr/lib/aarch64-linux-gnu/libweston-8/drm-backend.so
+8f164abe577320ec65e74587f59fd250  usr/lib/aarch64-linux-gnu/libweston-8/fbdev-backend.so
+f8364ff7dc0c0c90a39c58dc1f97042a  usr/lib/aarch64-linux-gnu/libweston-8/g2d-renderer.so
+1af1f65fbd8dd86c3e5f4a8c3daebd6b  usr/lib/aarch64-linux-gnu/libweston-8/gl-renderer.so
+350ea3fa59e5fef0ab93f30d8603fded  usr/lib/aarch64-linux-gnu/libweston-8/xwayland.so
+4472a9530fe531d42260f3036670e30c  usr/lib/aarch64-linux-gnu/libweston-desktop-8.so.0.0.0
+f3b3e6f6e1ab9b4c028ffff64b4571f2  usr/share/doc/libweston-8-0/changelog.Debian.gz
+a16723697141ed7fc2c753e5c85f148c  usr/share/doc/libweston-8-0/copyright

@@ -1,0 +1,8 @@
+19e2267d15ee2c46f5495111b95d0910  opt/imx-gpu-sdk/OpenCL/FastFourierTransform/.AppInfo.json
+2b02bf0d9c2a1ea1a6ef62cef8ef5c67  opt/imx-gpu-sdk/OpenCL/FastFourierTransform/Content/_ContentSyncCache.fsl
+765d2633cb37aef68781f774c900a938  opt/imx-gpu-sdk/OpenCL/FastFourierTransform/Content/fft.cl
+0bf04ccd1db3db4e2adb182a9d59ceaa  opt/imx-gpu-sdk/OpenCL/FastFourierTransform/FastFourierTransform
+e53439676c5ee10a4a2ed326277fad71  opt/imx-gpu-sdk/OpenCL/Info/.AppInfo.json
+54c3ac91a37f65f25f8161bf894256ac  opt/imx-gpu-sdk/OpenCL/Info/Info
+06419f65069027c55e7ad33fd7e40931  usr/share/doc/imx-gpu-sdk-opencl/changelog.Debian.gz
+6dfb32a488e5fd6bae52fbf6c7ebb086  usr/share/doc/imx-gpu-sdk-opencl/copyright

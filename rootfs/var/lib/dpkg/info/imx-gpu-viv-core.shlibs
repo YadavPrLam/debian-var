@@ -1,0 +1,10 @@
+libEGL 1 imx-gpu-viv-core
+libGLESv2 2 imx-gpu-viv-core
+libvulkan 1 imx-gpu-viv-core
+libGLES_CL 1 imx-gpu-viv-core
+libGLES_CM 1 imx-gpu-viv-core
+libGLESv1_CL 1 imx-gpu-viv-core
+libGLESv1_CM 1 imx-gpu-viv-core
+libOpenCL 1 imx-gpu-viv-core
+libOpenVX 1 imx-gpu-viv-core
+libGL 1.2 imx-gpu-viv-core

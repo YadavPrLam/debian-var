@@ -1,0 +1,11 @@
+03405e6d82f1fe8ae1517d0a294027dd  lib/firmware/imx/sdma/sdma-imx6q.bin
+361734b0f2d712b1f877500a2b19325b  lib/firmware/imx/sdma/sdma-imx7d.bin
+5859968a22116e5fa46e25c62c81e240  lib/firmware/sdma/sdma-imx25-to1.bin
+22a019b6a85a681029a133c5ab8473b1  lib/firmware/sdma/sdma-imx31-to1.bin
+4841887658cca83dbf07b2cda1ca3cb9  lib/firmware/sdma/sdma-imx31-to2.bin
+c4f408062179089b6856e6b2536c1385  lib/firmware/sdma/sdma-imx35-to1.bin
+71459f22e06f5008b1a6f1a8170374c4  lib/firmware/sdma/sdma-imx35-to2.bin
+dcec5cf9524707e0a89ea507148b310a  lib/firmware/sdma/sdma-imx51-to3.bin
+0563f7eec4f8188f5a7ed844077b217d  lib/firmware/sdma/sdma-imx53-to1.bin
+6c379890f0af5ccad1031ee451093641  usr/share/doc/imx-firmware-sdma/changelog.Debian.gz
+6dfb32a488e5fd6bae52fbf6c7ebb086  usr/share/doc/imx-firmware-sdma/copyright

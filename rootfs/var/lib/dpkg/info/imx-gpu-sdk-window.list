@@ -1,0 +1,16 @@
+/.
+/opt
+/opt/imx-gpu-sdk
+/opt/imx-gpu-sdk/Window
+/opt/imx-gpu-sdk/Window/InputEvents
+/opt/imx-gpu-sdk/Window/InputEvents/.AppInfo.json
+/opt/imx-gpu-sdk/Window/InputEvents/InputEvents_Wayland
+/opt/imx-gpu-sdk/Window/Window101
+/opt/imx-gpu-sdk/Window/Window101/.AppInfo.json
+/opt/imx-gpu-sdk/Window/Window101/Window101_Wayland
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/imx-gpu-sdk-window
+/usr/share/doc/imx-gpu-sdk-window/changelog.Debian.gz
+/usr/share/doc/imx-gpu-sdk-window/copyright

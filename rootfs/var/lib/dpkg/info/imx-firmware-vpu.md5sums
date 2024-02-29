@@ -1,0 +1,10 @@
+d84a72338be25d86224f408d1e7a54f2  lib/firmware/vpu/vpu_fw_imx27_TO1.bin
+c3ac7f79d583dd5f6c9c10979052dcda  lib/firmware/vpu/vpu_fw_imx27_TO2.bin
+15e223d5efab1b4db779cebfdde493a8  lib/firmware/vpu/vpu_fw_imx51.bin
+42c8e432d13a20f89fc1af2bde60cf69  lib/firmware/vpu/vpu_fw_imx53.bin
+1ef8463cd71aee69ffb4bba385215410  lib/firmware/vpu/vpu_fw_imx6d.bin
+8f92cb6ec8beec0dc6142aaf31fc9bb7  lib/firmware/vpu/vpu_fw_imx6q.bin
+7652e4266f267d707fcac6eb53987505  lib/firmware/vpu/vpu_fw_imx8_dec.bin
+0c3c1d886ca48faa37d593590c097d37  lib/firmware/vpu/vpu_fw_imx8_enc.bin
+6c379890f0af5ccad1031ee451093641  usr/share/doc/imx-firmware-vpu/changelog.Debian.gz
+6dfb32a488e5fd6bae52fbf6c7ebb086  usr/share/doc/imx-firmware-vpu/copyright

@@ -1,0 +1,5 @@
+2c7b5316c0ac534be4baee7a488ae021  usr/lib/aarch64-linux-gnu/libvdpau.so.1.0.0
+ecb27ca8739ae31ca5f7c2812b84ddaf  usr/lib/aarch64-linux-gnu/vdpau/libvdpau_trace.so.1.0.0
+06358f75d5b6605d3b159637a9fc3581  usr/share/bug/libvdpau1
+21bd7660b68f5cda7700a18873abaf53  usr/share/doc/libvdpau1/changelog.Debian.gz
+a44abba152e1242c3258cdf4a61167b4  usr/share/doc/libvdpau1/copyright

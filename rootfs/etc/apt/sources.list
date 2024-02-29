@@ -1,0 +1,3 @@
+deb https://snapshot.debian.org/archive/debian/20211215T150219Z/ bullseye main contrib non-free
+deb-src https://snapshot.debian.org/archive/debian/20211215T150219Z/ bullseye main contrib non-free
+

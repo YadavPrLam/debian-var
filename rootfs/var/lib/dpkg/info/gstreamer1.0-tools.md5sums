@@ -1,0 +1,13 @@
+b1e7fae958e1d40464dd36ade13af299  usr/bin/gst-inspect-1.0
+d6fbac0bdacc6074cd934f907fc906c5  usr/bin/gst-launch-1.0
+35ec08f62bcdd78b9f6cb92f50799307  usr/bin/gst-typefind-1.0
+18728550cf69534a157d3e39af9281ea  usr/share/doc/gstreamer1.0-tools/AUTHORS
+01ffce0450db05790749d59c7268986a  usr/share/doc/gstreamer1.0-tools/NEWS.gz
+5bafd23836a2eb87b9d8f5341a9114e3  usr/share/doc/gstreamer1.0-tools/README.Debian
+a9e9e36c74d8961635e82a41cce40085  usr/share/doc/gstreamer1.0-tools/README.gz
+a28a491b28ea16516126746bfd2eee9c  usr/share/doc/gstreamer1.0-tools/changelog.Debian.gz
+13f4b2765639ff94d6f344656775d966  usr/share/doc/gstreamer1.0-tools/changelog.gz
+755edde22ad9130c5ea5caa718046f66  usr/share/doc/gstreamer1.0-tools/copyright
+6442425d699dc11243f27158bd05a7b1  usr/share/man/man1/gst-inspect-1.0.1.gz
+db70bb3bffc594235e5db6a6732a56af  usr/share/man/man1/gst-launch-1.0.1.gz
+d47128021f9c6767cf817cd0c4b1ffdd  usr/share/man/man1/gst-typefind-1.0.1.gz

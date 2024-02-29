@@ -1,0 +1,21 @@
+NXP Software Content Register
+
+--------------------------------------------
+
+Package:                   imx-gpu-viv-*.bin
+Outgoing License:          LA_OPT_NXP_Software_License - Production Use, Section 2.3 applies 
+License File:              COPYING
+Package Category:          Graphics
+Type of content:           Binaries, scripts and header files
+Description and comments:  GPU Core IP in binary and test application source
+Release Location:          i.MX Yocto Project mirror
+Origin:                    NXP (proprietary)
+                           Freescale Semiconductor, Inc. (proprietary)
+                           Vivante Corp. (proprietary)
+                           apitrace (MIT) - https://github.com/apitrace/apitrace
+                           opengleskul (MIT) - https://code.google.com/archive/p/opengleskul/
+                           The Khronos Group Inc. (MIT) - http://www.khronos.org/opencl/
+                           Mesa3D - Mesa Lib [GL3ext header] (SGI-B-2.0) - http://mesa3d.sourceforge.net/
+                           libdri (MIT) - http://dri.freedesktop.org/wiki/
+                           The Android Open Source Project (Apache-2.0) - https://source.android.com/
+                           LLVM Compiler (BSD-3-clause) - https://github.com/prof123/llvm/

@@ -1,0 +1,12 @@
+d232d5044c4cf3790f13ff85d0e9f26a  bin/keyctl
+e1408fa963d0d689994f0807061f5478  sbin/key.dns_resolver
+81bcf74a81495f8253ec317b5a971924  sbin/request-key
+1869619e2c26979065849c1741f9d7cd  usr/share/doc/keyutils/changelog.Debian.gz
+accec5b37c1ffdc2c2effabd09d1b4d5  usr/share/doc/keyutils/copyright
+738c1d4c2c763040c6e47e5b19861292  usr/share/keyutils/request-key-debug.sh
+a037f2de0fda1bab9735a19d2df7283a  usr/share/man/man1/keyctl.1.gz
+27470a327eb3374d7eb2434f022048e4  usr/share/man/man5/request-key.conf.5.gz
+844c2388bff196e08a70483fafd6f311  usr/share/man/man7/asymmetric-key.7.gz
+d22226691706d0c981a81ce82ca2a9e4  usr/share/man/man7/keyutils.7.gz
+7086f4409658b5b79c56c5068bb841d2  usr/share/man/man8/key.dns_resolver.8.gz
+b9bb3fcc992cfbd171130785864627ff  usr/share/man/man8/request-key.8.gz

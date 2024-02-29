@@ -1,0 +1,58 @@
+#!/bin/bash
+
+set -e
+
+force=no
+if [ "$1" = "-f" ]
+then
+  force=yes
+fi
+
+DEBS=/srv/local-apt-repository
+REPO=/var/lib/local-apt-repository
+
+if ! test -d $DEBS
+then
+  # We still need ot create the files lest apt will complain
+  > $REPO/Packages
+  > $REPO/Sources
+
+else
+
+  # We want to cater for the possibility that something is added to $DEBS as we
+  # run, or that a file is slowly written. In this case, we want to wait a bit
+  # and restart. But lets bound this to 10 runs.
+  for n in $(seq 0 10)
+  do
+    if [ "$force" = "yes" ] || ! test -e  $REPO/stamp || find $DEBS -newer $REPO/stamp -print -quit | fgrep -q ''
+    then
+      # we need to rebuild
+
+      # This is the second round alreay, lets wait a while
+      if [ "$n" != "0" ]
+      then
+        echo "Further changes are coming in, waiting..."
+        sleep 10
+      fi
+
+      touch $REPO/stamp
+
+      # Relative paths work better than absolute
+      (cd $REPO
+      apt-ftparchive packages ../../../$DEBS > $REPO/Packages
+      apt-ftparchive sources ../../../$DEBS > $REPO/Sources
+      ) || true
+      # ^ this can fail during a partial write to the directory (which
+      #   would be detected by the loop), so ignore errors here
+
+      force=no
+    fi
+  done
+
+fi
+
+apt-ftparchive \
+	-o "APT::FTPArchive::Release::Origin=local-apt-repository" \
+	-o "APT::FTPArchive::Release::Description=Local repository created by local-apt-repository" \
+	release $REPO > $REPO/Release
+

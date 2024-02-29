@@ -1,0 +1,56 @@
+local-apt-repository
+====================
+
+Ready to use local apt repository
+
+With this package installed, every Debian package (i.e. a *.deb file) dropped
+into /srv/local-apt-repository (which you need to create first) will be
+available to apt.
+
+This package does not provide an apt repository to be used by other hosts. For
+that, look at more serious repository solutions like reprepro and
+apt-ftparchive.
+
+If you want to use this package on a system without systemd running, you will
+have to manually run /usr/lib/local-apt-repository/rebuild when you add new
+packages to /srv/local-apt-repository.
+
+
+On the use of /srv
+==================
+
+Packages to be added to the repository fit the description of /srv
+quite perfectly. I quote:
+
+    /srv : Data for services provided by this system
+    Purpose
+
+    /srv contains site-specific data which is served by this system.
+
+    This main purpose of specifying this is so that users may find the
+    location of the data files for particular service, and so that
+    services which require a single tree for readonly data, writable
+    data and scripts (such as cgi scripts) can be reasonably placed.
+    Data that is only of interest to a specific user should go in that
+    users' home directory.
+    [..]
+
+So it is not wrong to use this directory. Also, all alternatives are
+wrong in some way as well.
+
+The only thing that I’m currently doing wrong is that I hard-code the
+path (“Therefore, no program should rely on a specific subdirectory
+structure of /srv existing or data necessarily being stored in /srv.”).
+
+If the package would make the path configurable, then it’d be in
+compliance with the FHS.
+
+Practically, I expect the intersection of those who want to use this
+package, and who need to have a different layout in /srv to be empty.
+So if I make the path configurable, it is adding complexity purely for
+policy compliance, and hence it is low priority for me.
+
+(My plan for doing that is to have the authorative path in the local
+-apt-repository.path sytemd unit, which the admin can override using
+usual systemd foo, and can be read from the repository creating
+script.)

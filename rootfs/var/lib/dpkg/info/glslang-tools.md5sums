@@ -1,0 +1,8 @@
+2f9f5e084babb3e0a002f2908f979981  usr/bin/glslangValidator
+135f478d8559c95859b493083ab20886  usr/bin/spirv-remap
+52e6b7ffc228f2b0c10fde7be6fcb12c  usr/share/doc/glslang-tools/changelog.Debian.gz
+989ef748c08df1bcbaa1be65f5b796e5  usr/share/doc/glslang-tools/changelog.gz
+c55bae3998d0b8928726defa26bce26a  usr/share/doc/glslang-tools/copyright
+bdd78c9787ddd919e7e03d4ea5a21f07  usr/share/lintian/overrides/glslang-tools
+c0a161555b4f95a39bbd1b203d256da1  usr/share/man/man1/glslangValidator.1.gz
+1c9b47d15f1a69143c79488253653519  usr/share/man/man1/spirv-remap.1.gz

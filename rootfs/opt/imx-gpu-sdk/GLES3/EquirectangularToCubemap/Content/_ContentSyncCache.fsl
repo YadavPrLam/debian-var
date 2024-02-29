@@ -1,0 +1,16 @@
+# FslContentSync cache file
+# Format: 3
+# Created by FslContentSync V0.2.9
+Textures\-1\0\0
+Textures/Equirectangular\-1\0\0
+Textures/Equirectangular/FloralTent\-1\0\0
+Textures/Equirectangular/Stairs\-1\0\0
+EquirectangularToCubemap.frag\2176\2019-12-12T21:30:35\8cdba30ff040e77c4950e8f2da42c58ba2140a143add6ccd5e5deecf76035deb
+EquirectangularToCubemap.vert\1897\2019-12-12T21:30:35\b60ecb0c99bf1a5d2dfdb21de2fd9ed077aff55e5b6245e7e495e2e5b4f2132d
+Textures/Equirectangular/FloralTent/License.json\174\2020-09-22T19:21:28.991574\2dadd74d0916a86d6b5f2073077c8b5d63565a7f8a825941ebb8573a777b9396
+Textures/Equirectangular/FloralTent/floral_tent_1k.hdr\1762476\2020-09-22T19:21:28.943574\aac7369a53c772cfb57161a8071759f3f3f37cd988aee951e680dee928b6d79d
+Textures/Equirectangular/Stairs/License.json\93\2020-09-22T19:21:29.051573\8e96629d9bf5bfaf9f30cc5bf2c6f02183e5845cd1a0bd0903503fea858c9747
+Textures/Equirectangular/Stairs/equirectangular.jpg\2358066\2020-09-22T19:21:28.991574\0bdf7ba81d4d4dc6540fc7077d18c031746d1a5eebb0c34a27c2210a325d6ac2
+Textures/Equirectangular/Stairs/readme.txt\227\2020-09-22T19:21:29.051573\3fe7de58276906a8f454f73e7a41e853da4a5393fbfa90c21f7a93ddeeb96ac9
+skybox.frag\261\2019-12-12T21:30:35\b8a4ae6b84942a7ba1208a989d6fe7358f93cbb0867dcdc240c7116e62749453
+skybox.vert\293\2019-12-12T21:30:35\ae18843113bda93b50edd412e361651339663ea6643dede3e28776b980d95450

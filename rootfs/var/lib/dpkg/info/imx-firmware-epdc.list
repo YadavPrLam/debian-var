@@ -1,0 +1,16 @@
+/.
+/lib
+/lib/firmware
+/lib/firmware/imx
+/lib/firmware/imx/epdc
+/lib/firmware/imx/epdc/epdc_E060SCM.fw
+/lib/firmware/imx/epdc/epdc_E60_V110.fw
+/lib/firmware/imx/epdc/epdc_E60_V220.fw
+/lib/firmware/imx/epdc/epdc_E97_V110.fw
+/lib/firmware/imx/epdc/epdc_ED060XH2C1.fw.nonrestricted
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/imx-firmware-epdc
+/usr/share/doc/imx-firmware-epdc/changelog.Debian.gz
+/usr/share/doc/imx-firmware-epdc/copyright

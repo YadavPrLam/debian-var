@@ -1,0 +1,36 @@
+#!/bin/sh
+
+set -e
+
+BACKEND=wl
+DEB_HOST_GNU_TYPE=`dpkg-architecture -qDEB_HOST_GNU_TYPE`
+
+case "$1" in
+	configure)
+		cd /usr/lib/${DEB_HOST_GNU_TYPE}/vivante
+		ln -sf ${BACKEND}/libEGL-${BACKEND}.so libEGL.so.1
+		ln -sf ${BACKEND}/libGAL-${BACKEND}.so libGAL.so
+		ln -sf ${BACKEND}/libGLESv2-${BACKEND}.so libGLESv2.so.2
+		ln -sf ${BACKEND}/libGL-${BACKEND}.so libGL.so.1.2
+		ln -sf ${BACKEND}/libVDK-${BACKEND}.so libVDK.so
+		ln -sf ${BACKEND}/libvulkan-${BACKEND}.so libvulkan.so.1
+		cd pkgconfig
+		ln -sf egl_${BACKEND}.pc egl.pc
+		ln -sf glesv1_cm_${BACKEND}.pc glesv1_cm.pc
+		ln -sf glesv2_${BACKEND}.pc glesv2.pc
+		ln -sf gl_${BACKEND}.pc gl.pc
+		ln -sf vg_${BACKEND}.pc vg.pc
+	;;
+
+	abort-upgrade|abort-remove|abort-deconfigure)
+	;;
+
+	*)
+		echo "postinst called with unknown argument \`$1'" >&2
+		exit 1
+	;;
+esac
+
+
+
+exit 0

@@ -1,0 +1,8 @@
+124402e9054595e3b280c5e72e05d2cd  usr/include/g2d.h
+efdfaf44da84ff0eff99d7fad54e8821  usr/include/g2dExt.h
+b2196a443661351cdb0cdbc2fffe6522  usr/lib/libg2d-viv.so
+b2196a443661351cdb0cdbc2fffe6522  usr/lib/libg2d.so
+b2196a443661351cdb0cdbc2fffe6522  usr/lib/libg2d.so.1.5
+71c9ecdc5ae61c1698fffbf7ec956f80  usr/share/doc/imx-gpu-g2d/changelog.Debian.gz
+6dfb32a488e5fd6bae52fbf6c7ebb086  usr/share/doc/imx-gpu-g2d/copyright
+98f25f3a3448ae1236d9bf96dd1917b2  usr/share/vivante/SCR-imx-gpu-g2d.txt

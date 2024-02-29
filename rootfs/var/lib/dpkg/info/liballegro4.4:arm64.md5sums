@@ -1,0 +1,11 @@
+815732d7aa76131e3b282fd9cdf8706f  usr/lib/aarch64-linux-gnu/allegro/4.4.3/alleg-alsadigi.so
+2f6fc75dccf8645de0e89ba4ae8bbb8c  usr/lib/aarch64-linux-gnu/allegro/4.4.3/alleg-alsamidi.so
+0dbdbcd7c4e1b6dc453d47d834816289  usr/lib/aarch64-linux-gnu/allegro/4.4.3/alleg-dga2.so
+d470a2c50654b4ed368e6b1864a9e0f2  usr/lib/aarch64-linux-gnu/allegro/4.4.3/modules.lst
+154dc79c5076c77a7c9cb1437398a78d  usr/lib/aarch64-linux-gnu/liballeg.so.4.4.3
+a5cba38aecb644531a87bf0d97f4353e  usr/share/doc/liballegro4.4/README.Debian
+dd926a43425a05331cb23178683a5dbd  usr/share/doc/liballegro4.4/changelog.Debian.gz
+316cd4f7d8566efe74bae647e35edac7  usr/share/doc/liballegro4.4/changelog.gz
+860496a0688d56cdedd673f1090d3e28  usr/share/doc/liballegro4.4/copyright
+d30ce462481003ec8adb54cbe61f68f9  usr/share/doc/liballegro4.4/examples/allegro.cfg
+e59687eb302e80b6689927afe985d7d1  usr/share/lintian/overrides/liballegro4.4

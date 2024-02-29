@@ -1,0 +1,7 @@
+9ddf456c8b1aa061ce9292f9737ade2d  usr/lib/systemd/user/obex.service
+2cfc3c890c1612d4cfda81c59342f62d  usr/libexec/bluetooth/obexd
+477b7351497a14e164d3ddbf2cfa6293  usr/share/dbus-1/services/org.bluez.obex.service
+94026de7346d9e35572635672f7264e6  usr/share/doc/bluez-obexd/NEWS.Debian.gz
+ff13f7c235db4ae770fe086fced6be07  usr/share/doc/bluez-obexd/changelog.Debian.gz
+1c6a48c6df24f7750629bbf2cb482dbd  usr/share/doc/bluez-obexd/changelog.gz
+7ae2e9da2d480b618b569ce038d3ab76  usr/share/doc/bluez-obexd/copyright
